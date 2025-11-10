@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T13:28:42.775624+01:00"
+						"dateAndTimeString" : "2025-11-10T14:53:33.780755+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "In the spirit of moldable development, there is no single, fixed way to learn Glamorous Toolkit.\nDifferent learners—newcomers, experts, educators—will eventually follow different **learning paths**.\nHowever, we begin with **one main roadmap** that offers a clear, systematic progression through the GT Book."
+				"string" : "In the spirit of moldable development, there is no single, fixed way to learn Glamorous Toolkit.\nDifferent learners—newcomers, experts, educators—will eventually follow different **learning paths**.\nHowever, we begin with **one main roadmap** that offers a clear, systematic progression through the GT Book. See [[Roadmap]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -173,12 +173,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-10T13:28:14.229601+01:00"
+			"dateAndTimeString" : "2025-11-10T15:30:00.465841+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "A Systematic Yet Moldable Path"
+		"title" : "A systematic yet moldable path"
 	},
 	"uid" : {
 		"__type" : "uuid",

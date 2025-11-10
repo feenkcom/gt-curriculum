@@ -34,7 +34,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T14:39:03.673612+01:00"
+									"dateAndTimeString" : "2025-11-10T16:19:36.595918+01:00"
 								}
 							},
 							"uid" : {
@@ -44,7 +44,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[actively explore topics]]"
+							"string" : "[[Actively explore topics]]"
 						}
 					]
 				},
@@ -146,7 +146,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T13:31:12.51092+01:00"
+									"dateAndTimeString" : "2025-11-10T15:30:00.710063+01:00"
 								}
 							},
 							"uid" : {
@@ -156,7 +156,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[A Systematic Yet Moldable Path]] – insertion that clarifies what kind of path this is and why we start with one\n> “Here is a possible [[Roadmap]] for you to systematically learn about GT…”"
+							"string" : "[[A systematic yet moldable path]] – insertion that clarifies what kind of path this is and why we start with one\n> “Here is a possible [[Roadmap]] for you to systematically learn about GT…”"
 						},
 						{
 							"__type" : "textSnippet",
@@ -183,7 +183,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T14:38:15.75851+01:00"
+									"dateAndTimeString" : "2025-11-10T16:18:47.33535+01:00"
 								}
 							},
 							"uid" : {
@@ -193,7 +193,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Learning Flow and Integration]]"
+							"string" : "[[Learning flow and integration]]"
 						}
 					]
 				},
@@ -258,7 +258,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T12:35:05.358144+01:00"
+									"dateAndTimeString" : "2025-11-10T16:49:56.398247+01:00"
 								}
 							},
 							"uid" : {
@@ -268,7 +268,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Example: Pure Git Onboarding]]\n"
+							"string" : "[[Example: Pure Git Onboarding]]"
 						}
 					]
 				},
@@ -302,6 +302,81 @@
 					"__type" : "textStyle"
 				},
 				"string" : "[[Examples]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-10T16:50:22.733064+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-10T16:50:27.389067+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "00rbOaH/DQC3FXE+DtKEJw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Inspect page topic map]]"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-10T16:50:00.966152+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-10T16:50:18.84713+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RDiPOKH/DQC21yntDtKEJw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[Code]]"
 			}
 		]
 	},

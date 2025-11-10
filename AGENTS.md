@@ -42,6 +42,9 @@
    - When converting Lepiter → DITA, assign deterministic IDs (`lepiter-{pageSlug}-{snippetUUID}`) and keep them in a manifest (planned file: `docs/lepiter-dita-manifest.json`).
    - Embed those IDs inside DITA topics so changes can round-trip.
 
+### Style Notes
+- Per Oscar Nierstrasz, GT Book titles use sentence case: capitalize only the first word and proper nouns. Use judgement when labeling domain concepts such as “Memory Game” or “Moldable Development,” and cross-check the source text if unsure whether the phrase is treated as a proper noun.
+
 ## Next Steps
 - Port the existing documents from `codex` into this repo (or reference them directly) so this project can stand alone.
 - For each outlined teaching unit:

@@ -136,12 +136,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-10T13:57:32.366882+01:00"
+			"dateAndTimeString" : "2025-11-10T16:19:36.488805+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "actively explore topics"
+		"title" : "Actively explore topics"
 	},
 	"uid" : {
 		"__type" : "uuid",

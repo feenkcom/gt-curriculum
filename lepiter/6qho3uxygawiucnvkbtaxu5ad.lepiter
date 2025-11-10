@@ -284,12 +284,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-10T14:15:38.868631+01:00"
+			"dateAndTimeString" : "2025-11-10T16:18:47.047775+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Learning Flow and Integration"
+		"title" : "Learning flow and integration"
 	},
 	"uid" : {
 		"__type" : "uuid",

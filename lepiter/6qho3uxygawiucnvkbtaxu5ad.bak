@@ -251,7 +251,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T14:20:00.663541+01:00"
+						"dateAndTimeString" : "2025-11-10T14:20:32.020602+01:00"
 					}
 				},
 				"uid" : {
@@ -261,7 +261,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "NB: Would we like us to now produce a **visual learning map** (e.g., a diagram or table) that shows how these units connect, along with their GT Book chapter links and key artifacts (snippets, notebooks, views)? See also [[Roadmap]] and {{gtMethod:TMAbstractTreeNode>>#gtRoadmap:}}, {{gtMethod:TMAbstractTreeNode>>#roadmapNodes}}"
+				"string" : "NB: Would we like us to now produce a **visual learning map** (e.g., a diagram or table) that shows how these units connect, along with their GT Book chapter links and key artifacts (snippets, notebooks, views)? See also [[Roadmap]] and {{gtMethod:TMAbstractTreeNode>>#gtRoadmap:}}, {{gtMethod:TMAbstractTreeNode>>#roadmapNodes}}, {{gtClass:TMNodeGroup}}"
 			}
 		]
 	},

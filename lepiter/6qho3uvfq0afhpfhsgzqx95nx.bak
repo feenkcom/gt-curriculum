@@ -55,6 +55,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-10T13:58:50.694396+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-10T13:58:50.694396+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "e0ln1J7/DQC6z0VrCNbGcQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Concretely, this behavior looks like:\n\n1. **Opening live objects** – inspecting a model, class, or visualization, drilling into its parts.\n   → e.g. clicking a `gtView` to see how a visualization is composed.\n\n2. **Running snippets and modifying them** – editing Smalltalk code in a playground to see immediate feedback.\n   → “What happens if I change this filter?” → run → observe.\n\n3. **Following a question-driven path** – starting from a curiosity (“Where is this method used?”) and navigating the system through inspectors and search panes.\n\n4. **Building small extensions** – creating or customizing a view, adding an inspector, or modeling a bit of domain data.\n\n5. **Documenting insights** – recording findings in Lepiter pages, linking observations, forming a small narrative."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2025-11-10T13:57:32.453603+01:00"
 					}
 				},
@@ -66,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T13:58:04.849766+01:00"
+						"dateAndTimeString" : "2025-11-10T13:58:50.704532+01:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Concretely, this behavior looks like:\n\n1. **Opening live objects** – inspecting a model, class, or visualization, drilling into its parts.\n   → e.g. clicking a `gtView` to see how a visualization is composed.\n\n2. **Running snippets and modifying them** – editing Smalltalk code in a playground to see immediate feedback.\n   → “What happens if I change this filter?” → run → observe.\n\n3. **Following a question-driven path** – starting from a curiosity (“Where is this method used?”) and navigating the system through inspectors and search panes.\n\n4. **Building small extensions** – creating or customizing a view, adding an inspector, or modeling a bit of domain data.\n\n5. **Documenting insights** – recording findings in Lepiter pages, linking observations, forming a small narrative.\n\nIn short:\n\n> “Actively exploring topics” means learners *use GT as a laboratory*—they manipulate live examples, trace relationships, and construct understanding through direct interaction with the system.\n"
+				"string" : "In short:\n\n> “Actively exploring topics” means learners *use GT as a laboratory*—they manipulate live examples, trace relationships, and construct understanding through direct interaction with the system.\n"
 			}
 		]
 	},

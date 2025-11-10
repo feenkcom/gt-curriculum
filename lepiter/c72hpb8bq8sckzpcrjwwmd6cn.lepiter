@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T13:57:30.792464+01:00"
+						"dateAndTimeString" : "2025-11-10T16:19:36.577418+01:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : " Then we will flesh out these teaching units with existing material in the Glamorous Toolkit Book, and with new or revised tutorials to get newcomers to [[actively explore topics]]."
+				"string" : " Then we will flesh out these teaching units with existing material in the Glamorous Toolkit Book, and with new or revised tutorials to get newcomers to [[Actively explore topics]]."
 			},
 			{
 				"__type" : "textSnippet",
