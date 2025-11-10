@@ -125,6 +125,27 @@ GtLearningPath >> duration: aValue [
 	duration := aValue
 ]
 
+{ #category : #'as yet unclassified' }
+GtLearningPath >> examplePureGitOnboarding [
+	<gtExample>
+	| path |
+	path := GtLearningPath
+			named: 'Pure Git Onboarding'
+			audience: 'Newcomer'
+			problem: 'I need to inspect a repository without touching the CLI'.
+
+	^ path
+		duration: 'half-day';
+		addGoal: 'Open existing repositories with Pure Git';
+		addGoal: 'Clone a remote and verify HEAD';
+		addPrerequisite: 'GT 1.0+ with Git CLI configured';
+		addSegment: 'Verify IceGitCliPlatform';
+		addSegment: 'Wrap an on-disk repository';
+		addSegment: 'Clone feenkcom/iceberg-git-cli';
+		addResource: 'docs/pure-git/pure-git-tool-overview.dita';
+		addAssessment: 'Submit a short repo-health report'
+]
+
 { #category : #goals }
 GtLearningPath >> goals [
 	^ goals ifNil: [ goals := OrderedCollection new ]
