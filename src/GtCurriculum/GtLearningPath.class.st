@@ -159,6 +159,15 @@ GtLearningPath >> goals: aCollection [
 	goals := aCollection asOrderedCollection
 ]
 
+{ #category : #views }
+GtLearningPath >> gtJsonFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'JSON';
+		object: [ self asDictionary asGtJson ];
+		view: #gtJsonObjectFor:context:
+]
+
 { #category : #prerequisites }
 GtLearningPath >> prerequisites [
 	^ prerequisites ifNil: [ prerequisites := OrderedCollection new ]
