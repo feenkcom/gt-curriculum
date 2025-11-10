@@ -125,7 +125,7 @@ GtLearningPath >> duration: aValue [
 	duration := aValue
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #examples }
 GtLearningPath >> examplePureGitOnboarding [
 	<gtExample>
 	<return: #GtLearningPath>
@@ -135,7 +135,7 @@ GtLearningPath >> examplePureGitOnboarding [
 			audience: 'Newcomer'
 			problem: 'I need to inspect a repository without touching the CLI'.
 
-	^ path
+	path
 		duration: 'half-day';
 		addGoal: 'Open existing repositories with Pure Git';
 		addGoal: 'Clone a remote and verify HEAD';
@@ -144,7 +144,9 @@ GtLearningPath >> examplePureGitOnboarding [
 		addSegment: 'Wrap an on-disk repository';
 		addSegment: 'Clone feenkcom/iceberg-git-cli';
 		addResource: 'docs/pure-git/pure-git-tool-overview.dita';
-		addAssessment: 'Submit a short repo-health report'
+		addAssessment: 'Submit a short repo-health report'.
+
+	^ path
 ]
 
 { #category : #goals }
@@ -155,6 +157,15 @@ GtLearningPath >> goals [
 { #category : #goals }
 GtLearningPath >> goals: aCollection [
 	goals := aCollection asOrderedCollection
+]
+
+{ #category : #views }
+GtLearningPath >> gtJsonFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'JSON';
+		object: [ self asDictionary asGtJson ];
+		view: #gtJsonObjectFor:context:
 ]
 
 { #category : #prerequisites }
