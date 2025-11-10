@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T12:23:05.606557+01:00"
+						"dateAndTimeString" : "2025-11-10T15:49:43.922635+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "i3zjfZ3/DQCz/SsdALFxGg=="
 				},
-				"code" : "path := GtLearningPath\n\tnamed: 'Pure Git Onboarding'\n\taudience: 'Newcomer'\n\tproblem: 'I need to inspect a repository without touching the CLI'.\n\npath\n\tduration: 'half-day';\n\taddGoal: 'Open existing repositories with Pure Git';\n\taddGoal: 'Clone a remote and verify HEAD';\n\taddPrerequisite: 'GT 1.0+ with Git CLI configured';\n\taddSegment: 'Verify IceGitCliPlatform';\n\taddSegment: 'Wrap an on-disk repository';\n\taddSegment: 'Clone feenkcom/iceberg-git-cli';\n\taddResource: 'docs/pure-git/pure-git-tool-overview.dita';\n\taddAssessment: 'Submit a short repo-health report'.\n"
+				"code" : "path := GtLearningPath\n\tnamed: 'Pure Git Onboarding'\n\taudience: 'Newcomer'\n\tproblem: 'I need to inspect a repository without touching the CLI'.\n\npath\n\tduration: 'half-day';\n\taddGoal: 'Open existing repositories with Pure Git';\n\taddGoal: 'Clone a remote and verify HEAD';\n\taddPrerequisite: 'GT 1.0+ with Git CLI configured';\n\taddSegment: 'Verify IceGitCliPlatform';\n\taddSegment: 'Wrap an on-disk repository';\n\taddSegment: 'Clone feenkcom/iceberg-git-cli';\n\taddResource: 'docs/pure-git/pure-git-tool-overview.dita';\n\taddAssessment: 'Submit a short repo-health report';\r\tyourself\n"
 			},
 			{
 				"__type" : "exampleSnippet",
