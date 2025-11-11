@@ -25,6 +25,15 @@ GtBookTrace class >> current [
 	^ Current ifNil: [ Current := self new ]
 ]
 
+{ #category : #'as yet unclassified' }
+GtBookTrace class >> exampleRecordVisitWithFallback [ 
+	<gtExample>
+	| trace |
+	trace := self new.
+	trace recordVisitOfPage: nil fromStep: nil.
+	^ trace entries last asSerialized
+]
+
 { #category : #accessing }
 GtBookTrace class >> finishCurrent [
 	Current ifNotNil: [ Current finishedAt: DateAndTime now ]
@@ -139,13 +148,35 @@ GtBookTrace >> recordVisitOfPage: aLePage [
 
 { #category : #recording }
 GtBookTrace >> recordVisitOfPage: aLePage fromStep: aRoadmapStepOrNil [
-	| entry |
+	| entry pageTitle pageUid stepId |
+	pageTitle := (aLePage respondsTo: #gtBookTraceTitle)
+			ifTrue: [ aLePage gtBookTraceTitle ]
+			ifFalse: [ (aLePage isNil
+					or: [ (aLePage respondsTo: #title) not and: [ (aLePage respondsTo: #asString) not ] ])
+					ifTrue: [ 'Unknown page' ]
+					ifFalse: [ (aLePage respondsTo: #title)
+							ifTrue: [ aLePage title ]
+							ifFalse: [ aLePage asString ] ] ].
+
+	pageUid := (aLePage respondsTo: #gtBookTraceUid)
+			ifTrue: [ aLePage gtBookTraceUid ]
+			ifFalse: [ UUID new asString ].
+
+	stepId := aRoadmapStepOrNil
+			ifNil: [ nil ]
+			ifNotNil: [ (aRoadmapStepOrNil isString or: [ aRoadmapStepOrNil isNumber ])
+					ifTrue: [ aRoadmapStepOrNil ]
+					ifFalse: [ (aRoadmapStepOrNil respondsTo: #id)
+							ifTrue: [ aRoadmapStepOrNil id ]
+							ifFalse: [ aRoadmapStepOrNil asString ] ] ].
+
 	entry := GtBookTraceEntry new
-			pageTitle: aLePage title;
-			pageUid: aLePage uid asString;
-			roadmapStepId: (aRoadmapStepOrNil ifNotNil: [ aRoadmapStepOrNil id ]);
+			pageTitle: pageTitle;
+			pageUid: pageUid;
+			roadmapStepId: stepId;
 			timestamp: DateAndTime now;
 			yourself.
+
 	entries add: entry
 ]
 

@@ -6,6 +6,11 @@ LePage >> asPageNode [
 ]
 
 { #category : #'*GToolkit-Roadmaps' }
+LePage >> gtBookTraceTitle [
+	^ self title ifNil: [ super gtBookTraceTitle ]
+]
+
+{ #category : #'*GToolkit-Roadmaps' }
 LePage >> gtTopicMapActionFor: anAction [
 	"To do: 
 		- fix this to show the topic map for just this page

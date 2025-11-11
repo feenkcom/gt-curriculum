@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-07T08:59:35.069596+01:00"
+						"dateAndTimeString" : "2025-11-11T11:32:37.245866+01:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "In a first step we will simply outline several teaching units that target newcomers with specific problems or projects in mind."
+				"string" : "In a first step we will simply [[Outline several teaching units]] that target newcomers with specific problems or projects in mind."
 			},
 			{
 				"__type" : "textSnippet",

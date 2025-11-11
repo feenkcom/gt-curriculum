@@ -294,7 +294,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T22:31:32.669438+01:00"
+									"dateAndTimeString" : "2025-11-11T11:37:24.983272+01:00"
 								}
 							},
 							"uid" : {
@@ -304,7 +304,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "```smalltalk\nObject subclass: #GtBookTrace\n    instanceVariableNames: 'id label startedAt finishedAt entries'\n    classVariableNames: ''\n    package: 'GToolkit-Roadmaps-Traces'\n```\n"
+							"string" : "```smalltalk\nObject subclass: #GtBookTrace\n    instanceVariableNames: 'id label startedAt finishedAt entries'\n    classVariableNames: ''\n    package: 'GToolkit-Roadmaps-Traces'\n```"
 						},
 						{
 							"__type" : "textSnippet",
