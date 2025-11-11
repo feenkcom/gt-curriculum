@@ -6,22 +6,44 @@ Class {
 		'endTime',
 		'visitedSteps',
 		'notes',
-		'artifacts'
+		'artifacts',
+		'events'
 	],
 	#category : #'GtCurriculum-Paths'
 }
 
 { #category : #examples }
+GtRoadmapTrace class >> exampleTimelineItems [ 
+	<gtExample>
+	^ self exampleTrace timelineItems
+]
+
+{ #category : #examples }
 GtRoadmapTrace class >> exampleTrace [
 	<gtExample>
 	| trace |
+	"NB: trace is a string but should be a GtRoadmapTrace instance"
 	trace := GtRoadmapTrace new
 			recordVisitOf: 'Unit 1 – Learn the basics of GT'
 				withNote: 'Watched the Inspector video.';
 			recordVisitOf: 'Unit 2 – Start your own project'
 				withNote: 'Cloned the template repo.'.
-	trace endNow.
+	trace endNow.	"Instance of ByteString did not understand #endNow"
 	^ trace
+]
+
+{ #category : #examples }
+GtRoadmapTrace class >> exampleVisitWithMetadata [ 
+	<gtExample>
+	| trace |
+	trace := self new
+		recordVisitOf: 'step-a'
+			title: 'Step A'
+			note: 'Captured data'
+			artifact: 'snippet-1'
+			timestamp: (DateAndTime now).
+	trace endNow.
+	^ trace events last
 ]
 
 { #category : #'instance creation' }
@@ -29,7 +51,7 @@ GtRoadmapTrace class >> fromDictionary: aDictionary [
 	^ self new
 		startTime: (aDictionary at: #startTime ifAbsent: [ nil ]);
 		endTime: (aDictionary at: #endTime ifAbsent: [ nil ]);
-		visitedSteps: ((aDictionary at: #visitedSteps ifAbsent: [ #() ]) asOrderedCollection);
+		visitedSteps: (aDictionary at: #visitedSteps ifAbsent: [ #() ]) asOrderedCollection;
 		notes: (aDictionary at: #notes ifAbsent: [ Dictionary new ]) asDictionary;
 		artifacts: (aDictionary at: #artifacts ifAbsent: [ Dictionary new ]) asDictionary;
 		yourself
@@ -40,6 +62,26 @@ GtRoadmapTrace class >> new [
 	^ super new
 		initialize;
 		yourself
+]
+
+{ #category : #'as yet unclassified' }
+GtRoadmapTrace class >> parseDateAndTimeString: aString [
+	[ | sanitized |
+	^ [ DateAndTime fromString: aString ]
+		on: Error
+		do: [ sanitized := aString copyReplaceAll: 'T' with: ' '.
+			[ DateAndTime readFrom: sanitized readStream ] on: Error do: [ nil ] ] ]
+]
+
+{ #category : #private }
+GtRoadmapTrace >> addEventFromDictionary: anEventDictionary [
+	self
+		recordVisitOf: (anEventDictionary at: #stepId)
+		title: (anEventDictionary at: #title ifAbsent: [ nil ])
+		note: (anEventDictionary at: #note ifAbsent: [ nil ])
+		artifact: (anEventDictionary at: #artifact ifAbsent: [ nil ])
+		timestamp: (self class
+				parseDateAndTimeString: (anEventDictionary at: #timestamp ifAbsent: [ nil ]))
 ]
 
 { #category : #accessing }
@@ -78,6 +120,16 @@ GtRoadmapTrace >> endTime: aDateAndTime [
 	endTime := aDateAndTime
 ]
 
+{ #category : #'as yet unclassified' }
+GtRoadmapTrace >> events [
+	^ events
+]
+
+{ #category : #'as yet unclassified' }
+GtRoadmapTrace >> events: aCollection [
+	events := aCollection asOrderedCollection
+]
+
 { #category : #initialization }
 GtRoadmapTrace >> initialize [
 	super initialize.
@@ -114,6 +166,24 @@ GtRoadmapTrace >> recordVisitOf: aStepId [
 ]
 
 { #category : #recording }
+GtRoadmapTrace >> recordVisitOf: aStepId title: aTitle note: aNote artifact: anArtifact timestamp: aDateAndTime [
+	| timestamp event |
+	timestamp := aDateAndTime ifNil: [ DateAndTime now ].
+	self visitedSteps add: aStepId.
+	aNote ifNotNil: [ self notes at: aStepId put: aNote ].
+	anArtifact ifNotNil: [ self artifacts at: aStepId put: anArtifact ].
+	event := Dictionary new
+			at: #stepId put: aStepId;
+			at: #title put: (aTitle ifNil: [ aStepId ]);
+			at: #note put: aNote;
+			at: #artifact put: anArtifact;
+			at: #timestamp put: timestamp;
+			yourself.
+	self events add: event.
+	^ event
+]
+
+{ #category : #recording }
 GtRoadmapTrace >> recordVisitOf: aStepId withArtifact: anObject [
 	self recordVisitOf: aStepId.
 	self artifacts at: aStepId put: anObject.
@@ -147,13 +217,17 @@ GtRoadmapTrace >> storeOn: aStream [
 { #category : #ui }
 GtRoadmapTrace >> timelineItems [
 	"Helper for Spec/GT views"
-	^ self visitedSteps
-		collectWithIndex: [ :step :index | 
-			{ 
-				#order -> index.
-				#step -> step.
-				#note -> (self notes at: step ifAbsent: [ '' ]).
-			} asDictionary ]
+
+	^ self events
+		collectWithIndex: [ :event :index | 
+			Dictionary new
+				at: #order put: index;
+				at: #stepId put: (event at: #stepId);
+				at: #title put: (event at: #title ifAbsent: [ event at: #stepId ]);
+				at: #note put: (event at: #note ifAbsent: [ '' ]);
+				at: #artifact put: (event at: #artifact ifAbsent: [ nil ]);
+				at: #timestamp put: (event at: #timestamp ifAbsent: [ nil ]);
+				yourself ]
 ]
 
 { #category : #accessing }
