@@ -7,6 +7,21 @@ Class {
 	#category : #'GToolkit-Roadmaps-Model'
 }
 
+{ #category : #testing }
+TMAbstractEntity class >> storeOnIsAbstract [
+	^ self
+		classAndMethodFor: #storeOn:
+		do: [ :c :m | m isSubclassResponsibility ]
+		ifAbsent: [ true ]
+]
+
+{ #category : #'as yet unclassified' }
+TMAbstractEntity >> === other [
+	"We want === to also work for topic maps"
+
+	^ self = other
+]
+
 { #category : #converting }
 TMAbstractEntity >> asElement [
 	^ self roadmap
@@ -30,17 +45,17 @@ TMAbstractEntity >> databaseNode [
 	self subclassResponsibility
 ]
 
-{ #category : #utility }
+{ #category : #factory }
 TMAbstractEntity >> draftPageGroupFor: aPageCollection [
 	^ TMDraftPageGroup for: aPageCollection in: self topicMap
 ]
 
-{ #category : #utility }
+{ #category : #factory }
 TMAbstractEntity >> emptyNodes [
 	^ self nodesFor: {}
 ]
 
-{ #category : #utility }
+{ #category : #factory }
 TMAbstractEntity >> fieldNodeFor: aField [
 	^ TMFieldNode for: aField in: self topicMap
 ]
@@ -98,6 +113,28 @@ TMAbstractEntity >> gtSpotterForPageTitles: aSearch [
 		filterBySubstring
 ]
 
+{ #category : #'as yet unclassified' }
+TMAbstractEntity >> gtStoreStringFor: aView [
+	"Work in progress"
+
+	<gtView>
+	self storeOnIsAbstract ifTrue: [ ^ aView empty ].
+	^ aView explicit
+		title: 'Store on';
+		priority: 70;
+		stencil: [ (GtPharoSnippetCoder new
+				forSource: self storeString;
+				format;
+				subscribeToSystem;
+				asExpandedOnlyElement) vFitContentLimited ];
+		actionButtonIcon: BrGlamorousVectorIcons playinspect
+			tooltip: 'Do it and go'
+			action: [ :button | 
+				button phlow
+					spawnObject: (Smalltalk compiler evaluate: (String streamContents: [ :s | self storeOn: s ])) ];
+		actionUpdateButton
+]
+
 { #category : #views }
 TMAbstractEntity >> gtSummaryFor: aView [
 	<gtView>
@@ -144,7 +181,12 @@ TMAbstractEntity >> isAbstract [
 	^ self == TMAbstractEntity
 ]
 
-{ #category : #utility }
+{ #category : #testing }
+TMAbstractEntity >> isTopicMapEntity [
+	^ true
+]
+
+{ #category : #factory }
 TMAbstractEntity >> kindNodeFor: aKind [
 	^ TMKindNode for: aKind in: self topicMap
 ]
@@ -189,7 +231,22 @@ TMAbstractEntity >> kindsStandardOrder [
 	^ self topicMap kindsStandardOrder
 ]
 
-{ #category : #utility }
+{ #category : #factory }
+TMAbstractEntity >> newDraftPageGroup [
+	^ TMDraftPageGroup for: {} in: self topicMap
+]
+
+{ #category : #factory }
+TMAbstractEntity >> newNodeGroup [
+	^ TMNodeGroup for: {} in: self topicMap
+]
+
+{ #category : #factory }
+TMAbstractEntity >> newPageGroup [
+	^ TMPageGroup for: {} in: self topicMap
+]
+
+{ #category : #factory }
 TMAbstractEntity >> nodesFor: aNodeCollection [
 	^ TMNodeGroup for: aNodeCollection in: self topicMap
 ]
@@ -199,7 +256,7 @@ TMAbstractEntity >> pageGroup [
 	^ self pageGroupFor: self pages
 ]
 
-{ #category : #utility }
+{ #category : #factory }
 TMAbstractEntity >> pageGroupFor: aPageCollection [
 	^ TMPageGroup for: aPageCollection in: self topicMap
 ]
@@ -228,7 +285,7 @@ TMAbstractEntity >> roadmap [
 	self subclassResponsibility
 ]
 
-{ #category : #utility }
+{ #category : #printing }
 TMAbstractEntity >> sizeAndFirstIfAlone: aCollection [
 	^ aCollection size printString
 		, (aCollection size = 1 ifTrue: [ ' — ' , aCollection first ] ifFalse: [ '' ])
@@ -237,6 +294,21 @@ TMAbstractEntity >> sizeAndFirstIfAlone: aCollection [
 { #category : #accessing }
 TMAbstractEntity >> sortedKinds [
 	^ self kindsStandardOrder select: [ :k | self kinds includes: k ]
+]
+
+{ #category : #printing }
+TMAbstractEntity >> storeOn: aStream [
+	self subclassResponsibility
+]
+
+{ #category : #testing }
+TMAbstractEntity >> storeOnIsAbstract [
+	^ self class storeOnIsAbstract
+]
+
+{ #category : #converting }
+TMAbstractEntity >> storeStringValue [
+	^ Smalltalk compiler evaluate: self storeString
 ]
 
 { #category : #views }
@@ -271,7 +343,7 @@ TMAbstractEntity >> topicMap [
 	self subclassResponsibility
 ]
 
-{ #category : #utility }
+{ #category : #factory }
 TMAbstractEntity >> topicNodeFor: aTopic [
 	^ TMTopicNode for: aTopic in: self topicMap
 ]

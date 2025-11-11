@@ -1,9 +1,6 @@
 Class {
 	#name : #TMDatabaseNode,
 	#superclass : #TMAbstractTreeNode,
-	#instVars : [
-		'database'
-	],
 	#category : #'GToolkit-Roadmaps-Model'
 }
 
@@ -21,14 +18,14 @@ TMDatabaseNode class >> for: aDatabase in: aTopicMap [
 		yourself
 ]
 
-{ #category : #breadcrumbs }
-TMDatabaseNode >> breadcrumb [
-	^ TMBreadcrumb for: {self}
-]
-
 { #category : #navigation }
 TMDatabaseNode >> children [
 	^ self nodesFor: (self fields collect: [ :aField | self fieldNodeFor: aField ])
+]
+
+{ #category : #breadcrumbs }
+TMDatabaseNode >> defaultBreadcrumb [
+	^ TMBreadcrumb for: {self}
 ]
 
 { #category : #mondrian }
@@ -98,6 +95,19 @@ TMDatabaseNode >> roadmapNodes [
 	nodes := {self} , self children.
 	self highlightBreadcrumbsIn: nodes.
 	^ nodes
+]
+
+{ #category : #printing }
+TMDatabaseNode >> storeOn: aStream [
+	aStream
+		nextPut: $(;
+		storeObject: self topicMap;
+		nextPutAll: ' databaseNode)'
+]
+
+{ #category : #'as yet unclassified' }
+TMDatabaseNode >> storeOnNodeGroup: aStream [
+	aStream nextPutAll: ' addDatabaseNode'
 ]
 
 { #category : #navigation }
