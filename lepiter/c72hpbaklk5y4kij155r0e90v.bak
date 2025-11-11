@@ -209,7 +209,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T22:26:55.179379+01:00"
+									"dateAndTimeString" : "2025-11-10T22:27:00.456521+01:00"
 								}
 							},
 							"editEmail" : {
@@ -220,7 +220,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T22:26:55.179379+01:00"
+									"dateAndTimeString" : "2025-11-10T22:27:00.472401+01:00"
 								}
 							},
 							"uid" : {
@@ -230,7 +230,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "[[My path through the GT Book]]"
 						}
 					]
 				},

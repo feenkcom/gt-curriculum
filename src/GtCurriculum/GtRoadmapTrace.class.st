@@ -11,11 +11,17 @@ Class {
 	#category : #'GtCurriculum-Paths'
 }
 
-{ #category : #'instance creation' }
-GtRoadmapTrace class >> new [
-	^ super new
-		initialize;
-		yourself
+{ #category : #examples }
+GtRoadmapTrace class >> exampleTrace [
+	<gtExample>
+	| trace |
+	trace := GtRoadmapTrace new
+			recordVisitOf: 'Unit 1 – Learn the basics of GT'
+				withNote: 'Watched the Inspector video.';
+			recordVisitOf: 'Unit 2 – Start your own project'
+				withNote: 'Cloned the template repo.'.
+	trace endNow.
+	^ trace
 ]
 
 { #category : #'instance creation' }
@@ -29,15 +35,11 @@ GtRoadmapTrace class >> fromDictionary: aDictionary [
 		yourself
 ]
 
-{ #category : #examples }
-GtRoadmapTrace class >> example [
-	<gtExample>
-	| trace |
-	trace := self new
-		recordVisitOf: 'Unit 1 – Learn the basics of GT' withNote: 'Watched the Inspector video.';
-		recordVisitOf: 'Unit 2 – Start your own project' withNote: 'Cloned the template repo.'.
-	trace endNow.
-	^ trace
+{ #category : #'instance creation' }
+GtRoadmapTrace class >> new [
+	^ super new
+		initialize;
+		yourself
 ]
 
 { #category : #accessing }
@@ -125,13 +127,6 @@ GtRoadmapTrace >> recordVisitOf: aStepId withNote: aString [
 	^ aString
 ]
 
-{ #category : #serialization }
-GtRoadmapTrace >> storeOn: aStream [
-	aStream
-		nextPutAll: 'GtRoadmapTrace fromDictionary: ';
-		nextPutAll: self asDictionary storeString
-]
-
 { #category : #accessing }
 GtRoadmapTrace >> startTime [
 	^ startTime
@@ -140,6 +135,13 @@ GtRoadmapTrace >> startTime [
 { #category : #accessing }
 GtRoadmapTrace >> startTime: aDateAndTime [
 	startTime := aDateAndTime
+]
+
+{ #category : #serialization }
+GtRoadmapTrace >> storeOn: aStream [
+	aStream
+		nextPutAll: 'GtRoadmapTrace fromDictionary: ';
+		nextPutAll: self asDictionary storeString
 ]
 
 { #category : #ui }
