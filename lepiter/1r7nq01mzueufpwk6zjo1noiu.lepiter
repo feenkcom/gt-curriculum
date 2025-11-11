@@ -1,0 +1,110 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:45:48.887605+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:45:50.994518+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "c94aitz9DQCIcTTvA9CoHQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "This version uses only the safe APIs above. It shows class roots, and clicking a node opens a child Mondrian in a new inspector. It returns a sized element, so your Live tab renders it."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:45:10.479467+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:45:17.41229+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "vs7Qh9z9DQCIa6GxA9CoHQ=="
+				},
+				"code" : "| ensureVisible trait roots maxChildren childrenOf nodeStencil m |\n\n\"Make elements visible on your Brick build\"\nensureVisible := [ :elem |\n  (elem respondsTo: #constraintsDo:) ifTrue: [\n    elem constraintsDo: [ :c |\n      (c respondsTo: #horizontal) ifTrue: [\n        (c horizontal respondsTo: #matchParent)\n          ifTrue: [ c horizontal matchParent ]\n          ifFalse: [ (c horizontal respondsTo: #exact:) ifTrue: [ c horizontal exact: 800 ] ] ].\n      (c respondsTo: #vertical) ifTrue: [\n        (c vertical respondsTo: #matchParent)\n          ifTrue: [ c vertical matchParent ]\n          ifFalse: [ (c vertical respondsTo: #exact:) ifTrue: [ c vertical exact: 500 ] ] ] ] ].\n  (elem respondsTo: #background:) ifTrue: [ elem background: Color veryLightGray ].\n  elem ].\n\n\"Roots: users of TAsyncStream if present, otherwise Object (guaranteed non-empty)\"\ntrait := Smalltalk at: #TAsyncStream ifAbsent: [ nil ].\nroots := trait\n  ifNil: [ { Object } ]\n  ifNotNil: [ | u | u := trait users asSet asOrderedCollection. u isEmpty ifTrue: [ { Object } ] ifFalse: [ u ] ].\n\nmaxChildren := 100.\n\nchildrenOf := [ :cls |\n  | kids |\n  kids := cls subclasses asOrderedCollection.\n  kids sort: [ :a :b | a name <= b name ].\n  (kids size > maxChildren)\n    ifTrue: [ kids copyFrom: 1 to: maxChildren ]\n    ifFalse: [ kids ] ].\n\n\"Node is just a label; click spawns a child graph\"\nnodeStencil := [ :cls |\n  | label |\n  label := BrLabel new\n    aptitude: BrGlamorousLabelAptitude new;  \"ensures text paints\"\n    text: (cls name , ' (' , cls subclasses size asString , ')').\n  label when: BlClickEvent do: [ :evt |\n    | kids mm childEl shown |\n    evt consumed: true.\n    kids := childrenOf value: cls.\n    shown := kids asSet.\n    mm := GtMondrian new.\n    mm nodes\n      stencil: [ :k | BrLabel new\n        aptitude: BrGlamorousLabelAptitude new;\n        text: k name ];\n      with: kids.\n    mm edges\n      connectFrom: #yourself\n      toAll: [ :c | c subclasses select: [ :s | shown includes: s ] ].\n    mm layout horizontalTree.\n    childEl := ensureVisible value: (mm asElement).\n    childEl inspect  \"expand-on-demand in separate window\"\n  ].\n  label ].\n\nm := GtMondrian new.\nm nodes\n  stencil: nodeStencil;\n  with: roots.\nm layout horizontalTree.\nensureVisible value: (m asElement)\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-19T05:45:16.939059+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-19T05:45:16.939059+02:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "A working “expand on demand” you can use now"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "e6ccd087-dcfd-0d00-886a-3b5603d0a81d"
+	}
+}

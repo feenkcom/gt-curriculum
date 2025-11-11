@@ -8,6 +8,43 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T15:49:13.173049+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T15:49:24.42681+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "suD5fLT/DQCMHUvzBZwASA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: [dmx](https://dmx.ralfbarkow.ch/systems.dmx.webclient/#/topicmap/890105/topic/890105/info)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
 					"items" : [
 						{
 							"__type" : "textSnippet",
@@ -220,7 +257,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-11T15:41:06.773537+01:00"
+									"dateAndTimeString" : "2025-11-11T16:27:19.797216+01:00"
 								}
 							},
 							"uid" : {
@@ -230,7 +267,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "The practical workaround today is to use a normal link snippet or Markdown link that points to the GitHub commit URL, for example:\n\n  See commit [79c16ce](https://github.com/feenkcom/gt-curriculum/commit/79c16ced7d39ce8478bf21aa213f63db6d04b0a8).\n\n "
+							"string" : "The practical workaround today is to use a normal link snippet or Markdown link that points to the GitHub commit URL, for example:\n\n  See commit [79c16ce](https://github.com/feenkcom/gt-curriculum/commit/79c16ced7d39ce8478bf21aa213f63db6d04b0a8).\n"
 						},
 						{
 							"__type" : "textSnippet",
@@ -257,7 +294,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-11T15:42:04.519206+01:00"
+									"dateAndTimeString" : "2025-11-11T15:56:11.613316+01:00"
 								}
 							},
 							"uid" : {
@@ -267,7 +304,44 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "If you’d like a real gtCommit macro, we’d have to [[Implement a new inline snippet resolver]] (similar to the existing gtPage: implementation) that looks up commits via the local git repository or a remote API."
+							"string" : "If you’d like a real gtCommit macro, we’d have to [[Example: Implement a new inline snippet resolver]] (similar to the existing gtPage: implementation) that looks up commits via the local git repository or a remote API."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:50:31.841768+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T15:50:38.587568+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "hxSqgbT/DQCMdFFABZwASA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "{{gtClass:GtCommitInlineSnippetResolver}}"
 						}
 					]
 				},
@@ -301,6 +375,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Right now Lepiter only knows how to resolve the built-in inline macros (e.g., {{gtPage:…}}). There isn’t a registered resolver for a  hypothetical {{gtCommit:SHA}}, so adding text like {{gtCommit:79c16ce…}} won’t render anything."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:26:31.848389+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:31:14.552478+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+ilpArX/DQCF7qgyBkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- Added the FedWiki entries findings and implement-a-new-inline-snippet-resolver under ~/.wiki/wiki.ralfbarkow.ch/pages/… so the need and\n    plan are documented before touching Lepiter/Smalltalk.\n  - Prototyped {{gtClass:GtCommitInlineSnippetResolver}} (src/GToolkit-Roadmaps/GtCommitInlineSnippetResolver.class.st). On load it tries to register with    {{gtClass:GtLepiterInlineSnippetResolverRegistry}}; the resolver recognises {{gtCommit:<sha>[|org/repo]}} snippets and renders a Brick row showing the    SHA plus a clickable GitHub link (defaulting to feenkcom/gt-curriculum).\n  - Updated the Lepiter page Implement a new inline snippet resolver (lepiter/8ozn61nhgsol0vgjolr7gw5uz.lepiter) to reference the new\n    {{gtCommit:…}} syntax so agents can see how to use it.\n\n  I (Codex CLI) couldn’t test the resolver in GT from here, so after loading the package please evaluate {{gtMethod:GtCommitInlineSnippetResolver class >> registerIfPossible}} See also  {{gtMethod:GtCommitInlineSnippetResolver class>>#initialize}}\n  (or restart GT) and drop a {{gtCommit:…}} snippet into a Lepiter note to verify it renders as expected.\n"
 			}
 		]
 	},

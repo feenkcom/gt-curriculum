@@ -1,0 +1,178 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:08:50.344197+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:09:01.559792+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OZXeBdz9DQCHBm9hA9CoHQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "If your GT build exposes the tree DSL, you can declare a tree with a children provider. Pair it with a lazy child computation and a node limit safeguard."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:16:53.517105+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:16:58.340553+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ZzerItz9DQCHc39iA9CoHQ=="
+				},
+				"code" : "\"CONFIG\"\ntrait := Smalltalk at: #TAsyncStream ifAbsent: [ nil ].\nroots := trait\n  ifNil: [ { Object } ]\n  ifNotNil: [ trait users asSet asOrderedCollection ]."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:09:09.307008+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:19:40.290656+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ze7/Btz9DQCHDZg4A9CoHQ=="
+				},
+				"code" : "\"Expand-on-demand class tree — no #tree, no #spacing:, no #add:, no #collapsible:\"\n| trait roots maxChildren childrenOf nodeStencil makeChildMondrian mondrian addChild expanderClass setHeader setContent |\n\n\"compat helper to add children across Brick API variants\"\naddChild := [ :container :child |\n  (container respondsTo: #addChild:)\n    ifTrue: [ container addChild: child ]\n    ifFalse: [ (container respondsTo: #add:)\n      ifTrue: [ container add: child ]\n      ifFalse: [ (container respondsTo: #addChildren:)\n        ifTrue: [ container addChildren: { child } ]\n        ifFalse: [ self error: 'No add* selector on ', container class name ] ] ] ].\n\n\"pick an expander class that exists in your build\"\nexpanderClass := (Smalltalk at: #BrExpander ifAbsent: [\n                   Smalltalk at: #BrExpanderElement ifAbsent: [ nil ] ]).\nexpanderClass ifNil: [ ^ UIManager default inform: 'No BrExpander class available in this image.' ].\n\n\"set header/content with best-effort selectors (no collapsible:)\"\nsetHeader := [ :exp :hdr |\n  (exp respondsTo: #header:)\n    ifTrue: [ exp header: hdr ]\n    ifFalse: [ (exp respondsTo: #title:)\n      ifTrue: [ exp title: hdr ] ] ].\n\n\"Prefer block content (works on more builds); fallback to element if needed\"\nsetContent := [ :exp :elem |\n  (exp respondsTo: #content:)\n    ifTrue: [ exp content: [ elem ] ]\n    ifFalse: [ (exp respondsTo: #contentElement:)\n      ifTrue: [ exp contentElement: elem ]\n      ifFalse: [ self error: 'No content* selector on ', exp class name ] ] ].\n\n\"CONFIG\"\ntrait := Smalltalk at: #TAsyncStream ifAbsent: [ nil ].\nroots := trait\n  ifNil: [ { Object } ]\n  ifNotNil: [ trait users asSet asOrderedCollection ].\n\nmaxChildren := 100.  \"cap per expansion\"\n\nchildrenOf := [ :cls | \n  | kids |\n  kids := cls subclasses asOrderedCollection.\n  kids sort: [ :a :b | a name <= b name ].\n  (kids size > maxChildren)\n    ifTrue: [ kids copyFrom: 1 to: maxChildren ]\n    ifFalse: [ kids ] ].\n\n\"build child Mondrian lazily when an expander opens\"\nmakeChildMondrian := [ :cls |\n  | m kids shown |\n  kids := childrenOf value: cls.\n  shown := kids asSet.\n  m := GtMondrian new.\n  m nodes\n    stencil: nodeStencil;\n    with: kids.\n  m edges\n    connectFrom: #yourself\n    toAll: [ :c | c subclasses select: [ :s | shown includes: s ] ].\n  m layout horizontalTree.\n  m ].\n\n\"node stencil without spacing/add/collapsible\"\nnodeStencil := [ :cls |\n  | header nameLabel countLabel expander inner truncated el |\n  nameLabel := BrLabel new\n    text: cls name;\n    aptitude: BrGlamorousLabelAptitude new.\n  countLabel := BrLabel new\n    text: ' (' , cls subclasses size asString , ')';\n    aptitude: BrGlamorousLabelAptitude new.\n\n  header := BrHorizontalPane new.\n  addChild value: header value: nameLabel.\n  addChild value: header value: countLabel.\n\n  truncated := cls subclasses size > maxChildren.\n\n  inner := BrVerticalPane new.\n  el := (makeChildMondrian value: cls) asElement.\n  addChild value: inner value: el.\n  truncated ifTrue: [\n    addChild value: inner value: (\n      BrLabel new\n        text: '… truncated at ', maxChildren asString, ' — browse class to see all';\n        aptitude: BrGlamorousLabelAptitude new) ].\n\n  expander := expanderClass new.\n  setHeader value: expander value: header.\n  setContent value: expander value: inner.\n  expander ].\n\n\"top-level Mondrian: only roots; children load on demand\"\nmondrian := GtMondrian new.\nmondrian nodes\n  stencil: nodeStencil;\n  with: roots.\nmondrian layout horizontalTree.\nmondrian\n"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:24:14.27083+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T05:24:24.248917+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "u5XwPNz9DQCH2EZHA9CoHQ=="
+				},
+				"code" : "\"MINIMAL expand-on-demand Mondrian that works on lean Brick builds\"\n| trait roots maxChildren childrenOf makeChildMondrian nodeStencil mondrian\n  expanderClass setHeader setContent |\n\n\"Pick an expander class that exists in your image\"\nexpanderClass := (Smalltalk at: #BrExpander ifAbsent: [\n                   Smalltalk at: #BrExpanderElement ifAbsent: [ nil ] ]).\nexpanderClass ifNil: [ ^ 'No BrExpander* class in this image' ].\n\n\"Header/content setters tolerant to API variants\"\nsetHeader := [ :exp :hdr |\n  (exp respondsTo: #header:)\n    ifTrue: [ exp header: hdr ]\n    ifFalse: [ (exp respondsTo: #title:)\n      ifTrue: [ exp title: hdr ] ] ].\n\n\"Prefer block content if #content: exists; else #contentElement:\"\nsetContent := [ :exp :elem |\n  (exp respondsTo: #content:)\n    ifTrue: [ exp content: [ elem ] ]\n    ifFalse: [ (exp respondsTo: #contentElement:)\n      ifTrue: [ exp contentElement: elem ]\n      ifFalse: [ self error: 'No content* selector on ', exp class name ] ] ].\n\n\"CONFIG\"\ntrait := Smalltalk at: #TAsyncStream ifAbsent: [ nil ].\nroots := trait\n  ifNil: [ { Object } ]                          \"guaranteed to show *something*\"\n  ifNotNil: [ trait users asSet asOrderedCollection ].\n\nmaxChildren := 100.                               \"cap per expansion\"\n\nchildrenOf := [ :cls | \n  | kids |\n  kids := cls subclasses asOrderedCollection.\n  kids sort: [ :a :b | a name <= b name ].\n  (kids size > maxChildren)\n    ifTrue: [ kids copyFrom: 1 to: maxChildren ]\n    ifFalse: [ kids ] ].\n\n\"Child Mondrian is built ONLY when an expander opens\"\nmakeChildMondrian := [ :cls |\n  | m kids shown |\n  kids := childrenOf value: cls.\n  shown := kids asSet.\n  m := GtMondrian new.\n  m nodes\n    stencil: nodeStencil;\n    with: kids.\n  m edges\n    connectFrom: #yourself\n    toAll: [ :c | c subclasses select: [ :s | shown includes: s ] ].\n  m layout horizontalTree.\n  m ].\n\n\"Node stencil WITHOUT panes: just a label header + nested Mondrian\"\nnodeStencil := [ :cls |\n  | hdr exp el |\n  hdr := BrLabel new\n    text: (cls name , ' (' , cls subclasses size asString , ')').\n  exp := expanderClass new.\n  setHeader value: exp value: hdr.\n  el := (makeChildMondrian value: cls) asElement.   \"Mondrian for children\"\n  setContent value: exp value: el.\n  exp ].\n\n\"Top-level Mondrian (only roots now; children load on demand when you expand)\"\nmondrian := GtMondrian new.\nmondrian nodes\n  stencil: nodeStencil;\n  with: roots.\nmondrian edges connectFrom: #yourself toAll: [ :c | #() ].  \"no top-level edges\"\nmondrian layout horizontalTree.\n\n\"Return the Mondrian (Live view should render it); if not, try mondrian asElement\"\nmondrian\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-19T05:08:50.215193+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-19T05:08:50.215193+02:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "True Mondrian “tree builder”"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "3199dc05-dcfd-0d00-8705-192303d0a81d"
+	}
+}

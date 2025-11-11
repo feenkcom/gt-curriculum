@@ -1,0 +1,599 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:34:05.526797+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:34:22.883951+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UL9zHbX/DQCHnw+0BkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:GtCommitInlineSnippetResolver}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:39:25.129504+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:39:25.129504+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "r3mAMLX/DQCLq3YnBkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Here’s `pharo-code-emitter` mode again: do-it chunks using `compile:` that add **GT examples** and **tests** for `GtCommitInlineSnippetResolver`.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:33:19.699524+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:39:25.141115+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "1W64GrX/DQCHimhfBkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Run them in order."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T16:33:30.37316+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T16:39:35.32756+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "S1NbG7X/DQCHmHeGBkoeEg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\n\"Do-it 1: GT examples for GtCommitInlineSnippetResolver\"\n\nGtCommitInlineSnippetResolver class\n\tcompile: '\ngtExampleCommitViewDefaultRepo\n    <gtExample>\n    | resolver |\n    resolver := self new.\n    ^ resolver viewForCommit: ''abcdef1234567890'' repoSlug: ''feenkcom/gt-curriculum''\n' classified: 'gt-examples'.\n\nGtCommitInlineSnippetResolver class\n\tcompile: '\ngtExampleCommitViewCustomRepo\n    <gtExample>\n    | resolver |\n    resolver := self new.\n    ^ resolver viewForCommit: ''abcdef1234567890'' repoSlug: ''feenkcom/gtoolkit-roadmaps''\n' classified: 'gt-examples'.\n\nGtCommitInlineSnippetResolver class\n\tcompile: '\ngtExampleMissingCommitView\n    <gtExample>\n    | resolver |\n    resolver := self new.\n    ^ resolver viewForMissingCommit\n' classified: 'gt-examples'.\n\nGtCommitInlineSnippetResolver class\n\tcompile: '\ngtExampleSnippetName\n    <gtExample>\n    ^ self new snippetName\n' classified: 'gt-examples'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:39:35.317086+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:39:35.317086+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "p+sbMbX/DQCLvT7iBkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it 1 — Add GT examples on the class side"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:33:23.433808+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:40:23.696057+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "r27xGrX/DQCHkXpcBkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "These give you:\n\n* example of the **normal commit view** (default repo),\n* example with a **custom repo slug**,\n* example of the **error / missing commit view**,\n* and a tiny example showing the snippet name (`'gtCommit'`).\n\nYou can now browse {{gtClass:GtCommitInlineSnippetResolver}} and see the examples under the Examples pane.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T16:41:06.516285+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T16:41:06.516285+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "m4OLNrX/DQCMPShkBkoeEg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We’ll define a minimal inline-snippet stub that answers `#arguments`, so tests can simulate what Lepiter would pass.\n\n```smalltalk\n\"Do-it 2: define a tiny stub used only in tests\"\n\n(Smalltalk at: #GtCommitInlineSnippetStub ifAbsent: [\n\tObject subclass: #GtCommitInlineSnippetStub\n\t\tinstanceVariableNames: 'args'\n\t\tclassVariableNames: ''\n\t\tpackage: 'GToolkit-Roadmaps-InlineSnippets-Tests'\n]) .\n\nGtCommitInlineSnippetStub class\n\tcompile: '\nwithArguments: anArray\n    ^ self new\n        args: anArray;\n        yourself\n' classified: 'instance creation'.\n\nGtCommitInlineSnippetStub\n\tcompile: '\nargs: anArray\n    args := anArray\n' classified: 'accessing'.\n\nGtCommitInlineSnippetStub\n\tcompile: '\narguments\n    ^ args ifNil: [ #() ]\n' classified: 'accessing'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:41:03.081978+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:41:03.081978+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5RxXNrX/DQCMNgYuBkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it 2 — Define a tiny stub for tests"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T16:41:23.726618+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T16:41:26.209966+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "9RiSN7X/DQCMTjgSBkoeEg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\n\"Do-it 3: test class for the resolver\"\n\n(Smalltalk at: #GtCommitInlineSnippetResolverTest ifAbsent: [\n\tTestCase subclass: #GtCommitInlineSnippetResolverTest\n\t\tinstanceVariableNames: ''\n\t\tclassVariableNames: ''\n\t\tpackage: 'GToolkit-Roadmaps-InlineSnippets-Tests'\n]) .\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:41:26.200205+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:41:26.200205+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/d23N7X/DQCMVaYaBkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it 3 — Define the test class"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T16:41:49.222204+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T16:41:52.097103+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "qiYXObX/DQCMbh2ZBkoeEg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\n\"Do-it 4: tests for snippetName and basic behavior\"\n\nGtCommitInlineSnippetResolverTest\n\tcompile: '\ntestSnippetName\n    | resolver |\n    resolver := GtCommitInlineSnippetResolver new.\n    self assert: resolver snippetName equals: ''gtCommit''.\n' classified: 'tests'.\n\nGtCommitInlineSnippetResolverTest\n\tcompile: '\ntestResolveWithoutArgumentsShowsMissingView\n    | resolver inlineSnippet view |\n    resolver := GtCommitInlineSnippetResolver new.\n    inlineSnippet := GtCommitInlineSnippetStub withArguments: #().\n    view := resolver resolveInlineSnippet: inlineSnippet inContext: nil.\n    self assert: view class equals: BrLabel.\n    self assert: view text equals: ''gtCommit snippet requires a SHA''.\n' classified: 'tests'.\n\nGtCommitInlineSnippetResolverTest\n\tcompile: '\ntestResolveWithCommitUsesDefaultRepoSlug\n    | resolver inlineSnippet view labels texts |\n    resolver := GtCommitInlineSnippetResolver new.\n    inlineSnippet := GtCommitInlineSnippetStub withArguments: { ''abcdef'' }.\n    view := resolver resolveInlineSnippet: inlineSnippet inContext: nil.\n\n    \"view is a BrHorizontalPane with 3 children: commit label, separator label, link\"\n    labels := view children.\n    self assert: labels size equals: 3.\n\n    texts := labels collect: [ :each | each text ].\n    self assert: (texts first) equals: ''abcdef''.\n    self assert: (texts second) equals: '' · ''.\n    self assert: (texts third) equals: ''feenkcom/gt-curriculum''.\n' classified: 'tests'.\n\nGtCommitInlineSnippetResolverTest\n\tcompile: '\ntestResolveWithCommitAndCustomRepoSlug\n    | resolver inlineSnippet view labels texts |\n    resolver := GtCommitInlineSnippetResolver new.\n    inlineSnippet := GtCommitInlineSnippetStub withArguments: {\n        ''deadbeef''.\n        ''feenkcom/gtoolkit-roadmaps''\n    }.\n    view := resolver resolveInlineSnippet: inlineSnippet inContext: nil.\n\n    labels := view children.\n    self assert: labels size equals: 3.\n\n    texts := labels collect: [ :each | each text ].\n    self assert: (texts first) equals: ''deadbeef''.\n    self assert: (texts second) equals: '' · ''.\n    self assert: (texts third) equals: ''feenkcom/gtoolkit-roadmaps''.\n' classified: 'tests'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:41:52.088045+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:41:52.088045+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YdxCObX/DQCMdcI/BkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it 4 — Add concrete tests"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T16:42:10.476999+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T16:42:13.576545+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6XlbOrX/DQCMhgpDBkoeEg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "This checks that `registerIfPossible` actually registers the resolver, but only if `GtLepiterInlineSnippetResolverRegistry` is present in the image.\n\n```smalltalk\n\"Do-it 5: optional registration test (will skip if registry is missing)\"\n\nGtCommitInlineSnippetResolverTest\n\tcompile: '\ntestRegisterIfPossibleRegistersResolverWhenRegistryAvailable\n    | registryClass registry |\n    registryClass := Smalltalk at: #GtLepiterInlineSnippetResolverRegistry ifAbsent: [ ^ self skip ].\n    (registryClass respondsTo: #default) ifFalse: [ ^ self skip ].\n\n    registry := registryClass default.\n    \"We don''t know the internal protocol, but we can at least ensure it does not error.\"\n    GtCommitInlineSnippetResolver registerIfPossible.\n\n    self assert: registry notNil.\n' classified: 'tests'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:42:13.567746+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:42:13.567746+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SpyKOrX/DQCMjcmrBkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it 5 — Optional: test registration (guarded if registry exists)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:32:36.621449+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T16:44:10.414582+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0CgnGLX/DQCHgrF5BkoeEg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "You can now:\n\n* Run tests via the Test Runner: {{gtClass:GtCommitInlineSnippetResolverTest}}.\n* Browse the **Examples** on {{gtClass:GtCommitInlineSnippetResolver}} to see:\n\n  * commit view (default/custom repo),\n  * missing-commit error view,\n  * snippet name.\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-11T16:33:09.708361+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-11T16:33:09.708361+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Add GT examples and tests for GtCommitInlineSnippetResolver"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "02262718-b5ff-0d00-8781-6d38064a1e12"
+	}
+}

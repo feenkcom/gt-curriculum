@@ -8,10 +8,9 @@ Class {
 GtBookTraceTest >> testRecordVisitAcceptsStringStep [
 	| trace entry |
 	trace := GtBookTrace new.
-	trace recordVisitOfPage: (Object new) fromStep: 'custom-step'.
+	trace recordVisitOfPage: Object new fromStep: 'custom-step'.
 	entry := trace entries last.
 	self assert: entry roadmapStepId equals: 'custom-step'
-
 ]
 
 { #category : #tests }

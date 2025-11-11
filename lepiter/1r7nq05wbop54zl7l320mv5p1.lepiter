@@ -1,0 +1,110 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T04:40:17.320262+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T04:40:17.320262+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "jenDn9v9DQCF6vA5A9CoHQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T04:40:25.851367+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-19T04:40:34.313313+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OhZGoNv9DQCF61lRA9CoHQ=="
+				},
+				"code" : "aTrait := TAsyncStream.\t\"Paint a tree of classes which use a specified trait. Click to list all the methods. Click with Modifier (command on mac, and ctrl on windows and linux) only to filter out the methods overriden by that class.\"\nnotInterestedForNow := 'Async'.\nclassesFilter := GtSearchImageClassesFilter new\n\t\tselect: [ :class | class usesTrait: aTrait ].\nclasses := classesFilter result toArray wait asSet.\nsuperClasses := classes flatCollect: [ :class | class allSuperclasses ].\nstencilForNodes := [ :class | \n\t| element |\n\telement := BrLabel new\n\t\t\ttext: class name;\n\t\t\tbackground: Color paleOrange;\n\t\t\taptitude: BrGlamorousLabelAptitude new;\n\t\t\tborder: (BlBorder paint: Color veryLightGray);\n\t\t\twhen: BlClickEvent\n\t\t\t\tdo: [ :anEvent | \n\t\t\t\t\t| methodsFilter |\n\t\t\t\t\tanEvent consumed: true.\n\t\t\t\t\t((superClasses includes: class) and: [ (classes includes: class) not ])\n\t\t\t\t\t\tifFalse: [ methodsFilter := GtSearchMethodsInInstanceAndClassSideFilter forClass: class.\n\t\t\t\t\t\t\tanEvent modifiers isPrimaryModifier\n\t\t\t\t\t\t\t\tifTrue: [ methodsFilter := methodsFilter & GtSearchNonTraitMethodsFilter new ].\n\t\t\t\t\t\t\tanEvent currentTarget phlow spawnObject: methodsFilter ] ].\n\t(class name beginsWith: notInterestedForNow) not\n\t\tifTrue: [ element background: Color lightOrange ].\n\t((superClasses includes: class) and: [ (classes includes: class) not ])\n\t\tifTrue: [ element background: Color lightYellow ].\n\telement ].\nmondrian := GtMondrian new.\nmondrian nodes\n\tstencil: stencilForNodes;\n\twith: classes , superClasses.\nmondrian edges connectToAll: #subclasses.\nmondrian layout horizontalTree.\nmondrian"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-19T04:40:21.611997+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-19T04:40:21.611997+02:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Custom tool for method navigation of a class"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "95e4c39f-dbfd-0d00-85e9-2de403d0a81d"
+	}
+}
