@@ -8,15 +8,15 @@ Class {
 GtRoadmapTraceTest >> testFromDictionaryNormalizesDates [
 	| rawTrace trace firstEvent |
 	rawTrace := Dictionary new
-		at: #startTime put: '2025-11-10T12:00:00+01:00';
-		at: #endTime put: '2025-11-10T12:05:00+01:00';
-		at: #events put: {
-			Dictionary new
-				at: #stepId put: 'step-1';
-				at: #note put: 'first visit';
-				at: #timestamp put: '2025-11-10T12:01:00+01:00';
-				yourself };
-		yourself.
+			at: #startTime put: '2025-11-10T12:00:00+01:00';
+			at: #endTime put: '2025-11-10T12:05:00+01:00';
+			at: #events
+				put: {Dictionary new
+							at: #stepId put: 'step-1';
+							at: #note put: 'first visit';
+							at: #timestamp put: '2025-11-10T12:01:00+01:00';
+							yourself};
+			yourself.
 	trace := GtRoadmapTrace fromDictionary: rawTrace.
 	self assert: trace startTime class equals: DateAndTime.
 	self assert: trace endTime class equals: DateAndTime.
@@ -30,7 +30,8 @@ GtRoadmapTraceTest >> testRecordVisitPreservesHistory [
 	trace := GtRoadmapTrace new.
 	trace recordVisitOf: 'step-42' withNote: 'first note'.
 	trace recordVisitOf: 'step-42' withNote: 'second note'.
-	matchingEvents := trace events select: [ :each | (each at: #stepId) = 'step-42' ].
+	matchingEvents := trace events
+			select: [ :each | (each at: #stepId) = 'step-42' ].
 	self assert: matchingEvents size equals: 2.
 	self assert: (matchingEvents first at: #note) equals: 'first note'.
 	self assert: (matchingEvents second at: #note) equals: 'second note'.
@@ -46,7 +47,13 @@ GtRoadmapTraceTest >> testTimelineItemsExposeStepMetadata [
 		title: 'Step A'
 		note: 'Captured data'
 		artifact: 'snippet-1'
-		timestamp: (DateAndTime year: 2025 month: 11 day: 10 hour: 12 minute: 0 second: 0).
+		timestamp: (DateAndTime
+				year: 2025
+				month: 11
+				day: 10
+				hour: 12
+				minute: 0
+				second: 0).
 	timeline := trace timelineItems.
 	self assert: timeline size equals: 1.
 	self assert: (timeline first at: #stepId) equals: 'step-a'.
