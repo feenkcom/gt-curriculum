@@ -5,7 +5,7 @@
 		"__type" : "snippets",
 		"items" : [
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T21:59:20.560656+01:00"
+						"dateAndTimeString" : "2025-11-11T13:41:11.31276+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-11T13:14:19.844521+01:00"
+						"dateAndTimeString" : "2025-11-11T13:44:07.565279+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "jSjMiqX/DQCpTP5WDLF6pQ=="
+					"uidString" : "KsMZs7L/DQCBg8KlDd/akg=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "See e.g. {{gtPage:Open pure git repository|db=c72hpbcsarp76bsez1znvtuex}} and [[Example: Pure Git Onboarding]]"
+				"code" : "(FileLocator home / 'workspace' / 'gt-curriculum' / 'screens') asFileReference"
 			}
 		]
 	},
@@ -51,7 +48,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-10T22:00:44.60683+01:00"
+			"dateAndTimeString" : "2025-11-11T13:33:17.504205+01:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +59,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-10T22:00:44.60683+01:00"
+			"dateAndTimeString" : "2025-11-11T13:33:17.504205+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Problem statement"
+		"title" : "Screens"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "7a11cc8a-a5ff-0d00-a94b-20a80cb17aa5"
+		"uuid" : "af08dc96-b2ff-0d00-bf87-32c90ddfda92"
 	}
 }
