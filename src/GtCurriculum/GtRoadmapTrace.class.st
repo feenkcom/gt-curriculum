@@ -49,13 +49,19 @@ GtRoadmapTrace class >> exampleVisitWithMetadata [
 
 { #category : #'instance creation' }
 GtRoadmapTrace class >> fromDictionary: aDictionary [
-	^ self new
-		startTime: (aDictionary at: #startTime ifAbsent: [ nil ]);
-		endTime: (aDictionary at: #endTime ifAbsent: [ nil ]);
-		visitedSteps: (aDictionary at: #visitedSteps ifAbsent: [ #() ]) asOrderedCollection;
-		notes: (aDictionary at: #notes ifAbsent: [ Dictionary new ]) asDictionary;
-		artifacts: (aDictionary at: #artifacts ifAbsent: [ Dictionary new ]) asDictionary;
-		yourself
+	| trace |
+	trace := self new.
+	trace
+		startTime: (self parseDateAndTimeString: (aDictionary at: #startTime ifAbsent: [ nil ]));
+		endTime: (self parseDateAndTimeString: (aDictionary at: #endTime ifAbsent: [ nil ])).
+	trace notes: (aDictionary at: #notes ifAbsent: [ Dictionary new ]) asDictionary.
+	trace
+		artifacts: (aDictionary at: #artifacts ifAbsent: [ Dictionary new ]) asDictionary.
+	(aDictionary at: #events ifAbsent: [ #() ])
+		ifEmpty: [ (aDictionary at: #visitedSteps ifAbsent: [ #() ])
+				do: [ :each | trace recordVisitOf: each ] ]
+		ifNotEmpty: [ :eventDicts | eventDicts do: [ :eventDict | trace addEventFromDictionary: eventDict ] ].
+	^ trace
 ]
 
 { #category : #'instance creation' }
@@ -67,11 +73,22 @@ GtRoadmapTrace class >> new [
 
 { #category : #'as yet unclassified' }
 GtRoadmapTrace class >> parseDateAndTimeString: aString [
-	[ | sanitized |
+	| sanitized |
 	^ [ DateAndTime fromString: aString ]
 		on: Error
 		do: [ sanitized := aString copyReplaceAll: 'T' with: ' '.
-			[ DateAndTime readFrom: sanitized readStream ] on: Error do: [ nil ] ] ]
+			[ DateAndTime readFrom: sanitized readStream ] on: Error do: [ nil ] ]
+]
+
+{ #category : #'as yet unclassified' }
+GtRoadmapTrace class >> parseDateTime: aValue [
+	aValue ifNil: [ ^ nil ].
+	(aValue isKindOf: DateAndTime) ifTrue: [ ^ aValue ].
+	(aValue isString and: [ aValue isEmpty not ])
+		ifTrue: [ ^ self parseDateAndTimeString: aValue ].
+	(aValue respondsTo: #asInteger)
+		ifTrue: [ ^ DateAndTime fromUnixTime: aValue asInteger ].
+	^ nil
 ]
 
 { #category : #private }
@@ -147,6 +164,7 @@ GtRoadmapTrace >> initialize [
 	visitedSteps := OrderedCollection new.
 	notes := Dictionary new.
 	artifacts := Dictionary new.
+	events := OrderedCollection new
 ]
 
 { #category : #accessing }
@@ -171,8 +189,12 @@ GtRoadmapTrace >> printOn: aStream [
 
 { #category : #recording }
 GtRoadmapTrace >> recordVisitOf: aStepId [
-	self visitedSteps add: aStepId.
-	^ aStepId
+	^ self
+		recordVisitOf: aStepId
+		title: nil
+		note: nil
+		artifact: nil
+		timestamp: DateAndTime now
 ]
 
 { #category : #recording }
@@ -195,16 +217,22 @@ GtRoadmapTrace >> recordVisitOf: aStepId title: aTitle note: aNote artifact: anA
 
 { #category : #recording }
 GtRoadmapTrace >> recordVisitOf: aStepId withArtifact: anObject [
-	self recordVisitOf: aStepId.
-	self artifacts at: aStepId put: anObject.
-	^ anObject
+	^ self
+		recordVisitOf: aStepId
+		title: nil
+		note: nil
+		artifact: anObject
+		timestamp: DateAndTime now
 ]
 
 { #category : #recording }
 GtRoadmapTrace >> recordVisitOf: aStepId withNote: aString [
-	self recordVisitOf: aStepId.
-	aString ifNotNil: [ self notes at: aStepId put: aString ].
-	^ aString
+	^ self
+		recordVisitOf: aStepId
+		title: nil
+		note: aString
+		artifact: nil
+		timestamp: DateAndTime now
 ]
 
 { #category : #accessing }
