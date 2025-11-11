@@ -228,7 +228,7 @@ GtRoadmapTrace >> storeOn: aStream [
 GtRoadmapTrace >> timelineItems [
 	"Helper for Spec/GT views"
 
-	^ self events
+	^ (self events ifNil: [ #() ])
 		collectWithIndex: [ :event :index | 
 			Dictionary new
 				at: #order put: index;
