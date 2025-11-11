@@ -1426,6 +1426,117 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Next steps: "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T07:41:17.00936+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T07:41:27.623673+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "E+L6q63/DQCsf8O7DLc9+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "• - src/GtCurriculum/GtRoadmapTrace.class.st:4-188 – Reworked the trace model: added the events inst var plus a structured recording pipeline\n    that keeps every visit (with canonical stepId, optional title/note/artifact, and a timestamp). recordVisitOf: now funnels through\n    recordVisitOf:title:note:artifact:timestamp: so multiple visits no longer clobber each other, and timelineItems emits rich metadata for\n    GT overlays.\n  - src/GtCurriculum/GtRoadmapTrace.class.st:29-102 – Serialization/deserialization is now round‑trip safe. fromDictionary:/parseDateTime:\n    coerce ISO strings or epoch integers back into DateAndTime objects, while asDictionary exports timestamps as ISO strings and includes the\n    full events array so Lepiter/FedWiki JSON can replay faithfully.\n  - src/GtCurriculum/GtRoadmapTrace.class.st:181-220 – Added addEventFromDictionary: to rebuild event logs from persisted data and enhanced\n    timelineItems to provide stepId, display title, note, artifact, order, and timestamp—enough to drive GtRoadmapView overlays without\n    guessing."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T07:43:18.651246+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T07:43:18.651246+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Nfg6s63/DQCsl53TDLc9+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : " - src/GtCurriculum/GtRoadmapTrace.class.st:15-26,83-189,208-219 – Added exampleTimelineItems so GT inspectors can preview the richer\n    timeline output, introduced persistent events, date parsing helpers, event replay, and enhanced serialization/timeline metadata (canonical    stepId, titles, notes, artifacts, timestamps). Recording APIs now capture every visit via recordVisitOf:title:note:artifact:timestamp:, so    GT overlays and debugging tools can compare intended vs. actual paths.\n  - src/GtCurriculum/GtRoadmapTraceTest.class.st:1-52 – New GtRoadmapTraceTest verifies the fixes: testFromDictionaryNormalizesDates checks\n    ISO strings become DateAndTime instances, testRecordVisitPreservesHistory ensures repeated visits accumulate events instead of clobbering\n    earlier notes, and testTimelineItemsExposeStepMetadata confirms the overlay-friendly data shape.\n\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T07:43:05.413464+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T07:43:31.196205+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uv9wsq3/DQCsjlWRDLc9+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "  I couldn’t run the Smalltalk tests from this shell, so please load the package in GT/Pharo and execute {{gtClass:GtRoadmapTraceTest}} to confirm\n  everything passes. Let me know if you’d like automation hooks for running the suite."
 			}
 		]
 	},
