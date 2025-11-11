@@ -22,26 +22,27 @@ GtRoadmapTrace class >> exampleTimelineItems [
 GtRoadmapTrace class >> exampleTrace [
 	<gtExample>
 	| trace |
-	"NB: trace is a string but should be a GtRoadmapTrace instance"
-	trace := GtRoadmapTrace new
-			recordVisitOf: 'Unit 1 – Learn the basics of GT'
-				withNote: 'Watched the Inspector video.';
-			recordVisitOf: 'Unit 2 – Start your own project'
-				withNote: 'Cloned the template repo.'.
-	trace endNow.	"Instance of ByteString did not understand #endNow"
+	trace := self new.
+	trace
+		recordVisitOf: 'Unit 1 – Learn the basics of GT'
+			withNote: 'Watched the Inspector video.';
+		recordVisitOf: 'Unit 2 – Start your own project'
+			withNote: 'Cloned the template repo.'.
+	trace endNow.
 	^ trace
 ]
 
 { #category : #examples }
-GtRoadmapTrace class >> exampleVisitWithMetadata [ 
+GtRoadmapTrace class >> exampleVisitWithMetadata [
 	<gtExample>
 	| trace |
-	trace := self new
+	trace := self new.
+	trace
 		recordVisitOf: 'step-a'
-			title: 'Step A'
-			note: 'Captured data'
-			artifact: 'snippet-1'
-			timestamp: (DateAndTime now).
+		title: 'Step A'
+		note: 'Captured data'
+		artifact: 'snippet-1'
+		timestamp: DateAndTime now.
 	trace endNow.
 	^ trace events last
 ]
@@ -128,6 +129,15 @@ GtRoadmapTrace >> events [
 { #category : #'as yet unclassified' }
 GtRoadmapTrace >> events: aCollection [
 	events := aCollection asOrderedCollection
+]
+
+{ #category : #'as yet unclassified' }
+GtRoadmapTrace >> gtJsonFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'JSON';
+		object: [ self asDictionary asGtJson ];
+		view: #gtJsonObjectFor:context:
 ]
 
 { #category : #initialization }
