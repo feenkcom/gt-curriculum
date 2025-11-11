@@ -1,0 +1,411 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T14:02:58.159111+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T14:02:58.159111+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "86v+ALP/DQCESmyDDd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Recently I've been been interested in learning to use GT for software analysis. I've had to spend some time really thinking hard about what it means to even query software and AST's because the concept is so foreign to me, haha"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T14:03:10.738335+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T14:03:10.738335+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "TZK+AbP/DQCEUWZFDd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "I believe the first suggestion in the GT videos is to come up with a question, so after some thought, I think I want to follow the transformation of an initial set of variables as they get transformed and passed around. Therefore my question is: Can I trace the influence of a variable on other variables upstream of itself and downstream of itself? (Maybe this is a ridiculously large question...)"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T14:01:58.531585+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T14:03:10.746989+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Ztpw/bL/DQCDwHk8Dd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "E.g. I mark variable <A> as a variable of interest. If a statement appears in source code <C> = <A> + <B>, then I then mark <C> as a downstream dependency (And vice versa for upstream dependencies of <A>). Maybe it would be of further interest to search a path between two variables this way.\n\nThe context of my use case is a moderate-sized Kubernetes deployment. The logic and schema behind these variables gets stored in XML, python, java, yaml, and various other languages, and so it can become extremely difficult to the flow of data through a system.\n\nSo far, my thought is to treat each microservice as an independent graph of dependencies of the variables in question (as described in the example above), then write an interface to connect one graph to the next (mark which values in one microservice were transferred to which values in the next microservice).\n\nI'm kind of wondering, by bringing this up here, if I'm trying to solve a well-known problem, and could use some guidance on how to approach it. Funny enough, some of my early google searches brought me to @Oscar Nierstrasz 's university page 🙂  In trying to understand my problem better, I picked up \"Language Implementation Patterns, Parr\" which covers AST's and ANTLR a bit (I noticed the ANTLR converter in GT), and revisiting some graph algorithms. \nAny guidance is appreciated!"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:02:33.739917+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:02:33.739917+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "JAeK/7L/DQCEQD0/Dd/akg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "EngramOpcode — 08.11.25, 14:18 via [discord](https://discord.com/channels/729445214812504107/771616712822751252/1436706400742150206)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:04:24.322899+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:04:24.322899+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "TmshBrP/DQCEYRt6Dd/akg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "stephan — 08.11.25, 14:54\nA more concrete  problem is helpful when starting. What can you solve when you can trace variables?\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:04:26.939456+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:04:26.939456+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "y1VJBrP/DQCEaOICDd/akg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "EngramOpcode — 08.11.25, 15:37\nYou can pinpoint the location of a logic error in a given microservice source code, or find the source of a wrong value due to a microservice that may be down and not transforming a value in the pipeline. Some enterprise systems are a tangle of observers of databases and queues, and they tend to grow very organically without documentation. Being able to determine where a variable's value came from, say, 5 microservices and databases down the line, gives you a clear list of things to check. Otherwise you're left to come up with random shots in the dark. \n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T14:04:29.796246+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-11T14:06:41.432258+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "+fF0BrP/DQCEb0gLDd/akg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Your question reminds me most of the PhD work of Adrian Lienhard on “[[Object Flow Analysis]]”. You can find the thesis and several related papers on the old SCG website: https://scg.unibe.ch/assets/scgbib/?query=Lienhard+object+flow+analysis&filter=Category\nThe implementation was all in Squeak (before Pharo) using a modified VM. https://scg.unibe.ch/research/objectflow"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:06:14.880737+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:06:14.880737+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zGW4DLP/DQCE2Qj4Dd/akg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Oscar Nierstrasz — 08.11.25, 15:57 via [discord](https://discord.com/channels/729445214812504107/771616712822751252/1436731252546732173)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:04:11.513287+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:04:29.803704+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Bf5dBbP/DQCEVoFzDd/akg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "EngramOpcode — 08.11.25, 16:29\nThat compass screenshot looks fantastic!\nOscar Nierstrasz — 08.11.25, 17:16\nFor me it was one of the coolest pieces of software to come out of a PhD thesis in my group. Not sure I can find a video recording ..."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:00:45.977162+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:00:45.977162+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6sId+bL/DQCDvwViDd/akg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-11T14:01:54.75339+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-11T14:01:54.75339+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Example: Software Assessment"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "7fa51df9-b2ff-0d00-83be-aaf20ddfda92"
+	}
+}

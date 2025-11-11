@@ -29,14 +29,159 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-11T13:44:07.565279+01:00"
+						"dateAndTimeString" : "2025-11-11T14:51:28.634438+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "KsMZs7L/DQCBg8KlDd/akg=="
 				},
-				"code" : "(FileLocator home / 'workspace' / 'gt-curriculum' / 'screens') asFileReference"
+				"code" : "screens := (FileLocator home / 'workspace' / 'gt-curriculum' / 'screens') asFileReference"
+			},
+			{
+				"__type" : "pictureSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:18:15.656041+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:56:38.238426+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "lZauN7P/DQCQsWgFDd/akg=="
+				},
+				"url" : "/Users/rgb/workspace/gt-curriculum/screens/image.png",
+				"caption" : "Mondrian treemap for TypeScript specs",
+				"previewHeight" : 300,
+				"reference" : "screens/image.png shows Glamorous Toolkit with a Mondrian visualization workspace: the left pane contains Smalltalk code configuring gMondrianNew/GClusteredRectangularTreeMap, and the right pane renders the resulting treemap of TypeScript files (nodes like view-state.ts, SmellsAndRefactorings.ts, etc.) with blue rectangles sized by lines of code."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:50:35.289118+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:56:15.648166+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SgpLq7P/DQCq6AhtDd/akg=="
+				},
+				"code" : "LePictureSnippet new\r\turlString: '/Users/rgb/workspace/gt-curriculum/screens/image.png';\r\tcaption: 'Mondrian treemap for TypeScript specs';\r\treference: 'screens/image.png shows Glamorous Toolkit with a Mondrian visualization workspace: the left pane contains Smalltalk code configuring gMondrianNew/GClusteredRectangularTreeMap, and the right pane renders the resulting treemap of TypeScript files (nodes like view-state.ts, SmellsAndRefactorings.ts, etc.) with blue rectangles sized by lines of code.';\r\tpreviewHeight: 300"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:38:27.312478+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:48:47.552884+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "v63mf7P/DQCY1Q+zDd/akg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Added a dedicated Lepiter page that records the caption plus a full teaching unit: objectives, prerequisites, and step-by-step activities that reuse the Mondrian treemap screenshot to guide newcomers through hotspot analysis. See [[Mondrian Treemap Teaching Unit]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:38:45.727991+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-11T14:49:12.062445+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "svj/gLP/DQCaO/xaDd/akg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Created the mirrored FedWiki page (~/.wiki/wiki.ralfbarkow.ch/pages/mondrian-treemap-teaching-unit) so the same caption + teaching plan (with actionable activity list) is visible to agents working through the wiki. See [wiki](https://wiki.ralfbarkow.ch/view/mondrian-treemap-teaching-unit)"
 			}
 		]
 	},

@@ -1107,7 +1107,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-11T13:26:55.846839+01:00"
+									"dateAndTimeString" : "2025-11-11T14:16:02.006655+01:00"
 								}
 							},
 							"uid" : {
@@ -1115,9 +1115,9 @@
 								"uidString" : "ctbkfLL/DQC9qO/cDd/akg=="
 							},
 							"url" : "attachments/8ozn61t6e8ffujqe2pt1x10l9/Screenshot_2025-04-06_at_12.34.27.png",
-							"caption" : "",
+							"caption" : "TelemetryLogger",
 							"previewHeight" : 300,
-							"reference" : ""
+							"reference" : "screens/Screenshot_2025-04-06_at_12.47.35.png. It’s a Glamorous Toolkit window showing the TelemetryLogger context: the left pane has the stack (TelemetryLogger>>stop highlighted) and the right pane shows the method source with self announcer announce: TelemetryLoggerStopped new."
 						},
 						{
 							"__type" : "textSnippet",

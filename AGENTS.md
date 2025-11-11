@@ -32,6 +32,7 @@
 2. **Documentation Workflow**
    - Author content in Lepiter when possible, export to DITA using the snippet manifest strategy, then check in both source (Lepiter) and rendered DITA/HTML.
    - For Pure Git-like chapters, maintain both concept and task topics; tasks should include prerequisite/context/steps/step results per DITA spec.
+   - When creating new context pages or teaching units, draft the FedWiki page first (under `~/.wiki/wiki.ralfbarkow.ch/pages`). Treat Lepiter pages as managed by the GT image.
 3. **Cross-repo Coordination**
    - Teaching narratives live here.
    - Core book/tutorial updates happen in `feenkcom/gtoolkit` (cite #4831).
