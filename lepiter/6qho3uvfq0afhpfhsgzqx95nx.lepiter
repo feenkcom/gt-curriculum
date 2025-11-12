@@ -82,7 +82,45 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-10T13:57:32.453603+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T10:33:03.54674+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "EHO9z57/DQC6uYmoCNbGcQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "“Actively exploring topics” means learners *use GT as a laboratory*—they manipulate live examples, trace relationships, and construct understanding through direct interaction with the system."
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -92,7 +130,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T13:57:32.453603+01:00"
+						"dateAndTimeString" : "2025-11-12T10:32:57.892024+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +141,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T13:58:50.704532+01:00"
+						"dateAndTimeString" : "2025-11-12T10:33:06.150627+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "EHO9z57/DQC6uYmoCNbGcQ=="
+					"uidString" : "YTfNL8T/DQCTiWqYBfuCUg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "In short:\n\n> “Actively exploring topics” means learners *use GT as a laboratory*—they manipulate live examples, trace relationships, and construct understanding through direct interaction with the system.\n"
+				"string" : "In short:"
 			}
 		]
 	},

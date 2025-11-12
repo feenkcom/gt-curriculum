@@ -40,6 +40,81 @@
 					"__type" : "textStyle"
 				},
 				"string" : "Draft material for the curriculum will consist of:\n- pages describing the teaching units\n- new pages containing reading material and tutorials for the book (repo [gtoolkit](https://github.com/feenkcom/gtoolkit))\n- source code for demos and exercises to be migrated to repo [gtoolkit-demos](https://github.com/feenkcom/gtoolkit-demos) or other repos"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T10:35:43.973091+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T10:47:19.731115+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "greKN8T/DQCUib3+BfuCUg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Create draft pages describe Topic Maps and Roadmap visualizations.\nStart exapnding the first Learning Unit.\nCreate a *visual learning map* as a generated Scenery (see [[Learning flow and integration]]\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T10:35:02.703903+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T10:35:06.447284+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mrQ9N8T/DQCT83VyBfuCUg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# To do"
 			}
 		]
 	},
@@ -62,12 +137,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-07T09:08:40.078315+01:00"
+			"dateAndTimeString" : "2025-11-12T10:36:58.005588+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Draft material"
+		"title" : "Draft material (and todo list)"
 	},
 	"uid" : {
 		"__type" : "uuid",

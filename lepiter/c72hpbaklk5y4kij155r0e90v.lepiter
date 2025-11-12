@@ -403,7 +403,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-07T09:08:35.875581+01:00"
+						"dateAndTimeString" : "2025-11-12T10:36:58.026379+01:00"
 					}
 				},
 				"uid" : {
@@ -413,7 +413,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Draft material]]"
+				"string" : "[[Draft material (and todo list)]]"
 			},
 			{
 				"__type" : "textSnippet",
