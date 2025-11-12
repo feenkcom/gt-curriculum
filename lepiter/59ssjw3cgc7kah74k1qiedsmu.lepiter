@@ -1,0 +1,411 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T12:59:08.489821+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T12:59:18.474506+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "mvSROsb/DQCmnfWUBdgNWQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "What is meant here by the “accordion metaphor”? Is it just widgets that can be collapsed (like this one)?"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:58:12.969691+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:59:04.481921+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "JclCN8b/DQCmM/MqBdgNWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtPage:A Moldable Development Curriculum|db=c72hpbcsarp76bsez1znvtuex}} / # 1. Learn the basics of Glamorous Toolkit / Specific points to cover in unit 1: "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T12:50:07.818874+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-12T12:50:14.305751+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "rfhXGsb/DQClKLscBdgNWQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "See [[Accordion]]"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:49:27.186992+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:49:47.160397+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kPrrF8b/DQCk0WkRBdgNWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Oscar Nierstrasz — 10:30 via discord DM\nI read your additions to A Moldable Development Curriculum — that's really great! I have some questions about where material belongs best, but as we elaborate the teaching/learning units, I think that issue will solve itself. I pushed a few minor comments.\nDo you know what is meant by the “accordion” metaphor? Is it just widgets that can collapse, or is something else intended. There is a page in the GT Book called Accordion. Not sure if it's the same thing."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:49:32.74213+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:51:30.128684+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Ub5AGMb/DQCk0ubsBdgNWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "In GT, the **“accordion” metaphor** usually refers to **progressively expandable views** rather than just a UI widget.\n\nSpecifically, the *Accordion* page in the GT Book illustrates a **moldable presentation pattern** where information is layered so that:\n\n* the **first layer** gives a compact overview (the folded state),\n* and subsequent layers **expand interactively** (the unfolded state) as the user explores.\n\nSo, while it looks like a collapsible widget, the intent is conceptual:\n\n> A view should *open up like an accordion* — revealing more detail only when needed — to guide exploration without overwhelming the reader.\n\nIn our *Curriculum* context, the “accordion” idea aligns well with how learners might open and close *units*, *examples*, or *side notes* in Lepiter:\n\n* keep a minimal “story spine” visible;\n* let exercises, explanations, and sideroads expand interactively.\n\nIt’s less about the UI component and more about **layered exposition** — how moldable documentation can reveal itself in depth, interactively, much like GT’s inspectors and examples do.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:52:53.163457+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:52:58.003338+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Pu4yJMb/DQCli/jGBdgNWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Prompt: Want relate this to the Miller Columns and how to find the shortest path to self with their help."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:54:40.457479+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:54:40.457479+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "JBKYKsb/DQCl3dYrBdgNWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### 1. Accordion and Miller Columns — Two Complementary Layout Metaphors\n\n* **Accordion**: vertical, *layered in depth*.\n  Each expansion reveals a deeper level of detail *within the same conceptual space*.\n  → metaphor of *zooming in* or *unfolding context*.\n\n* **Miller Columns**: horizontal, *layered in breadth*.\n  Each column represents a level in a *hierarchical path* (e.g., Finder’s column view).\n  → metaphor of *navigation along relations* or *moving sideways* through structure.\n\nIn **moldable exploration**, you often combine both:\n\n* the *accordion* lets you **unfold detail inside** the current node (intension, explanation, inner logic);\n* the *Miller Columns* let you **move across connected nodes** (extension, context, outer relations).\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:54:57.549398+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:54:57.549398+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zuKcK8b/DQCl7gXzBdgNWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### 2. Shortest Path to Self — Navigational Semantics\n\nIn a topic-oriented environment (like GT + DMX + FedWiki), every concept or topic is a node in a semantic graph.\nFinding the *shortest path to self* means discovering how a given topic connects back to *your own current point of view* — your “self node” or *observer position*.\n\nMiller Columns help here because they:\n\n* expose **ancestral and sibling relations** visually (so you see where you are in the hierarchy),\n* and, when extended with associative links (not just parent/child), allow you to **trace minimal paths** in the conceptual graph.\n\nImagine each column as:\n\n```\n[Context] → [Concept] → [Example] → [Application] → [Self]\n```\n\nYou can read the *shortest path to self* as the sequence of selections that closes the loop between what you’re viewing and what you already *know* or *care about*.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:55:07.454512+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T13:05:19.335812+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "N/8zLMb/DQCl/95LBdgNWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### 3. Accordion + Miller Columns = Two Axes of Sensemaking\n\n| Axis       | Layout         | Function                        | Cognitive Gesture           |\n| ---------- | -------------- | ------------------------------- | --------------------------- |\n| Vertical   | Accordion      | Reveal depth within a topic     | Unfold meaning              |\n| Horizontal | Miller Columns | Navigate relations among topics | Reconnect to self / context |\n\nUsed together:\n\n* The **accordion** lets you see *why* something matters.\n* The **Miller Columns** show *where* it fits and how to get *back to you* (and the snippet you are currently working on.\n\nThe process of folding this journey like an accordion involves expanding the context until the place (self) that provides the answer is found. This process is then reversed when closing the 'accordion', so to speak. It's like playing the accordion.\n\nSo, the shortest path to self is found by:\n\n1. Expanding (accordion) until the content resonates.\n2. Sliding (columns) until the path reconnects to your known interests or goals.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:55:53.514748+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-12T12:55:53.514748+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0djyLsb/DQCmEVEZBdgNWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### 4. In the Curriculum Context\n\nFor *A Moldable Development Curriculum*, this pairing becomes pedagogical:\n\n* Each learning unit is an *accordion topic* — depth unfolds through examples, exercises, and sideroads.\n* The overall curriculum can be browsed as *Miller Columns* — letting the learner trace conceptual dependencies and return to their personal starting point (“What does this mean for my project?”).\n\nThe “shortest path to self” then is:\n\n> The minimal sequence of conceptual expansions and navigations that connects new knowledge to one’s own practice.\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-12T12:55:52.239049+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-12T12:55:52.239049+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Accordion and Miller Columns"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "3608ea17-c6ff-0d00-a4d0-c6bc05d80d59"
+	}
+}
