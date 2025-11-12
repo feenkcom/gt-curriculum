@@ -151,7 +151,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T09:54:24.254559+01:00"
+												"dateAndTimeString" : "2025-11-12T10:17:42.719922+01:00"
 											}
 										},
 										"uid" : {
@@ -161,7 +161,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "- What is GT?\n- Using a simple case study, how can GT be used to create an explainable system?\n- What is *moldable development*, and how does it support the creation of explainable system?\n- How to use Lepiter notebooks to create *live documentation* for your exploration?"
+										"string" : "- What is GT\n- Using a simple case study, how can GT be used to create an explainable system\n- What is *moldable development*, and how does it support the creation of explainable system\n- How to use Lepiter notebooks to create *live documentation* for your exploration"
 									}
 								]
 							},
@@ -226,7 +226,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T09:54:54.447565+01:00"
+												"dateAndTimeString" : "2025-11-12T10:17:47.631558+01:00"
 											}
 										},
 										"uid" : {
@@ -236,7 +236,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "- How to navigate the GT book?\n- How to engage with the GT community?\n- How to work with Smalltalk?"
+										"string" : "- How to navigate the GT book\n- How to engage with the GT community\n- How to work with Smalltalk"
 									}
 								]
 							},
@@ -277,6 +277,41 @@
 								"__type" : "snippets",
 								"items" : [
 									{
+										"__type" : "commentSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-12T10:18:14.807305+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-12T10:20:23.832096+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "WXMq+8P/DQCV1bBjCjwr6Q=="
+										},
+										"string" : "Perhaps some of these may be too advanced for the “basic” unit and should move to later units ...",
+										"isHidden" : false
+									},
+									{
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
@@ -301,7 +336,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T09:55:13.472529+01:00"
+												"dateAndTimeString" : "2025-11-12T10:23:45.776656+01:00"
 											}
 										},
 										"uid" : {
@@ -311,7 +346,42 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "- understanding snippets and the inspector\n- reading the interface from top to bottom\n- reading a view\n- learning a script from a view (for example, how to get the url from a string)\n- understanding Meta\n- expanding a contextual snippet based on what we see on the right\n- extracting from snippet to method\n- creating a class from snippet\n- creating a view\n- the accordion metaphor (in particular, why it is important to collapse)¸¸¸¸"
+										"string" : "- Understanding snippets and the inspector\n- Reading the interface from top to bottom\n- Reading a view\n- Learning a script from a view (for example, how to get the url from a string)\n- Understanding Meta\n- Expanding a contextual snippet based on what we see on the right\n- Extracting from snippet to method\n- Creating a class from snippet\n- Creating a view\n- The accordion metaphor (in particular, why it is important to collapse)"
+									},
+									{
+										"__type" : "commentSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-12T10:23:53.539693+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-12T10:24:23.883189+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "EKYtD8T/DQCZ7Vu0Cjwr6Q=="
+										},
+										"string" : "What is meant here by the “accordion metaphor”? Is it just widgets that can be collapsed (like this one)?",
+										"isHidden" : false
 									}
 								]
 							},
@@ -564,7 +634,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T09:56:44.413033+01:00"
+												"dateAndTimeString" : "2025-11-12T10:19:50.094503+01:00"
 											}
 										},
 										"uid" : {
@@ -574,7 +644,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "- selecting a meaningful case (something you already know or care about)\n- sketching initial questions: “What do I want to understand or explain?”\n- inspecting data and code structures with the GT Inspector\n- using visualizations (lists, trees, charts) to reveal patterns\n- writing snippets that extract or transform information\n- building a small custom view to summarize findings\n- linking insights and artifacts in a Lepiter page (forming a narrative)\n- practicing the loop: observe → question → explore → model → document"
+										"string" : "- Selecting a meaningful case (something you already know or care about)\n- Sketching initial questions: “What do I want to understand or explain?”\n- Inspecting data and code structures with the GT Inspector\n- Using visualizations (lists, trees, charts) to reveal patterns\n- Writing snippets that extract or transform information\n- Building a small custom view to summarize findings\n- Linking insights and artifacts in a Lepiter page (forming a narrative)\n- Practicing the loop: observe → question → explore → model → document"
 									}
 								]
 							},
@@ -827,7 +897,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T09:57:43.780783+01:00"
+												"dateAndTimeString" : "2025-11-12T10:21:10.789886+01:00"
 											}
 										},
 										"uid" : {
@@ -837,7 +907,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "- initializing a GT project (workspace, package, or domain model)\n- defining domain objects and relationships\n- adding methods that produce meaningful inspections and descriptions\n- creating and customizing GT views for your domain entities\n- writing Lepiter notebooks that integrate code, data, and visualizations\n- iterating on the model through live experimentation\n- capturing and communicating insights with interactive documentation\n- reflecting on *how the tools changed your thinking* about the domain"
+										"string" : "- Initializing a GT project (workspace, package, or domain model)\n- Defining domain objects and relationships\n- Adding methods that produce meaningful inspections and descriptions\n- Creating and customizing GT views for your domain entities\n- Writing Lepiter notebooks that integrate code, data, and visualizations\n- Iterating on the model through live experimentation\n- Capturing and communicating insights with interactive documentation\n- Reflecting on *how the tools changed your thinking* about the domain"
 									}
 								]
 							},
@@ -897,7 +967,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-10T14:10:01.007961+01:00"
+									"dateAndTimeString" : "2025-11-12T10:21:23.650072+01:00"
 								}
 							},
 							"uid" : {
@@ -907,7 +977,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "NB: Would we like a closing **#5 “Reflect and Share”** unit to complete the introductory cycle (basics → case study → own project → reflection)?\n"
+							"string" : "*NB:* Would we like a closing **#5 “Reflect and Share”** unit to complete the introductory cycle (basics → case study → own project → reflection)?"
 						}
 					]
 				},
@@ -1103,6 +1173,41 @@
 								"__type" : "snippets",
 								"items" : [
 									{
+										"__type" : "commentSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-12T10:24:41.08529+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-12T10:26:40.001576+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "ppUwEsT/DQCcMl7ECjwr6Q=="
+										},
+										"string" : "We had the “accordion metaphor” also in unit 1. Probably it belongs here instead.\nPerhaps we need to add UI drilling here too.",
+										"isHidden" : false
+									},
+									{
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
@@ -1127,7 +1232,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T09:58:46.440791+01:00"
+												"dateAndTimeString" : "2025-11-12T10:25:20.658899+01:00"
 											}
 										},
 										"uid" : {
@@ -1137,7 +1242,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "- understanding the anatomy of a view: models, presentations, and interactions\n- designing for exploration (progressive disclosure, contextual details, summaries)\n- applying the *accordion metaphor* to manage complexity\n- composing views from smaller building blocks (lists, visualizations, editors)\n- linking related inspectors and snippets to create a navigable experience\n- using *meta-inspection* — inspecting the tools themselves to understand how they work\n- balancing automation and manual modeling: when to generalize, when to specialize\n- creating a personal *pattern catalog* in Lepiter, recording insights and techniques"
+										"string" : "- Understanding the anatomy of a view: models, presentations, and interactions\n- Designing for exploration (progressive disclosure, contextual details, summaries)\n- Applying the *accordion metaphor* to manage complexity\n- Composing views from smaller building blocks (lists, visualizations, editors)\n- Linking related inspectors and snippets to create a navigable experience\n- Using *meta-inspection* — inspecting the tools themselves to understand how they work\n- Balancing automation and manual modeling: when to generalize, when to specialize\n- Creating a personal *pattern catalog* in Lepiter, recording insights and techniques"
 									}
 								]
 							},
@@ -1366,6 +1471,41 @@
 								"__type" : "snippets",
 								"items" : [
 									{
+										"__type" : "commentSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-12T10:27:21.173623+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-12T10:27:36.14205+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "vVa7G8T/DQCfKfvJCjwr6Q=="
+										},
+										"string" : "Preparing live demos as slideshows?",
+										"isHidden" : false
+									},
+									{
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
@@ -1390,7 +1530,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T09:59:34.143923+01:00"
+												"dateAndTimeString" : "2025-11-12T10:27:11.553785+01:00"
 											}
 										},
 										"uid" : {
@@ -1400,7 +1540,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "- reviewing your Lepiter notebooks as a learning artifact\n- distilling key takeaways from your exploration (what surprised you, what patterns emerged)\n- identifying areas for deeper inquiry or further tooling\n- preparing a short demo or write-up showing your explainable system in action\n- connecting your reflections to the principles of moldable development\n- sharing your work in community channels or repositories\n- using reflection as a *bridge to the next cycle* of modeling and exploration"
+										"string" : "- Reviewing your Lepiter notebooks as a learning artifact\n- Distilling key takeaways from your exploration (what surprised you, what patterns emerged)\n- Identifying areas for deeper inquiry or further tooling\n- Preparing a short demo or write-up showing your explainable system in action\n- Connecting your reflections to the principles of moldable development\n- Sharing your work in community channels or repositories\n- Using reflection as a *bridge to the next cycle* of modeling and exploration"
 									}
 								]
 							},
