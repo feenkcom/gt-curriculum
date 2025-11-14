@@ -84,6 +84,40 @@
 											"uidString" : "XkZ4x/L/DQC0zLmNAuFuNA=="
 										},
 										"code" : "(TopicMap default kindNodeNamed: 'Tutorial') pageGroup pages"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-14T18:10:24.698873+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-14T18:12:05.445368+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "hAhxz/L/DQC1b2hcAuFuNA=="
+										},
+										"code" : "(TopicMap default pageGroup select: [ :n | n kind = 'Tutorial' ]) collect: #page"
 									}
 								]
 							},
@@ -106,14 +140,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-14T18:08:08.267778+01:00"
+									"dateAndTimeString" : "2025-11-14T18:12:55.411731+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "vmoMxfL/DQCyoAeGAuFuNA=="
 							},
-							"string" : "ON: I think you are  looking for {{gtClass:name=TMPageGroup}}.\nYou can retrieve all the tutorialpages like this:",
+							"string" : "ON: I think you are  looking for {{gtClass:name=TMPageGroup}}.\nYou can retrieve all the tutorial pages like this (at least two ways):",
 							"isHidden" : false
 						},
 						{
