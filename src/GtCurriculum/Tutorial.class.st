@@ -14,9 +14,43 @@ Class {
 	#category : #GtCurriculum
 }
 
+{ #category : #'as yet unclassified' }
+Tutorial class >> exampleAllKinds [
+	<gtExample>
+	^ (self topicMap pageNodes flatCollect: [ :node | node kinds ]) asSet
+		asOrderedCollection
+]
+
+{ #category : #'as yet unclassified' }
+Tutorial class >> exampleTutorialPages [
+	<gtExample>
+	^ self tutorialNamedPages
+]
+
+{ #category : #'as yet unclassified' }
+Tutorial class >> lessonPageNamed: aString [
+	"Return the LePage with the given title from the tutorial pages."
+
+	^ self tutorialPages detect: [ :page | page title = aString ]
+]
+
+{ #category : #'as yet unclassified' }
+Tutorial class >> pagesForFieldNamed: fieldName [
+	| topicMap fieldNode |
+	topicMap := self topicMap.	"TMGtBookRoadmapExamples shows how to get the database node."
+	fieldNode := TMGtBookRoadmapExamples new gtBasicsFieldNode.	"Or search the field nodes for the name you want."
+
+	^ fieldNode pages
+]
+
+{ #category : #'as yet unclassified' }
+Tutorial class >> pagesForTopicNamed: aTopic [
+	^ self topicMap pages4Topic: aTopic
+]
+
 { #category : #'class accessing' }
 Tutorial class >> topicMap [
-	^ TopicMapExamplesCurriculum new topicMap
+	^ TopicMap default
 ]
 
 { #category : #'class accessing' }
@@ -29,9 +63,7 @@ Tutorial class >> tutorialPageNodes [
 	| nodes |
 	nodes := self topicMap pageNodes.
 	^ (nodes
-		select: [ :node | 
-			node kinds
-				anySatisfy: [ :kind | (kind respondsTo: #title) and: [ kind title = 'Tutorial' ] ] ])
+		select: [ :node | node kinds anySatisfy: [ :kind | kind = 'Tutorial' ] ])
 		asOrderedCollection
 ]
 
@@ -53,8 +85,18 @@ Tutorial >> exampleTutorial [
 ]
 
 { #category : #'as yet unclassified' }
+Tutorial >> lessonIntro [
+	| page |
+	page := self class lessonPageNamed: 'A Moldable Development Curriculum'.
+	^ Lesson new
+		title: page title;
+		content: page;
+		yourself	"or use whatever API Lesson expects"
+]
+
+{ #category : #'as yet unclassified' }
 Tutorial >> tutorial [
-	"Should return a collection of selectors that when executed create related lessons."
+	"Return a collection of selectors that create Lesson instances."
 
 	^ self shouldBeImplemented
 ]

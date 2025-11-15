@@ -1,0 +1,446 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:44:04.256828+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:44:15.431955+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5XgX+dr/DQCjtxweD4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:Tutorial}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:28:14.053764+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:28:14.053764+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "q3F0wNr/DQCiQpptD4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We can think of **gtoolkit-roadmaps** as “the index and map” of the GT Book, and **gt-curriculum/Tutorial** as “a scripted tour” that should *consume* that map."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:28:04.476319+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:28:17.977056+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "bEXiv9r/DQCiLKd9D4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 1. What gtoolkit-roadmaps gives you\n\nFrom the repomix dump, the roadmaps repo provides:\n\n* A **topic map model over the GT Book** (`TopicMap` + TM* node classes)\n\n  * `TopicMap` maps GT Book pages to:\n\n    * *fields* (e.g., “Glamorous Toolkit Basics”, “Core infrastructure and skills”)\n    * *topics* (e.g., “Getting Started with GT”, “Moldable Development Practices”)\n    * *kinds* (e.g., “Introduction”, “Tutorial”, “FAQ”).\n  * It exposes queries like:\n\n    * `pages`, `topics`, `topics4Page:`, `pages4Topic:`, `pages4Kind:` etc.\n\n* A **concrete default topic map for the GT Book**\n\n  * `TMGtBookRoadmapExamples>>gtBookTopicMap` shows the canonical way to obtain it:\n\n    ```smalltalk\n    gtBookTopicMap\n        | topicMap |\n        topicMap := TopicMap default.\n        self assert: topicMap database databaseName equals: 'Glamorous Toolkit Book'.\n        ^ topicMap\n    ```\n\n* **Node types for navigation / visualization**\n\n  * `TMDatabaseNode`, `TMFieldNode`, `TMTopicNode`, `TMPageNode`, `TMNodeGroup`, all subclassing `TMAbstractTreeNode` / `TMAbstractEntity`. They provide:\n\n    * `fields`, `topics`, `kinds`, `pages`\n    * `roadmap`, `roadmapNodes`, `roadmapNodesWithContext`\n    * UI views (`gtMondrianTreeFor:`, `gtRoadmap:` etc.)\n\n* **JSON-based classification & clustering**\n\n  * Files like `topicClusters-v5-reduced.json` and `top*Classifier*.json` contain the LLM-generated topic assignments.\n  * Example: the page *“A Moldable Development Curriculum”* is labeled:\n\n    * `kind: 'Introduction'`\n    * `topics: #('Getting Started with GT' 'Moldable Development Practices')`\n\nSo: **roadmaps = GT Book pages + (field, topic, kind) + navigation model + examples + help Lepiter.**\n\nYour **Tutorial** should sit *on top of* this and pick appropriate pages & structures to turn into `Lesson`s.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:29:19.862688+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:29:19.862688+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CaJgxNr/DQCiX0V1D4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 2. Hooking your Tutorial into the TopicMap\n\nRight now you have:\n\n```smalltalk\n{ #category : #'class accessing' }\nTutorial class >> topicMap [\n\t^ TopicMapExamplesCurriculum new topicMap\n]\n```\n\nTo interact directly with the gtoolkit-roadmaps model, you can start with the *live* GT Book topic map:\n\n```smalltalk\n{ #category : #'class accessing' }\nTutorial class >> topicMap [\n\t^ TopicMap default\n]\n```\n\nor, if you prefer to follow the example helper:\n\n```smalltalk\n{ #category : #'class accessing' }\nTutorial class >> topicMap [\n\t^ TMGtBookRoadmapExamples new gtBookTopicMap\n]\n```\n\n(The second form keeps your Tutorial coupled to the documented example patterns in `gtoolkit-roadmaps`.)\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:29:46.380587+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:29:46.380587+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8kv1xdr/DQCicfjgD4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 3. Using kinds & topics to select *tutorial* pages\n\nYou already started to filter *page nodes* by kind `'Tutorial'`:\n\n```smalltalk\nTutorial class >> tutorialPageNodes [\n\t| nodes |\n\tnodes := self topicMap pageNodes.\n\t^ (nodes\n\t\tselect: [ :node | \n\t\t\tnode kinds\n\t\t\t\tanySatisfy: [ :kind | (kind respondsTo: #title) and: [ kind title = 'Tutorial' ] ] ])\n\t\tasOrderedCollection\n]\n```\n\nThis is exactly how you hook into the **kind** notion from roadmaps:\n\n* `self topicMap pageNodes` → a `TMPageGroup` for all pages.\n* `node kinds` → the *kind nodes* for that page, e.g. “Introduction”, “Tutorial”, “FAQ”.\n* `kind title` → the string `\"Tutorial\"` from the kind node (see the “Topic Kind” help pages).\n\nYour `tutorialPages` then gives you the actual `LePage` instances:\n\n```smalltalk\n{ #category : #'class accessing' }\nTutorial class >> tutorialPages [\n\t| pages |\n\tpages := OrderedCollection new.\n\tself tutorialPageNodes\n\t\tdo: [ :node | node pages ifNotEmpty: [ pages addAll: node pages ] ].\n\t^ pages\n]\n```\n\nThat’s already a nice integration:\n\n* **roadmaps** tells you *which* pages are tutorials.\n* **gt-curriculum** can wrap each `LePage` in a `Lesson`.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:37:48.753539+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:37:48.753539+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pq+14tr/DQCjg05BD4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 4. From tutorialPages to Lesson instances\n\nAbstractTutorial is expecting you to implement selectors that return `Lesson` instances and a `tutorial` method returning the list of selectors.\n\nConceptually:\n\n```smalltalk\nTutorial >> tutorial [\n\t\"Return a collection of selectors that create Lesson instances.\"\n\t^ #(lessonIntro lessonFirstSteps lessonDebugger ...)\n]\n```\n\nYou can now **derive those lessons from the topic map**:\n\n### Example: helper on the class side\n\n```smalltalk\n{ #category : #'class accessing' }\nTutorial class >> lessonPageNamed: aString [\n\t\"Return the LePage with the given title from the tutorial pages.\"\n\t^ self tutorialPages\n\t\tdetect: [ :page | page title = aString ]\n]\n```\n\nThen in the instance side you can build the Lessons:\n\n```smalltalk\nTutorial >> lessonIntro [\n\t| page |\n\tpage := self class lessonPageNamed: 'A Moldable Development Curriculum'.\n\t^ Lesson new\n\t\ttitle: page title;\n\t\tcontent: page; \"or use whatever API Lesson expects\"\n\t\tyourself\n]\n```\n\nBecause roadmaps has classified *“A Moldable Development Curriculum”* as `kind: Introduction` and topics `#('Getting Started with GT' 'Moldable Development Practices')`, you can later refine your curriculum units by topic and field (see next section).\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:39:36.424733+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:39:36.424733+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aKEg6dr/DQCjjgEoD4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 5. Using fields & topics for curriculum structure\n\nThe JSON topic map includes *fields* like “Glamorous Toolkit Basics” and “Core infrastructure and skills”, each with their list of topics.\nThe *runtime* `TopicMap` exposes this via:\n\n* `fields`\n* `topic2Field`\n* `topic4Field:`\n* `pages4Topic:` etc.\n\nYou can mirror your curriculum units to those fields:\n\n```smalltalk\n{ #category : #'class accessing' }\nTutorial class >> pagesForFieldNamed: fieldName [\n\t| topicMap fieldNode |\n\ttopicMap := self topicMap.\n\t\"TMGtBookRoadmapExamples shows how to get the database node.\"\n\tfieldNode := TMGtBookRoadmapExamples new gtBasicsFieldNode.\n\t\"Or search the field nodes for the name you want.\"\n\n\t^ fieldNode pages\n]\n```\n\nOr use topics directly:\n\n```smalltalk\n{ #category : #'class accessing' }\nTutorial class >> pagesForTopicNamed: aTopic [\n\t^ self topicMap pages4Topic: aTopic\n]\n```\n\nNow you can define different Tutorials (or different *paths* inside one Tutorial) that correspond to:\n\n* “Getting Started with GT”\n* “Programming Smalltalk”\n* “Moldable Development Practices”\n* etc.\n\nAll using the *same* underlying roadmaps data.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:39:52.067761+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:39:52.067761+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "BUAP6tr/DQCjoOTND4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 6. Nice extras you can exploit from roadmaps\n\nOnce your Curriculum Tutorial uses the roadmaps model, you get a few goodies for free:\n\n1. **Quick queries to find candidate pages**\n\n   * `TopicMap>>titleIncludes:` returns a `TMNodeGroup` matching a substring in page titles.\n   * Handy to discover pages for a new lesson:\n\n     ```smalltalk\n     (TopicMap default titleIncludes: 'collections') summary\n     ```\n\n2. **Summary overviews for curation**\n\n   * `TopicMap>>summary` (inherited from `TMAbstractEntity`) gives counts and groups for:\n\n     * fields, topics, kinds, pages, plus unmapped pages.\n\n3. **Interactive roadmap visualizations**\n\n   * `TMAbstractTreeNode>>roadmap`, `roadmapNodesWithContext`, `roadmapNodeElement` etc., let you open Mondrian/roadmap views from your tutorial or examples if you want to show “where we are” in the book.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:29:55.634334+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:39:54.399103+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Fn+Cxtr/DQCieMDKD4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 7. Minimal concrete change you can make *now*\n\nIf you just want a first small but real interaction with gtoolkit-roadmaps from `Tutorial`:\n\n1. **Point your Tutorial at the live GT Book topic map:**\n\n   ```smalltalk\n   Tutorial class >> topicMap [\n   \t^ TopicMap default\n   ]\n   ```\n\n2. **Keep your `tutorialPageNodes` / `tutorialPages` as written**\n   They already talk to the roadmaps model via `kinds` and `'Tutorial'`.\n\n3. **Add a quick gtExample to inspect those pages:**\n\n   ```smalltalk\n   { #category : #examples }\n   Tutorial class >> exampleTutorialPages [\n   \t<gtExample>\n   \t^ self tutorialPages collect: #title\n   ]\n   ```\n\nInspecting that example will show the titles of all GT Book pages that the roadmaps JSON/TopicMap currently label as “Tutorial”. From there, you can start binding specific pages to `Lesson` selectors.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:41:31.082923+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:41:31.082923+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ojP279r/DQCjsq2uD4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "---\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:27:03.308941+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-13T13:41:31.138028+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "NQs9vNr/DQCiJFG/D4zoPw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "If you’d like, next step I can help you:\n\n* sketch a `Lesson` API that plays nicely with `LePage` and topic information, and/or\n* design a specific curriculum path (e.g. “Getting Started with GT”) directly based on the topic map fields & topics.\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-13T13:27:25.492961+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-13T13:27:25.492961+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "What gtoolkit-roadmaps gives you"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "cced3cbc-daff-0d00-a223-8da80f8ce83f"
+	}
+}
