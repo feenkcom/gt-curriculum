@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-07T08:56:57.262948+01:00"
+						"dateAndTimeString" : "2025-11-18T10:06:07.29138+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[This repository](https://github.com/feenkcom/gt-curriculum) is a holding place for developing a Moldable Development Curriculum of teaching material for newcomers to learn about Glamorous Toolkit and Moldable Development practices. "
+				"string" : "[This repository](https://github.com/feenkcom/gt-curriculum) is a holding place for developing a Moldable Development Curriculum of learning material for newcomers to learn about Glamorous Toolkit and Moldable Development practices. "
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-11T11:32:37.245866+01:00"
+						"dateAndTimeString" : "2025-11-18T09:52:30.344763+01:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "In a first step we will simply [[Outline several teaching units]] that target newcomers with specific problems or projects in mind."
+				"string" : "In a first step we will simply [[Outline several learning modules]] that target newcomers with specific problems or projects in mind."
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-10T16:19:36.577418+01:00"
+						"dateAndTimeString" : "2025-11-18T10:06:12.047549+01:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : " Then we will flesh out these teaching units with existing material in the Glamorous Toolkit Book, and with new or revised tutorials to get newcomers to [[Actively explore topics]]."
+				"string" : " Then we will flesh out these learning modules with existing material in the Glamorous Toolkit Book, and with new or revised tutorials to get newcomers to [[Actively explore topics]]."
 			},
 			{
 				"__type" : "textSnippet",

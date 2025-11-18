@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-12T10:38:22.786444+01:00"
+						"dateAndTimeString" : "2025-11-18T10:08:00.644982+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "### Phase 1 — Orientation and Foundations\n\n**Unit 1 – Learn the basics of Glamorous Toolkit**\n→ Focus: Getting comfortable with the environment.\nLearners start by exploring snippets, inspectors, and the accordion metaphor. They use existing tutorials and the early chapters of the GT Book to understand *what GT is* and *how to think interactively.*\n**Outcome:** Learners can navigate GT, run and edit snippets, and read a view."
+				"string" : "### Phase 1 — Orientation and Foundations\n\n**Learning module 1 – Learn the basics of Glamorous Toolkit**\n→ Focus: Getting comfortable with the environment.\nLearners start by exploring snippets, inspectors, and the accordion metaphor. They use existing tutorials and the early chapters of the GT Book to understand *what GT is* and *how to think interactively.*\n**Outcome:** Learners can navigate GT, run and edit snippets, and read a view."
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-12T10:38:36.178102+01:00"
+						"dateAndTimeString" : "2025-11-18T10:08:05.767198+01:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "### Phase 2 — Guided Inquiry\n\n**Unit 2 – Select and explore a case study in depth**\n→ Focus: Applying the basics to a concrete problem.\nLearners choose a case study (from the GT Book or their own context), explore data or code, and document their findings in Lepiter.\n**Outcome:** Learners can frame questions, explore data with inspectors, and narrate their understanding through notebooks."
+				"string" : "### Phase 2 — Guided Inquiry\n\n**Learning module 2 – Select and explore a case study in depth**\n→ Focus: Applying the basics to a concrete problem.\nLearners choose a case study (from the GT Book or their own context), explore data or code, and document their findings in Lepiter.\n**Outcome:** Learners can frame questions, explore data with inspectors, and narrate their understanding through notebooks."
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-12T10:38:40.755923+01:00"
+						"dateAndTimeString" : "2025-11-18T10:08:08.008864+01:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "### Phase 3 — Project Initiation\n\n**Unit 3 – Start your own Moldable Development Project**\n→ Focus: Building a first personal project.\nHere, learners move from guided examples to self-defined modeling. They design domain objects, write methods, and create custom views.\n**Integration:** Leverage *GT Book* chapters on creating inspectors, presentations, and visualizations.\n**Outcome:** Learners establish a project that integrates data, code, and documentation into a living system."
+				"string" : "### Phase 3 — Project Initiation\n\n**Learning module 3 – Start your own Moldable Development Project**\n→ Focus: Building a first personal project.\nHere, learners move from guided examples to self-defined modeling. They design domain objects, write methods, and create custom views.\n**Integration:** Leverage *GT Book* chapters on creating inspectors, presentations, and visualizations.\n**Outcome:** Learners establish a project that integrates data, code, and documentation into a living system."
 			},
 			{
 				"__type" : "textSnippet",
@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-12T10:38:46.052306+01:00"
+						"dateAndTimeString" : "2025-11-18T10:08:11.083565+01:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "### Phase 4 — Practice and Patterns\n\n**Unit 4 – Learn basic and advanced Moldable Development practice and patterns**\n→ Focus: Deepening technique and pattern recognition.\nLearners study reusable patterns and reflect on their own workflows. They compare their solutions to GT examples (e.g., `gtInspector`, `gtView`, `gtLiveExamples`) and learn how to generalize or reuse patterns.\n**Outcome:** Learners gain fluency and begin to identify recurring moldable development structures in their own and others’ projects."
+				"string" : "### Phase 4 — Practice and Patterns\n\n**Learning module 4 – Learn basic and advanced Moldable Development practice and patterns**\n→ Focus: Deepening technique and pattern recognition.\nLearners study reusable patterns and reflect on their own workflows. They compare their solutions to GT examples (e.g., `gtInspector`, `gtView`, `gtLiveExamples`) and learn how to generalize or reuse patterns.\n**Outcome:** Learners gain fluency and begin to identify recurring moldable development structures in their own and others’ projects."
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-12T10:38:48.584317+01:00"
+						"dateAndTimeString" : "2025-11-18T10:08:13.872366+01:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "### Phase 5 — Reflection and Communication\n\n**Unit 5 – Reflect and Share**\n→ Focus: Turning practice into communication.\nLearners document insights, share interactive artifacts, and reflect on their learning process.\n**Integration:** Align with *GT Book* sections on live documentation, communication, and community contribution.\n**Outcome:** Learners produce an explainable artifact (a demo, Lepiter notebook, or published example) and close the first learning cycle."
+				"string" : "### Phase 5 — Reflection and Communication\n\n**Learning module 5 – Reflect and Share**\n→ Focus: Turning practice into communication.\nLearners document insights, share interactive artifacts, and reflect on their learning process.\n**Integration:** Align with *GT Book* sections on live documentation, communication, and community contribution.\n**Outcome:** Learners produce an explainable artifact (a demo, Lepiter notebook, or published example) and close the first learning cycle."
 			},
 			{
 				"__type" : "textSnippet",
@@ -214,7 +214,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-12T10:39:07.089538+01:00"
+						"dateAndTimeString" : "2025-11-18T10:08:27.411314+01:00"
 					}
 				},
 				"uid" : {
@@ -224,7 +224,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "### Cross-Unit Integration Notes\n\n* **Each unit can be linked to specific GT Book chapters and live examples**, forming a *guided navigation map* through the Book.\n* The **Lepiter notebooks** created along the way serve both as reflection tools and as the learner’s personal knowledge base.\n* **Feedback loops** between units are essential: reflection from Unit 5 can inform new projects in Unit 3.\n* The overall design mirrors *moldable development itself*: learn → model → explain → reflect → iterate."
+				"string" : "### Cross-Module Integration Notes\n\n* **Each learning module can be linked to specific GT Book chapters and live examples**, forming a *guided navigation map* through the Book.\n* The **Lepiter notebooks** created along the way serve both as reflection tools and as the learner’s personal knowledge base.\n* **Feedback loops** between units are essential: reflection from Unit 5 can inform new projects in Unit 3.\n* The overall design mirrors *moldable development itself*: learn → model → explain → reflect → iterate."
 			},
 			{
 				"__type" : "textSnippet",

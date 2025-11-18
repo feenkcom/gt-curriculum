@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-11T11:32:39.770609+01:00"
+						"dateAndTimeString" : "2025-11-18T10:03:34.008947+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T09:55:52.358671+01:00"
+						"dateAndTimeString" : "2025-11-18T10:03:34.008947+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "JAJ157D/DQCljVmRDd/akg=="
+					"uidString" : "fMS2eTwADgCyfPkwC9Sqgw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "In a first step we will simply outline several learning modules that target newcomers with specific problems or projects in mind."
+				"string" : "A “Learning Module” is a cohesive unit of learning material consisting of\n- reading material (case studies, documentation, patterns)\n- tutorials, and\n- exercises.\nA learning module should have well-defined *learning goals*."
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-11T11:33:34.373744+01:00"
+						"dateAndTimeString" : "2025-11-18T10:01:29.227109+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T09:55:57.816636+01:00"
+						"dateAndTimeString" : "2025-11-18T10:03:34.011195+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "qC+26rD/DQCltEcNDd/akg=="
+					"uidString" : "8L9GcjwADgCsH/pkC9Sqgw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Then we will flesh out these moduels with existing material in the {{gtPage:Glamorous Toolkit Book|db=2j9m7db2i4oz116bexd7wbdxo}}, and with new or revised tutorials to get newcomers to [[Actively explore topics]]."
+				"string" : "We speak of “learning module” rather than, say, “teaching unit” because the emphasis is on what the student wants to learn, rather than on specific “teaching” goals. Additionally, students are expected to self-learn, though they are encouraged to seek out coaches in their journey."
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T09:56:02.314986+01:00"
+						"dateAndTimeString" : "2025-11-18T09:54:45.516201+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +103,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T09:56:05.581121+01:00"
+						"dateAndTimeString" : "2025-11-18T10:01:29.230287+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "7XfKXjwADgChIL1KC9Sqgw=="
+					"uidString" : "VLITWDwADgCfpUsdC9Sqgw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See [[Learning Module]]"
+				"string" : "Each module comprises a *main path* through the material and possible *side roads*.\nSide roads consist of additional supporting material that can be pursued or skipped, depending on the background of the student, or the specific interests or problems they have at had.\n"
 			}
 		]
 	},
@@ -125,7 +125,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-11T11:32:39.693532+01:00"
+			"dateAndTimeString" : "2025-11-18T09:54:09.505373+01:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +136,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T09:52:30.32856+01:00"
+			"dateAndTimeString" : "2025-11-18T09:54:09.505373+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Outline several learning modules"
+		"title" : "Learning Module"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "8ad373e7-b0ff-0d00-a58c-8c7c0ddfda92"
+		"uuid" : "db231158-3c00-0e00-9fa4-00e50bd4aa83"
 	}
 }

@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-11T14:41:46.712193+01:00"
+						"dateAndTimeString" : "2025-11-18T10:04:34.126941+01:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Created the mirrored FedWiki page so the same caption + teaching plan (with actionable activity list) is visible to agents working through the wiki. See [wiki](https://wiki.ralfbarkow.ch/view/mondrian-treemap-teaching-unit)"
+				"string" : "Created the mirrored FedWiki page so the same caption + learning plan (with actionable activity list) is visible to agents working through the wiki. See [wiki](https://wiki.ralfbarkow.ch/view/mondrian-treemap-teaching-unit)"
 			}
 		]
 	},
@@ -99,12 +99,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-11T14:40:56.891168+01:00"
+			"dateAndTimeString" : "2025-11-18T10:04:17.786097+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Mondrian Treemap Teaching Unit"
+		"title" : "Mondrian Treemap Learning Module"
 	},
 	"uid" : {
 		"__type" : "uuid",

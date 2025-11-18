@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-07T09:11:40.142319+01:00"
+						"dateAndTimeString" : "2025-11-18T10:05:43.277905+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Draft material for the curriculum will consist of:\n- pages describing the teaching units\n- new pages containing reading material and tutorials for the book (repo [gtoolkit](https://github.com/feenkcom/gtoolkit))\n- source code for demos and exercises to be migrated to repo [gtoolkit-demos](https://github.com/feenkcom/gtoolkit-demos) or other repos"
+				"string" : "Draft material for the curriculum will consist of:\n- pages describing the learning modules\n- new pages containing reading material and tutorials for the book (repo [gtoolkit](https://github.com/feenkcom/gtoolkit))\n- source code for demos and exercises to be migrated to repo [gtoolkit-demos](https://github.com/feenkcom/gtoolkit-demos) or other repos"
 			},
 			{
 				"__type" : "textSnippet",
@@ -189,7 +189,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-17T09:40:16.269229+01:00"
+												"dateAndTimeString" : "2025-11-18T10:12:57.40841+01:00"
 											}
 										},
 										"uid" : {
@@ -199,7 +199,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "(What to call the Units, Steps etc?)\nOne main path with sideroads.\n(How to represent this?)"
+										"string" : "One main path with sideroads.\n(How to represent this?)"
 									}
 								]
 							},
@@ -222,7 +222,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-17T09:40:16.266763+01:00"
+									"dateAndTimeString" : "2025-11-18T10:12:50.072352+01:00"
 								}
 							},
 							"uid" : {
@@ -232,7 +232,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Expand Learning Unit 1 as a tree of pages."
+							"string" : "Expand Learning module 1 as a tree of pages."
 						},
 						{
 							"__type" : "textSnippet",
@@ -259,7 +259,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-12T14:42:09.12836+01:00"
+									"dateAndTimeString" : "2025-11-18T10:05:51.063904+01:00"
 								}
 							},
 							"uid" : {
@@ -269,7 +269,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Start expanding the first Learning Unit."
+							"string" : "Start expanding the first Learning Module."
 						},
 						{
 							"__type" : "textSnippet",

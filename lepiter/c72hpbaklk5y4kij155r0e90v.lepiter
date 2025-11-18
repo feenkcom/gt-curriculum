@@ -71,7 +71,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-11T11:48:44.622617+01:00"
+									"dateAndTimeString" : "2025-11-18T09:52:30.337064+01:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +81,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtPage:Outline several teaching units|db=c72hpbcsarp76bsez1znvtuex}}"
+							"string" : "{{gtPage:Outline several learning modules|db=c72hpbcsarp76bsez1znvtuex}}"
 						}
 					]
 				},
@@ -449,7 +449,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-11T14:44:27.953517+01:00"
+												"dateAndTimeString" : "2025-11-18T10:04:17.800384+01:00"
 											}
 										},
 										"uid" : {
@@ -459,7 +459,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "{{gtPage:Mondrian Treemap Teaching Unit|db=c72hpbcsarp76bsez1znvtuex}}"
+										"string" : "{{gtPage:Mondrian Treemap Learning Module|db=c72hpbcsarp76bsez1znvtuex}}"
 									}
 								]
 							},
@@ -1945,6 +1945,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[Accordion]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T09:54:01.787844+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T09:54:07.613709+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "I7eAVzwADgCfLc+iC9Sqgw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Learning Module]]"
 						},
 						{
 							"__type" : "textSnippet",

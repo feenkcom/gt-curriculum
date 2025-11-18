@@ -134,7 +134,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-11T14:48:47.552884+01:00"
+						"dateAndTimeString" : "2025-11-18T10:05:07.877357+01:00"
 					}
 				},
 				"uid" : {
@@ -144,7 +144,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Added a dedicated Lepiter page that records the caption plus a full teaching unit: objectives, prerequisites, and step-by-step activities that reuse the Mondrian treemap screenshot to guide newcomers through hotspot analysis. See [[Mondrian Treemap Teaching Unit]]"
+				"string" : "Added a dedicated Lepiter page that records the caption plus a full learning module: objectives, prerequisites, and step-by-step activities that reuse the Mondrian treemap screenshot to guide newcomers through hotspot analysis. See [[Mondrian Treemap Learning Module]]"
 			},
 			{
 				"__type" : "textSnippet",
