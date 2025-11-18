@@ -1,0 +1,751 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:58:09.368423+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:58:09.368423+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "7WSEEz4ADgCb/Pv+AJ5D6A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "**Status**: draft (for falsifier review)\n**Audience**: Oscar, Tudor, Ralf, GT core contributors\n**Scope**: Structure and integration of the *Glamorous Toolkit Curriculum* for newcomers, centered around **learning modules**.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T11:58:50.124869+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:11:06.056693+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "dUnyFT4ADgCcJ3aoAJ5D6A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### 1.1 Goals\n\n* Provide a **single coherent model** for the curriculum:\n\n  * Conceptual: *Learning Modules* (LMs)\n  * Technical: GT classes, Topic Maps, Roadmaps, Lepiter, demos.\n* Make the curriculum **navigable**:\n\n  * via Topic Maps and GT Roadmaps\n  * via generated Sceneries\n  * via recurring patterns (e.g., Accordion).\n* Support **newcomer-oriented, problem-driven learning**:\n\n  * LMs with clear outcomes and timeboxes\n  * problem statements and assessments.\n* Allow **reuse** of existing GT Book pages, demos, and examples.\n* Enable **evolution**:\n\n  * versioned modules\n  * pluggable side-roads (advanced dives)\n  * connection to external repos (e.g., `gtoolkit-demos`).\n\n### 1.2 Non-Goals\n\n* Designing a fully generic pedagogy framework for all of GT.\n* Replacing the GT Book; instead we **layer** a curriculum on top of it.\n* Defining a full assessment/grading system beyond “self-checkable” tasks.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:58:45.942764+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T11:58:45.942764+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "o3eyFT4ADgCcIOPrAJ5D6A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 1. Goals & Non-Goals"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T11:59:48.841107+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:11:36.693802+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "yTtyGT4ADgCcPLbJAJ5D6A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### 2.1 Learning Module (LM)\n\n**Definition**: A coherent, time-bounded learning experience targeting a particular newcomer profile and problem. See [[Learning Module]]\n\n* **Examples**:\n\n  * LM1 — *Getting Oriented in GT*\n  * LM2 — *Modeling a Small Domain in GT*\n  * LM3 — *Creating Contextual Tools*\n  * LMx — *Understanding Topic Maps in GT*\n\n**Attributes (conceptual)**:\n\n* `title`\n* `slug` (stable identifier)\n* `persona` (target learner)\n* `prerequisites` (knowledge + modules)\n* `duration` (e.g. 60–90 min)\n* `problemStatement`\n* `learningOutcomes` (bullet list)\n* `mainPathSegments` (ordered)\n* `sideRoads` (optional deep dives)\n* `patternsUsed` (Accordion, etc.)\n* `resources` (pages, demos, videos)\n* `assessments` (tasks + self-checks)\n* `status` (draft / in-progress / stable / deprecated)\n\n### 2.2 Segment\n\nWithin a module:\n\n* A **Segment** = smallest narrative chunk.\n* Think: “step” or “stage” in the learning flow.\n\nAttributes:\n\n* `title`\n* `slug`\n* `sequenceIndex`\n* `type` (explanation / exploration / exercise / reflection)\n* `body` (text, screenshots, code snippets)\n* `viewLinks` (gtExamples, Mondrian, Sceneries)\n* `expectedAction` (what the learner should *do* here)\n* `accordionHooks` (where to dive in & pop back out).\n\n### 2.3 Pattern\n\nPatterns capture recurring **ways of working**, not content.\n\nExamples (initial set):\n\n* `Accordion` — inspect → experiment → dive → extract → return.\n* `Live Exploration` — using Inspector + playgrounds.\n* `Contextual Tooling` — building small views & actions around a domain.\n* `Domain Modeling Loop` — iterating model ↔ tools ↔ questions.\n* `Example-Driven Understanding` — learning concepts through gtExamples.\n\nPatterns are:\n\n* individually described (pattern pages)\n* referenced by modules & segments\n* potential *tags* in Topic Maps.\n\n### 2.4 Resource\n\nA Resource is any concrete artifact used in a module:\n\n* GT Book page\n* Lepiter page\n* Demo (Smalltalk class, script)\n* Topic Map / Roadmap view\n* External text / video / article.\n\nAttributes:\n\n* `id` (URI or unique ref)\n* `kind` (`lepiter-page`, `gt-book-page`, `demo`, `topic-map-view`, `roadmap`, `external-link`, …)\n* `title`\n* `sourceRepo` (gt-book, gtoolkit-demos, gt-curriculum, etc.)\n* `usage` (read / run / modify / reflect).\n\n### 2.5 Persona\n\nMinimal personas for newcomer orientation:\n\n* **P1 – GT-curious developer**\n\n  * background in coding, new to GT & Pharo\n  * wants to explore own code or a case study.\n* **P2 – Domain expert / non-developer**\n\n  * wants to explore data / domain models\n  * minimal or no prior coding experience.\n\nModules declare **which persona(s)** they target.\n\n### 2.6 Outcome & Assessment\n\n* **Outcome**: small, checkable capability (“Learner can inspect an object and answer property X using a playground snippet.”).\n* **Assessment**: short task that demonstrates the outcome, with a simple self-check.\n\nWe keep the assessment model intentionally lightweight but explicit.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:00:04.376455+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:00:04.376455+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "J0hfGj4ADgCcQ8C7AJ5D6A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 2. Conceptual Model"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:06:11.090693+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:14:22.623939+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Uus6MD4ADgCuFC6/CxuKPQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We pick a **single canonical structure**:\n\n> Conceptual unit: **Learning Module**. See [[Learning Module]]\n> Technical representation: **GtLearningModule / GtLearningPath instance**, backed by Lepiter pages and Topic Maps.\n\n### 3.1 Smalltalk Model\n\nIntroduce or consolidate classes under `GtCurriculum` (namespace illustrative):\n\n* `GtLearningModule`\n\n  * fields: as in §2.1 (minus free text bodies)\n  * references: segments, resources, patterns, topic map node id.\n* `GtLearningSegment`\n\n  * fields: as in §2.2.\n* `GtCurriculumPattern`\n\n  * minimal metadata; linked to pattern Lepiter page.\n* `GtCurriculumResource`\n\n  * typed resource wrapper.\n* `GtCurriculumPersona`\n\n  * enumeration or simple class with ID + description.\n\n**GtLearningPath** may:\n\n* either be refactored to *be* `GtLearningModule`\n* or be wrapped as an internal implementation detail.\n\nThe key rule:\n\n> Every Learning Module in Lepiter has an equivalent `GtLearningModule` instance that GT tools can query.\n\n### 3.2 Lepiter Structure\n\nConventions:\n\n* One **Lepiter page per Learning Module**:\n\n  * Title: `LM1 — Getting Oriented in GT`\n  * Contains:\n\n    * Overview (persona, problem, duration)\n    * Main Path\n    * Side Roads\n    * Outcomes & Assessments\n    * Pattern notes.\n* Segments live as **sections** within the LM page (headings).\n* A JSON / Smalltalk metadata block at top or bottom stores the module’s structured data needed by `GtLearningModule`.\n\nPattern pages (e.g. `Pattern — Accordion`) are separate Lepiter pages.\n\n### 3.3 Topic Map Model\n\nWe define a **Curriculum Topic Map** (separate from GT Book TM):\n\n* Types:\n\n  * `CurriculumModule`\n  * `CurriculumSegment`\n  * `CurriculumPattern`\n  * `CurriculumConcept` (domain ideas, e.g. “moldable inspector”)\n  * `CurriculumResource` (if needed)\n  * `Persona`\n* Associations:\n\n  * `prerequisite` (Module → Module)\n  * `targetsPersona` (Module → Persona)\n  * `usesPattern` (Module → Pattern)\n  * `coversConcept` (Module → Concept)\n  * `usesResource` (Module → Resource)\n  * `containsSegment` (Module → Segment)\n  * `sequence` (Segment → Segment, or index).\n\nThis Topic Map is the **authoritative semantic index** of the curriculum.\n\n### 3.4 GT Roadmaps\n\nRoadmaps are **views** over:\n\n* the Curriculum Topic Map\n* timeline of module creation / stabilization\n* learner journeys (scenario-specific “paths”).\n\nWe define:\n\n* a *Curriculum Roadmap* configuration that:\n\n  * uses Modules as steps\n  * groups by persona or theme\n  * overlays status (draft/in-progress/stable).\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:06:14.753582+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:06:14.753582+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "xshyMD4ADgCuG7QCCxuKPQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 3. Canonical Representation"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:06:33.692996+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:06:42.517172+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "nciTMT4ADgCuJfoyCxuKPQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### 4.1 Sceneries\n\n**Sceneries** are generated from `GtLearningModule` + Topic Map:\n\n* Each LM generates:\n\n  * a “Main Path Scenery” for its segments\n  * optional “Persona Sceneries” for different profiles.\n* The global Curriculum Scenery:\n\n  * shows all modules\n  * allows filtering by persona, pattern, or concept.\n\n### 4.2 Accordion Integration\n\nThe **Accordion pattern** is applied at the **segment level**:\n\n* Segments mark **Accordion hook points**:\n\n  * inspect this object\n  * run this script\n  * dive into this class/method.\n* GT provides helper actions from the segment’s context:\n\n  * “Open Inspector here”\n  * “Open Notebook for this step”\n  * “Extract method & link back”.\n\nAccordion is thus *not just a metaphor* but a configured workflow inside the module views.\n\n### 4.3 Multi-POV Navigation\n\nUsing Topic Maps and Roadmaps:\n\n* View by **persona**: show only modules & paths relevant to P1 vs P2.\n* View by **pattern**: show all modules that exercise Accordion, etc.\n* View by **concept**: topic-centric entry into the curriculum.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:06:42.510139+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:06:42.510139+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AVcaMj4ADgCuN0EvCxuKPQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 4. Navigation & Views"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:07:17.508175+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:07:50.702624+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "3V4wND4ADgCuU0AQCxuKPQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### 5.1 Referencing GT Book Pages\n\nEach LM can link to GT Book pages as Resources:\n\n* {{gtClass:GtCurriculumResource}} with kind `gt-book-page`.\n* Topic Map association `usesResource`.\n\nWhere possible:\n\n* reuse GT Book text for explanations;\n* use LM pages for *context, sequence, and tasks*.\n\n### 5.2 Topic Map Alignment\n\nWe do **not** merge GT Book TM and Curriculum TM initially.\nInstead:\n\n* Keep a mapping layer:\n\n  * Curriculum Concept ↔ GT Book Topic(s)\n  * Module ↔ GT Book chapter/section.\n\nLater we may unify, but architecturally they are separate.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:07:13.830285+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:07:13.830285+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GkD4Mz4ADgCuTIosCxuKPQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 5. Integration with GT Book"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:08:42.399764+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:18:29.305938+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "8rU/OT4ADgCurqZoCxuKPQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### 6.1 `gtoolkit-demos`\n\nDemos used in LMs should:\n\n* live in `gtoolkit-demos` (or another dedicated repo),\n* be referenced as Resources with:\n\n  * `sourceRepo = gtoolkit-demos`\n  * class/method name or script path.\n\n### 6.2 `codex`, DITA, etc.\n\nExternal learning material:\n\n* is modeled as `external-link` Resources;\n* may be mirrored or summarized in Lepiter pages that become part of modules.\n\nWe **do not** require all external teaching units to be migrated before the curriculum architecture is valid.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:08:46.353049+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:08:46.353049+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Xwl8OT4ADgCutRaBCxuKPQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 6. Integration with Demos & External Repos"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:09:33.791273+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:09:37.246069+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "It1PPD4ADgCuymJOCxuKPQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### 7.1 Validation\n\nA simple “curriculum check” script should verify:\n\n* Every LM has:\n\n  * `title`, `slug`, `persona`, `prerequisites`, `duration`, `learningOutcomes`.\n* All `prerequisites` reference existing modules.\n* All `resources` resolve (or are marked “missing” explicitly).\n* Topic Map structure is consistent (no broken associations).\n\n### 7.2 Generation\n\nFrom the canonical model we can generate:\n\n* A **Curriculum Index page** with all modules and their status.\n* Persona-specific index views.\n* Roadmaps config for GT.\n* Exported static docs (Markdown / HTML) for external sharing.\n\n### 7.3 GT Integration\n\n* GtTools for:\n\n  * browsing modules\n  * launching LMs in GT\n  * tracking completion (lightweight).\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:09:37.237095+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:09:37.237095+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "FnaEPD4ADgCu0RcnCxuKPQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 7. Build & Publication Pipeline"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T11:58:39.871193+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:09:59.22971+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "CdtVFT4ADgCcGSZLAJ5D6A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### 8.1 Migration from “Teaching Units”\n\n* All existing “teaching unit” mentions are mapped to Learning Modules.\n* Old pages are:\n\n  * either converted to LM Lepiter pages\n  * or archived and referenced via Resources.\n\n### 8.2 Adding New Modules\n\nProcess:\n\n1. Create new LM Lepiter page from a template.\n2. Fill metadata & segments.\n3. Create corresponding `GtLearningModule` instance.\n4. Add nodes & associations to Curriculum Topic Map.\n5. Run validation.\n6. Add to Roadmap where appropriate.\n\n### 8.3 Patterns Evolution\n\nPatterns can grow over time:\n\n* New patterns (e.g. “Timeline Exploration”, “Question-driven Navigation”) get:\n\n  * Lepiter pattern pages\n  * Topic Map nodes\n  * references from relevant modules.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:09:59.223883+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:09:59.223883+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "w/TTPT4ADgCu5uyYCxuKPQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 8. Extensibility & Migration"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T11:58:29.254668+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-18T12:20:26.493561+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "R9yzFD4ADgCcDm+KAJ5D6A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "* Do we want a minimal “learner progress tracking” model (local only)?\n* Should Roadmaps support “scenario-based” sequences (e.g. “I want to understand GT enough to analyze my company’s codebase”) as separate Learning Paths?\n* How much of the curriculum should be mirrored to FedWiki / external wikis / GT Book site?\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:10:21.508716+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-18T12:10:21.508716+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "VP8nPz4ADgCu+9feCxuKPQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 9. Open Questions (for later design)"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-18T11:57:59.956547+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-18T11:57:59.956547+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "GT Curriculum Architecture Spec"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "5f5ba011-3e00-0e00-9be8-25c7009e43e8"
+	}
+}
