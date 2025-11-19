@@ -75,6 +75,43 @@
 				},
 				"string" : "* *Main Path*:\n\n  1. [[What is GT?]]\n  2. Inspecting objects\n  3. Playgrounds\n  4. Domain modelling basics\n  5. Creating first views\n  6. Using examples\n\n* *Side Roads*:\n\n  * Mondrian basics\n  * Sceneries basics\n  * Topic Maps basics\n  * Accordion pattern\n\nThis gives structure to everything else.",
 				"isHidden" : false
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T14:49:16.120437+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-19T14:49:19.920059+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/AVOlVQADgCgWLIBBV3/cg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "See {{gtPage:# 1. Learn the basics of Glamorous Toolkit|db=c72hpbcsarp76bsez1znvtuex}}"
 			}
 		]
 	},
