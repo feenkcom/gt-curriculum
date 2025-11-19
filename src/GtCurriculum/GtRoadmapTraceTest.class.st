@@ -1,10 +1,12 @@
 Class {
-	#name : #GtRoadmapTraceTest,
-	#superclass : #TestCase,
-	#category : #'GtCurriculum-Tests'
+	#name : 'GtRoadmapTraceTest',
+	#superclass : 'TestCase',
+	#category : 'GtCurriculum-Tests',
+	#package : 'GtCurriculum',
+	#tag : 'Tests'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 GtRoadmapTraceTest >> testFromDictionaryNormalizesDates [
 	| rawTrace trace firstEvent |
 	rawTrace := Dictionary new
@@ -24,7 +26,7 @@ GtRoadmapTraceTest >> testFromDictionaryNormalizesDates [
 	self assert: (firstEvent at: #timestamp) class equals: DateAndTime
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 GtRoadmapTraceTest >> testRecordVisitPreservesHistory [
 	| trace matchingEvents |
 	trace := GtRoadmapTrace new.
@@ -38,7 +40,7 @@ GtRoadmapTraceTest >> testRecordVisitPreservesHistory [
 	self assert: (trace notes at: 'step-42') equals: 'second note'
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 GtRoadmapTraceTest >> testTimelineItemsExposeStepMetadata [
 	| trace timeline |
 	trace := GtRoadmapTrace new.

@@ -1,6 +1,6 @@
-Extension { #name : #LeContent }
+Extension { #name : 'LeContent' }
 
-{ #category : #'*GtCurriculum' }
+{ #category : '*GtCurriculum' }
 LeContent >> gtBookTraceTitle [
 	^ 'Unknown page'
 ]

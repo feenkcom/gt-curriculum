@@ -1,10 +1,12 @@
 Class {
-	#name : #GtCommitInlineSnippetResolverTest,
-	#superclass : #TestCase,
-	#category : #'GtCurriculum-InlineSnippets-Tests'
+	#name : 'GtCommitInlineSnippetResolverTest',
+	#superclass : 'TestCase',
+	#category : 'GtCurriculum-InlineSnippets-Tests',
+	#package : 'GtCurriculum',
+	#tag : 'InlineSnippets-Tests'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 GtCommitInlineSnippetResolverTest >> testRegisterIfPossibleRegistersResolverWhenRegistryAvailable [
 	| registryClass registry |
 	registryClass := Smalltalk
@@ -18,7 +20,7 @@ GtCommitInlineSnippetResolverTest >> testRegisterIfPossibleRegistersResolverWhen
 	self assert: registry notNil
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 GtCommitInlineSnippetResolverTest >> testResolveWithCommitAndCustomRepoSlug [
 	| resolver inlineSnippet view labels texts |
 	resolver := GtCommitInlineSnippetResolver new.
@@ -36,7 +38,7 @@ GtCommitInlineSnippetResolverTest >> testResolveWithCommitAndCustomRepoSlug [
 	self assert: texts third equals: 'feenkcom/gtoolkit-roadmaps'
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 GtCommitInlineSnippetResolverTest >> testResolveWithCommitUsesDefaultRepoSlug [
     | resolver inlineSnippet view labels texts |
     resolver := GtCommitInlineSnippetResolver new.
@@ -54,7 +56,7 @@ GtCommitInlineSnippetResolverTest >> testResolveWithCommitUsesDefaultRepoSlug [
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 GtCommitInlineSnippetResolverTest >> testResolveWithoutArgumentsShowsMissingView [
     | resolver inlineSnippet view |
     resolver := GtCommitInlineSnippetResolver new.
@@ -65,7 +67,7 @@ GtCommitInlineSnippetResolverTest >> testResolveWithoutArgumentsShowsMissingView
 
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 GtCommitInlineSnippetResolverTest >> testSnippetName [
 	| resolver |
 	resolver := GtCommitInlineSnippetResolver new.

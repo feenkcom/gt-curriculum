@@ -1,16 +1,18 @@
 Class {
-	#name : #GtBookTraceEntry,
-	#superclass : #Object,
+	#name : 'GtBookTraceEntry',
+	#superclass : 'Object',
 	#instVars : [
 		'pageTitle',
 		'pageUid',
 		'roadmapStepId',
 		'timestamp'
 	],
-	#category : #'GtCurriculum-Traces'
+	#category : 'GtCurriculum-Traces',
+	#package : 'GtCurriculum',
+	#tag : 'Traces'
 }
 
-{ #category : #serialization }
+{ #category : 'serialization' }
 GtBookTraceEntry class >> fromSerialized: aDict [
 	^ self new
 		pageTitle: (aDict at: #pageTitle ifAbsent: [ '' ]);
@@ -20,7 +22,7 @@ GtBookTraceEntry class >> fromSerialized: aDict [
 		yourself
 ]
 
-{ #category : #serialization }
+{ #category : 'serialization' }
 GtBookTraceEntry >> asSerialized [
 	^ Dictionary
 		newFrom: {#pageTitle -> pageTitle.
@@ -29,42 +31,42 @@ GtBookTraceEntry >> asSerialized [
 				#timestamp -> timestamp asString}
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTraceEntry >> pageTitle [
 	^ pageTitle
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTraceEntry >> pageTitle: aString [
 	pageTitle := aString
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTraceEntry >> pageUid [
 	^ pageUid
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTraceEntry >> pageUid: aString [
 	pageUid := aString
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTraceEntry >> roadmapStepId [
 	^ roadmapStepId
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTraceEntry >> roadmapStepId: anObject [
 	roadmapStepId := anObject
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTraceEntry >> timestamp [
 	^ timestamp
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTraceEntry >> timestamp: aDateAndTime [
 	timestamp := aDateAndTime
 ]

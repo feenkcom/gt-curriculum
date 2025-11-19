@@ -1,10 +1,12 @@
 Class {
-	#name : #Layouter,
-	#superclass : #Object,
-	#category : #'GtCurriculum-Layouter'
+	#name : 'Layouter',
+	#superclass : 'Object',
+	#category : 'GtCurriculum-Layouter',
+	#package : 'GtCurriculum',
+	#tag : 'Layouter'
 }
 
-{ #category : #examples }
+{ #category : 'examples' }
 Layouter class >> exampleMotivationSingleSnippet [
 	<gtExample>
 	| text |
@@ -19,7 +21,7 @@ Layouter class >> exampleMotivationSingleSnippet [
 
 ]
 
-{ #category : #examples }
+{ #category : 'examples' }
 Layouter class >> exampleRenderSpecs [
 	<gtExample>
 	| html pdf spec |
@@ -31,7 +33,7 @@ Layouter class >> exampleRenderSpecs [
 		#pdf2 -> (pdf render: spec)} asDictionary
 ]
 
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 Layouter class >> for: aSymbol [
 	"Factory selecting a concrete layouter by output keyword (e.g., #html5, #pdf2)."
 
@@ -46,7 +48,7 @@ Layouter class >> for: aSymbol [
 	^ klass new
 ]
 
-{ #category : #rendering }
+{ #category : 'rendering' }
 Layouter >> render: aTopicGraph [
 	"Abstract template: subclasses decide how to render a DITA topic graph."
 
@@ -55,7 +57,7 @@ Layouter >> render: aTopicGraph [
 	self subclassResponsibility
 ]
 
-{ #category : #helpers }
+{ #category : 'helpers' }
 Layouter >> singleSnippetListFrom: items [
 	"Return a single text block with bullets, suitable for one Lepiter text snippet."
 

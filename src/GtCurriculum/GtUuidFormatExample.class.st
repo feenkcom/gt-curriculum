@@ -1,10 +1,12 @@
 Class {
-	#name : #GtUuidFormatExample,
-	#superclass : #Object,
-	#category : #'GtCurriculum-Examples'
+	#name : 'GtUuidFormatExample',
+	#superclass : 'Object',
+	#category : 'GtCurriculum-Examples',
+	#package : 'GtCurriculum',
+	#tag : 'Examples'
 }
 
-{ #category : #examples }
+{ #category : 'examples' }
 GtUuidFormatExample class >> exampleUuidLength [
 	<gtExample>
 	| uuid |

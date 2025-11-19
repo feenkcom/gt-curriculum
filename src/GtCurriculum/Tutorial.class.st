@@ -9,32 +9,33 @@ For examples, see MockTutorial (minimalist) and PharoSyntaxTutorial (the default
 See the PharoTutorial class comment to execute your own tutorial.
 "
 Class {
-	#name : #Tutorial,
-	#superclass : #AbstractTutorial,
-	#category : #GtCurriculum
+	#name : 'Tutorial',
+	#superclass : 'AbstractTutorial',
+	#category : 'GtCurriculum',
+	#package : 'GtCurriculum'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 Tutorial class >> exampleAllKinds [
 	<gtExample>
 	^ (self topicMap pageNodes flatCollect: [ :node | node kinds ]) asSet
 		asOrderedCollection
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 Tutorial class >> exampleTutorialPages [
 	<gtExample>
 	^ self tutorialNamedPages
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 Tutorial class >> lessonPageNamed: aString [
 	"Return the LePage with the given title from the tutorial pages."
 
 	^ self tutorialPages detect: [ :page | page title = aString ]
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 Tutorial class >> pagesForFieldNamed: fieldName [
 	| topicMap fieldNode |
 	topicMap := self topicMap.	"TMGtBookRoadmapExamples shows how to get the database node."
@@ -43,22 +44,22 @@ Tutorial class >> pagesForFieldNamed: fieldName [
 	^ fieldNode pages
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 Tutorial class >> pagesForTopicNamed: aTopic [
 	^ self topicMap pages4Topic: aTopic
 ]
 
-{ #category : #'class accessing' }
+{ #category : 'class accessing' }
 Tutorial class >> topicMap [
 	^ TopicMap default
 ]
 
-{ #category : #'class accessing' }
+{ #category : 'class accessing' }
 Tutorial class >> tutorialNamedPages [
 	^ (self topicMap kindNodeNamed: 'Tutorial') pageGroup pages
 ]
 
-{ #category : #'class accessing' }
+{ #category : 'class accessing' }
 Tutorial class >> tutorialPageNodes [
 	| nodes |
 	nodes := self topicMap pageNodes.
@@ -67,7 +68,7 @@ Tutorial class >> tutorialPageNodes [
 		asOrderedCollection
 ]
 
-{ #category : #'class accessing' }
+{ #category : 'class accessing' }
 Tutorial class >> tutorialPages [
 	| pages |
 	pages := OrderedCollection new.
@@ -76,7 +77,7 @@ Tutorial class >> tutorialPages [
 	^ pages
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 Tutorial >> exampleTutorial [
 	<gtExample>
 	| tutorial |
@@ -84,7 +85,7 @@ Tutorial >> exampleTutorial [
 	^ tutorial
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 Tutorial >> lessonIntro [
 	| page |
 	page := self class lessonPageNamed: 'A Moldable Development Curriculum'.
@@ -94,7 +95,7 @@ Tutorial >> lessonIntro [
 		yourself	"or use whatever API Lesson expects"
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 Tutorial >> tutorial [
 	"Return a collection of selectors that create Lesson instances."
 

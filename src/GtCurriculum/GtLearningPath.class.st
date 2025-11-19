@@ -1,6 +1,6 @@
 Class {
-	#name : #GtLearningPath,
-	#superclass : #Object,
+	#name : 'GtLearningPath',
+	#superclass : 'Object',
 	#instVars : [
 		'title',
 		'audience',
@@ -13,10 +13,12 @@ Class {
 		'assessments',
 		'tags'
 	],
-	#category : #'GtCurriculum-Paths'
+	#category : 'GtCurriculum-Paths',
+	#package : 'GtCurriculum',
+	#tag : 'Paths'
 }
 
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 GtLearningPath class >> named: aTitle audience: anAudience problem: aProblem [
 	^ self new
 		title: aTitle;
@@ -25,43 +27,43 @@ GtLearningPath class >> named: aTitle audience: anAudience problem: aProblem [
 		yourself
 ]
 
-{ #category : #assessments }
+{ #category : 'assessments' }
 GtLearningPath >> addAssessment: anAssessment [
 	self assessments add: anAssessment.
 	^ anAssessment
 ]
 
-{ #category : #goals }
+{ #category : 'goals' }
 GtLearningPath >> addGoal: aGoal [
 	self goals add: aGoal.
 	^ aGoal
 ]
 
-{ #category : #prerequisites }
+{ #category : 'prerequisites' }
 GtLearningPath >> addPrerequisite: aPrerequisite [
 	self prerequisites add: aPrerequisite.
 	^ aPrerequisite
 ]
 
-{ #category : #resources }
+{ #category : 'resources' }
 GtLearningPath >> addResource: aResource [
 	self resources add: aResource.
 	^ aResource
 ]
 
-{ #category : #segments }
+{ #category : 'segments' }
 GtLearningPath >> addSegment: aSegment [
 	self segments add: aSegment.
 	^ aSegment
 ]
 
-{ #category : #tags }
+{ #category : 'tags' }
 GtLearningPath >> addTag: aTag [
 	self tags add: aTag.
 	^ aTag
 ]
 
-{ #category : #export }
+{ #category : 'export' }
 GtLearningPath >> asDictionary [
 	^ Dictionary new
 		at: #title put: self title;
@@ -77,27 +79,27 @@ GtLearningPath >> asDictionary [
 		yourself
 ]
 
-{ #category : #assessments }
+{ #category : 'assessments' }
 GtLearningPath >> assessments [
 	^ assessments ifNil: [ assessments := OrderedCollection new ]
 ]
 
-{ #category : #assessments }
+{ #category : 'assessments' }
 GtLearningPath >> assessments: aCollection [
 	assessments := aCollection asOrderedCollection
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtLearningPath >> audience [
 	^ audience
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtLearningPath >> audience: aValue [
 	audience := aValue
 ]
 
-{ #category : #printing }
+{ #category : 'printing' }
 GtLearningPath >> describeOn: aStream [
 	aStream
 		nextPutAll: self title;
@@ -115,17 +117,17 @@ GtLearningPath >> describeOn: aStream [
 				lf ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtLearningPath >> duration [
 	^ duration
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtLearningPath >> duration: aValue [
 	duration := aValue
 ]
 
-{ #category : #examples }
+{ #category : 'examples' }
 GtLearningPath >> examplePureGitOnboarding [
 	<gtExample>
 	<return: #GtLearningPath>
@@ -149,17 +151,17 @@ GtLearningPath >> examplePureGitOnboarding [
 	^ path
 ]
 
-{ #category : #goals }
+{ #category : 'goals' }
 GtLearningPath >> goals [
 	^ goals ifNil: [ goals := OrderedCollection new ]
 ]
 
-{ #category : #goals }
+{ #category : 'goals' }
 GtLearningPath >> goals: aCollection [
 	goals := aCollection asOrderedCollection
 ]
 
-{ #category : #views }
+{ #category : 'views' }
 GtLearningPath >> gtJsonFor: aView [
 	<gtView>
 	^ aView forward
@@ -168,62 +170,62 @@ GtLearningPath >> gtJsonFor: aView [
 		view: #gtJsonObjectFor:context:
 ]
 
-{ #category : #prerequisites }
+{ #category : 'prerequisites' }
 GtLearningPath >> prerequisites [
 	^ prerequisites ifNil: [ prerequisites := OrderedCollection new ]
 ]
 
-{ #category : #prerequisites }
+{ #category : 'prerequisites' }
 GtLearningPath >> prerequisites: aCollection [
 	prerequisites := aCollection asOrderedCollection
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtLearningPath >> problemStatement [
 	^ problemStatement
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtLearningPath >> problemStatement: aValue [
 	problemStatement := aValue
 ]
 
-{ #category : #resources }
+{ #category : 'resources' }
 GtLearningPath >> resources [
 	^ resources ifNil: [ resources := OrderedCollection new ]
 ]
 
-{ #category : #resources }
+{ #category : 'resources' }
 GtLearningPath >> resources: aCollection [
 	resources := aCollection asOrderedCollection
 ]
 
-{ #category : #segments }
+{ #category : 'segments' }
 GtLearningPath >> segments [
 	^ segments ifNil: [ segments := OrderedCollection new ]
 ]
 
-{ #category : #segments }
+{ #category : 'segments' }
 GtLearningPath >> segments: aCollection [
 	segments := aCollection asOrderedCollection
 ]
 
-{ #category : #tags }
+{ #category : 'tags' }
 GtLearningPath >> tags [
 	^ tags ifNil: [ tags := OrderedCollection new ]
 ]
 
-{ #category : #tags }
+{ #category : 'tags' }
 GtLearningPath >> tags: aCollection [
 	tags := aCollection asOrderedCollection
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtLearningPath >> title [
 	^ title
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtLearningPath >> title: aValue [
 	title := aValue
 ]

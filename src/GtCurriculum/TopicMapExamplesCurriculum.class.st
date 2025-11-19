@@ -1,10 +1,11 @@
 Class {
-	#name : #TopicMapExamplesCurriculum,
-	#superclass : #TopicMapExamples,
-	#category : #GtCurriculum
+	#name : 'TopicMapExamplesCurriculum',
+	#superclass : 'TopicMapExamples',
+	#category : 'GtCurriculum',
+	#package : 'GtCurriculum'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 TopicMapExamplesCurriculum >> exampleTutorial [
 	"Same as pageNodeWhatIsGt but with breadcrumb."
 
@@ -26,7 +27,7 @@ TopicMapExamplesCurriculum >> exampleTutorial [
 	^ pageNodeWhatIsGt
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 TopicMapExamplesCurriculum >> pageNodeWhatIsGtViaTopicAboutGt [
 	"Same as pageNodeWhatIsGt but with breadcrumb."
 

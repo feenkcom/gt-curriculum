@@ -1,6 +1,6 @@
 Class {
-	#name : #GtRoadmapTrace,
-	#superclass : #Object,
+	#name : 'GtRoadmapTrace',
+	#superclass : 'Object',
 	#instVars : [
 		'startTime',
 		'endTime',
@@ -9,16 +9,18 @@ Class {
 		'artifacts',
 		'events'
 	],
-	#category : #'GtCurriculum-Paths'
+	#category : 'GtCurriculum-Paths',
+	#package : 'GtCurriculum',
+	#tag : 'Paths'
 }
 
-{ #category : #examples }
+{ #category : 'examples' }
 GtRoadmapTrace class >> exampleTimelineItems [ 
 	<gtExample>
 	^ self exampleTrace timelineItems
 ]
 
-{ #category : #examples }
+{ #category : 'examples' }
 GtRoadmapTrace class >> exampleTrace [
 	<gtExample>
 	| trace |
@@ -32,7 +34,7 @@ GtRoadmapTrace class >> exampleTrace [
 	^ trace
 ]
 
-{ #category : #examples }
+{ #category : 'examples' }
 GtRoadmapTrace class >> exampleVisitWithMetadata [
 	<gtExample>
 	| trace |
@@ -47,7 +49,7 @@ GtRoadmapTrace class >> exampleVisitWithMetadata [
 	^ trace events last
 ]
 
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 GtRoadmapTrace class >> fromDictionary: aDictionary [
 	| trace |
 	trace := self new.
@@ -64,14 +66,14 @@ GtRoadmapTrace class >> fromDictionary: aDictionary [
 	^ trace
 ]
 
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 GtRoadmapTrace class >> new [
 	^ super new
 		initialize;
 		yourself
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 GtRoadmapTrace class >> parseDateAndTimeString: aString [
 	| sanitized |
 	^ [ DateAndTime fromString: aString ]
@@ -80,7 +82,7 @@ GtRoadmapTrace class >> parseDateAndTimeString: aString [
 			[ DateAndTime readFrom: sanitized readStream ] on: Error do: [ nil ] ]
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 GtRoadmapTrace class >> parseDateTime: aValue [
 	aValue ifNil: [ ^ nil ].
 	(aValue isKindOf: DateAndTime) ifTrue: [ ^ aValue ].
@@ -91,7 +93,7 @@ GtRoadmapTrace class >> parseDateTime: aValue [
 	^ nil
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 GtRoadmapTrace >> addEventFromDictionary: anEventDictionary [
 	self
 		recordVisitOf: (anEventDictionary at: #stepId)
@@ -102,17 +104,17 @@ GtRoadmapTrace >> addEventFromDictionary: anEventDictionary [
 				parseDateAndTimeString: (anEventDictionary at: #timestamp ifAbsent: [ nil ]))
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtRoadmapTrace >> artifacts [
 	^ artifacts
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtRoadmapTrace >> artifacts: aDictionary [
 	artifacts := aDictionary
 ]
 
-{ #category : #serialization }
+{ #category : 'serialization' }
 GtRoadmapTrace >> asDictionary [
 	^ Dictionary new
 		at: #startTime put: self startTime;
@@ -123,32 +125,32 @@ GtRoadmapTrace >> asDictionary [
 		yourself
 ]
 
-{ #category : #recording }
+{ #category : 'recording' }
 GtRoadmapTrace >> endNow [
 	self endTime: DateAndTime now
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtRoadmapTrace >> endTime [
 	^ endTime
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtRoadmapTrace >> endTime: aDateAndTime [
 	endTime := aDateAndTime
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 GtRoadmapTrace >> events [
 	^ events
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 GtRoadmapTrace >> events: aCollection [
 	events := aCollection asOrderedCollection
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 GtRoadmapTrace >> gtJsonFor: aView [
 	<gtView>
 	^ aView forward
@@ -157,7 +159,7 @@ GtRoadmapTrace >> gtJsonFor: aView [
 		view: #gtJsonObjectFor:context:
 ]
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 GtRoadmapTrace >> initialize [
 	super initialize.
 	startTime := DateAndTime now.
@@ -167,17 +169,17 @@ GtRoadmapTrace >> initialize [
 	events := OrderedCollection new
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtRoadmapTrace >> notes [
 	^ notes
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtRoadmapTrace >> notes: aDictionary [
 	notes := aDictionary
 ]
 
-{ #category : #printing }
+{ #category : 'printing' }
 GtRoadmapTrace >> printOn: aStream [
 	super printOn: aStream.
 	aStream
@@ -187,7 +189,7 @@ GtRoadmapTrace >> printOn: aStream [
 		print: self visitedSteps size
 ]
 
-{ #category : #recording }
+{ #category : 'recording' }
 GtRoadmapTrace >> recordVisitOf: aStepId [
 	^ self
 		recordVisitOf: aStepId
@@ -197,7 +199,7 @@ GtRoadmapTrace >> recordVisitOf: aStepId [
 		timestamp: DateAndTime now
 ]
 
-{ #category : #recording }
+{ #category : 'recording' }
 GtRoadmapTrace >> recordVisitOf: aStepId title: aTitle note: aNote artifact: anArtifact timestamp: aDateAndTime [
 	| timestamp event |
 	timestamp := aDateAndTime ifNil: [ DateAndTime now ].
@@ -215,7 +217,7 @@ GtRoadmapTrace >> recordVisitOf: aStepId title: aTitle note: aNote artifact: anA
 	^ event
 ]
 
-{ #category : #recording }
+{ #category : 'recording' }
 GtRoadmapTrace >> recordVisitOf: aStepId withArtifact: anObject [
 	^ self
 		recordVisitOf: aStepId
@@ -225,7 +227,7 @@ GtRoadmapTrace >> recordVisitOf: aStepId withArtifact: anObject [
 		timestamp: DateAndTime now
 ]
 
-{ #category : #recording }
+{ #category : 'recording' }
 GtRoadmapTrace >> recordVisitOf: aStepId withNote: aString [
 	^ self
 		recordVisitOf: aStepId
@@ -235,24 +237,24 @@ GtRoadmapTrace >> recordVisitOf: aStepId withNote: aString [
 		timestamp: DateAndTime now
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtRoadmapTrace >> startTime [
 	^ startTime
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtRoadmapTrace >> startTime: aDateAndTime [
 	startTime := aDateAndTime
 ]
 
-{ #category : #serialization }
+{ #category : 'serialization' }
 GtRoadmapTrace >> storeOn: aStream [
 	aStream
 		nextPutAll: 'GtRoadmapTrace fromDictionary: ';
 		nextPutAll: self asDictionary storeString
 ]
 
-{ #category : #ui }
+{ #category : 'ui' }
 GtRoadmapTrace >> timelineItems [
 	"Helper for Spec/GT views"
 
@@ -268,12 +270,12 @@ GtRoadmapTrace >> timelineItems [
 				yourself ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtRoadmapTrace >> visitedSteps [
 	^ visitedSteps
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtRoadmapTrace >> visitedSteps: aCollection [
 	visitedSteps := aCollection asOrderedCollection
 ]

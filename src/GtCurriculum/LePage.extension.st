@@ -1,11 +1,11 @@
-Extension { #name : #LePage }
+Extension { #name : 'LePage' }
 
-{ #category : #'*GtCurriculum' }
+{ #category : '*GtCurriculum' }
 LePage >> gtBookTraceTitle [
 	^ self title ifNil: [ super gtBookTraceTitle ]
 ]
 
-{ #category : #'*GtCurriculum' }
+{ #category : '*GtCurriculum' }
 LePage >> gtBookTraceUid [
 	^ self uid asString
 ]

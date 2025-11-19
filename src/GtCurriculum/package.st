@@ -1,1 +1,1 @@
-Package { #name : #GtCurriculum }
+Package { #name : 'GtCurriculum' }

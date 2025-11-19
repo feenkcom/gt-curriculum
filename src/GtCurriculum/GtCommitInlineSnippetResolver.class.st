@@ -1,10 +1,12 @@
 Class {
-	#name : #GtCommitInlineSnippetResolver,
-	#superclass : #Object,
-	#category : #'GtCurriculum-InlineSnippets'
+	#name : 'GtCommitInlineSnippetResolver',
+	#superclass : 'Object',
+	#category : 'GtCurriculum-InlineSnippets',
+	#package : 'GtCurriculum',
+	#tag : 'InlineSnippets'
 }
 
-{ #category : #'gt-examples' }
+{ #category : 'gt-examples' }
 GtCommitInlineSnippetResolver class >> gtExampleCommitViewCustomRepo [
     <gtExample>
     | resolver |
@@ -13,7 +15,7 @@ GtCommitInlineSnippetResolver class >> gtExampleCommitViewCustomRepo [
 
 ]
 
-{ #category : #'gt-examples' }
+{ #category : 'gt-examples' }
 GtCommitInlineSnippetResolver class >> gtExampleCommitViewDefaultRepo [
 	<gtExample>
 	| resolver |
@@ -21,7 +23,7 @@ GtCommitInlineSnippetResolver class >> gtExampleCommitViewDefaultRepo [
 	^ resolver viewForCommit: 'abcdef1234567890' repoSlug: 'feenkcom/gt-curriculum'
 ]
 
-{ #category : #'gt-examples' }
+{ #category : 'gt-examples' }
 GtCommitInlineSnippetResolver class >> gtExampleMissingCommitView [
 	<gtExample>
 	| resolver |
@@ -29,18 +31,18 @@ GtCommitInlineSnippetResolver class >> gtExampleMissingCommitView [
 	^ resolver viewForMissingCommit
 ]
 
-{ #category : #'gt-examples' }
+{ #category : 'gt-examples' }
 GtCommitInlineSnippetResolver class >> gtExampleSnippetName [
 	<gtExample>
 	^ self new snippetName
 ]
 
-{ #category : #registration }
+{ #category : 'registration' }
 GtCommitInlineSnippetResolver class >> initialize [
 	self registerIfPossible
 ]
 
-{ #category : #registration }
+{ #category : 'registration' }
 GtCommitInlineSnippetResolver class >> registerIfPossible [
 	(Smalltalk at: #GtLepiterInlineSnippetResolverRegistry ifAbsent: [ ^ self ])
 		ifNotNil: [ :registryClass | 
@@ -51,7 +53,7 @@ GtCommitInlineSnippetResolver class >> registerIfPossible [
 			registry ifNotNil: [ registry registerResolver: self new ] ]
 ]
 
-{ #category : #resolving }
+{ #category : 'resolving' }
 GtCommitInlineSnippetResolver >> resolveInlineSnippet: anInlineSnippet inContext: aContext [
 	| args commit repoSlug |
 	args := (anInlineSnippet respondsTo: #arguments)
@@ -62,12 +64,12 @@ GtCommitInlineSnippetResolver >> resolveInlineSnippet: anInlineSnippet inContext
 	^ self viewForCommit: commit repoSlug: repoSlug
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtCommitInlineSnippetResolver >> snippetName [
 	^ 'gtCommit'
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 GtCommitInlineSnippetResolver >> viewForCommit: aCommit repoSlug: aSlug [
 	| url row |
 	url := 'https://github.com/', aSlug, '/commit/', aCommit.
@@ -89,7 +91,7 @@ GtCommitInlineSnippetResolver >> viewForCommit: aCommit repoSlug: aSlug [
 
 ]
 
-{ #category : #private }
+{ #category : 'private' }
 GtCommitInlineSnippetResolver >> viewForMissingCommit [
 	^ BrLabel new
 		text: 'gtCommit snippet requires a SHA';

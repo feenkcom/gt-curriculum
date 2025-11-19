@@ -1,6 +1,6 @@
 Class {
-	#name : #GtBookTrace,
-	#superclass : #Object,
+	#name : 'GtBookTrace',
+	#superclass : 'Object',
 	#instVars : [
 		'id',
 		'label',
@@ -17,15 +17,17 @@ Class {
 		'startedAt',
 		'entries'
 	],
-	#category : #'GtCurriculum-Traces'
+	#category : 'GtCurriculum-Traces',
+	#package : 'GtCurriculum',
+	#tag : 'Traces'
 }
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace class >> current [
 	^ Current ifNil: [ Current := self new ]
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 GtBookTrace class >> exampleRecordVisitWithFallback [ 
 	<gtExample>
 	| trace |
@@ -34,12 +36,12 @@ GtBookTrace class >> exampleRecordVisitWithFallback [
 	^ trace entries last asSerialized
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace class >> finishCurrent [
 	Current ifNotNil: [ Current finishedAt: DateAndTime now ]
 ]
 
-{ #category : #serialization }
+{ #category : 'serialization' }
 GtBookTrace class >> fromSerialized: aDict [
 	| trace entriesData finishedAtString |
 	trace := self new.
@@ -55,7 +57,7 @@ GtBookTrace class >> fromSerialized: aDict [
 	^ trace
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : 'as yet unclassified' }
 GtBookTrace class >> initialize [
 	super initialize.
 	id := UUID new.
@@ -64,12 +66,12 @@ GtBookTrace class >> initialize [
 	entries := OrderedCollection new
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace class >> resetCurrent [
 	Current := nil
 ]
 
-{ #category : #serialization }
+{ #category : 'serialization' }
 GtBookTrace >> asSerialized [
 	"Return a literal structure describing this trace."
 
@@ -81,27 +83,27 @@ GtBookTrace >> asSerialized [
 				#entries -> (entries collect: [ :e | e asSerialized ])}
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace >> entries [
 	^ entries
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace >> entries: aCollection [
 	entries := aCollection
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace >> finishedAt [
 	^ finishedAt
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace >> finishedAt: aDateAndTime [
 	finishedAt := aDateAndTime
 ]
 
-{ #category : #'gt-views' }
+{ #category : 'gt-views' }
 GtBookTrace >> gtViewPathFor: aView [
 	<gtView>
 	^ aView columnedList
@@ -112,17 +114,17 @@ GtBookTrace >> gtViewPathFor: aView [
 		column: 'Step' text: [ :e | e roadmapStepId ifNil: [ '' ] ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace >> id [
 	^ id
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace >> id: anObject [
 	id := anObject
 ]
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 GtBookTrace >> initialize [
 	super initialize.
 	id := UUID new.
@@ -131,22 +133,22 @@ GtBookTrace >> initialize [
 	entries := OrderedCollection new
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace >> label [
 	^ label
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace >> label: aString [
 	label := aString
 ]
 
-{ #category : #recording }
+{ #category : 'recording' }
 GtBookTrace >> recordVisitOfPage: aLePage [
 	^ self recordVisitOfPage: aLePage fromStep: nil
 ]
 
-{ #category : #recording }
+{ #category : 'recording' }
 GtBookTrace >> recordVisitOfPage: aLePage fromStep: aRoadmapStepOrNil [
 	| entry pageTitle pageUid stepId |
 	pageTitle := (aLePage respondsTo: #gtBookTraceTitle)
@@ -180,17 +182,17 @@ GtBookTrace >> recordVisitOfPage: aLePage fromStep: aRoadmapStepOrNil [
 	entries add: entry
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace >> startedAt [
 	^ startedAt
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 GtBookTrace >> startedAt: aDateAndTime [
 	startedAt := aDateAndTime
 ]
 
-{ #category : #serialization }
+{ #category : 'serialization' }
 GtBookTrace >> storeOn: aStream [
 	"Print a Smalltalk expression that reconstructs this trace."
 

@@ -1,10 +1,12 @@
 Class {
-	#name : #GtLepiterPageFactoryExample,
-	#superclass : #Object,
-	#category : #'GtCurriculum-Examples'
+	#name : 'GtLepiterPageFactoryExample',
+	#superclass : 'Object',
+	#category : 'GtCurriculum-Examples',
+	#package : 'GtCurriculum',
+	#tag : 'Examples'
 }
 
-{ #category : #examples }
+{ #category : 'examples' }
 GtLepiterPageFactoryExample class >> exampleRewriteJson [
 	<gtExample>
 	| json parsed |

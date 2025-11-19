@@ -1,10 +1,12 @@
 Class {
-	#name : #GtUuidFormatTest,
-	#superclass : #TestCase,
-	#category : #'GtCurriculum-Tests'
+	#name : 'GtUuidFormatTest',
+	#superclass : 'TestCase',
+	#category : 'GtCurriculum-Tests',
+	#package : 'GtCurriculum',
+	#tag : 'Tests'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 GtUuidFormatTest >> testUuidStringHas36Characters [
 	| uuid |
 	uuid := UUID new asString.
