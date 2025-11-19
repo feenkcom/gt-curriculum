@@ -5,7 +5,7 @@
 		"__type" : "snippets",
 		"items" : [
 			{
-				"__type" : "commentSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:25:12.021685+01:00"
+						"dateAndTimeString" : "2025-11-19T10:55:25.361125+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,15 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-18T11:42:44.011083+01:00"
+						"dateAndTimeString" : "2025-11-19T10:55:25.361125+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5IaonT0ADgCnujs7BaOCxQ=="
+					"uidString" : "xyMjURnkR0eOsAkUkTaqow=="
 				},
-				"string" : "* Add the new page on *Topic Maps* to the GT Book.\n* Create draft pages explaining:\n  * Topic Maps (concepts, usage)\n  * Roadmap visualizations\n  * Navigation & querying guidelines for roadmaps\n* Connect Topic Maps to GT Book’s *Learning Paths* and *Sceneries*.",
-				"isHidden" : false
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
@@ -49,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+			"dateAndTimeString" : "2025-11-19T10:55:25.191673+01:00"
 		}
 	},
 	"editEmail" : {
@@ -60,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-18T10:10:15.983488+01:00"
+			"dateAndTimeString" : "2025-11-19T10:55:25.191673+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Topic Maps and Roadmap visualizations"
+		"title" : "Layouter"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "e56bac91-3c00-0e00-821d-23600a0e6753"
+		"uuid" : "534b17ab-e0fc-4194-89ba-4a8e295f7ea4"
 	}
 }
