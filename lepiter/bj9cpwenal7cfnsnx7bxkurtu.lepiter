@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-13T05:31:22.452842+01:00"
+						"dateAndTimeString" : "2025-11-19T16:23:02.138232+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Context: [[Topic Map]]"
+				"string" : "Context: [[Topic Map]] / [dmx](https://dmx.ralfbarkow.ch/systems.dmx.webclient/#/topicmap/889370/topic/894122/related)"
 			},
 			{
 				"__type" : "textSnippet",
@@ -288,7 +288,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-13T05:36:52.240694+01:00"
+						"dateAndTimeString" : "2025-11-19T16:26:16.015088+01:00"
 					}
 				},
 				"uid" : {
@@ -298,7 +298,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Example: {{gtPage:Tutorial: Exploring GitHub through GraphQL|db=c72hpbcsarp76bsez1znvtuex}}"
+				"string" : "Examples: {{gtPage:Tutorial: Exploring GitHub through GraphQL|db=c72hpbcsarp76bsez1znvtuex}} and {{gtPage:Querying classes and methods|db=2j9m7db2i4oz116bexd7wbdxo}}"
 			},
 			{
 				"__type" : "textSnippet",
