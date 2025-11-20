@@ -840,7 +840,82 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-20T06:49:38.62726+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-20T06:49:42.241717+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "9rLf/2EADgCiGu6/DBB+fg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "{{gtPage:How to work with external child processes|db=2j9m7db2i4oz116bexd7wbdxo}}"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-20T06:51:00.712201+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-20T06:51:02.278685+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "7C7EBGIADgCiKOEMDBB+fg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "{{gtPage:How to stream output from an external child process to the UI|db=2j9m7db2i4oz116bexd7wbdxo}}"
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",

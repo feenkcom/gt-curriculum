@@ -114,6 +114,80 @@
 					"__type" : "textStyle"
 				},
 				"string" : "See {{gtPage:Example: Pure Git Onboarding|db=c72hpbcsarp76bsez1znvtuex}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-20T22:17:18.029388+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-20T22:17:46.117187+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "lsZu9W4ADgC0kKZ2ARgRqA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "svenvc — 14.10.25, 19:22 via [discord](https://discord.com/channels/729445214812504107/735945764597006466/1427708038999179274)\nPureGitRepository does not know anything about Pharo code, by design.\nBut there is an even more experimental PureGitCodeRepository which knows about PureGitPackage.\nIt is possible to load code this way, even in the GT UI.\nThere is even primitive tracking of changes.\nFrom the inspector on PureGitRepository click the Code option from the hamburger menu, \nthen browse the Packages and inspect one. There are load/save buttons, and incoming/outgoing changes views."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-20T22:20:23.489671+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-20T22:20:31.233654+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4ax8AG8ADgC0zhkoARgRqA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[](https://github.com/feenkcom/iceberg-git-cli/commit/41970d#diff-514ecd06d98eb9b0118b97b1bd2c0062b085ecf7ecb7fa720542cf24a66a9995)"
 			}
 		]
 	},
