@@ -34,7 +34,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T14:35:05.604344+01:00"
+									"dateAndTimeString" : "2025-11-23T08:29:37.381149+01:00"
 								}
 							},
 							"uid" : {
@@ -44,7 +44,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtClass:GtCurriciculumPrerequisites}}"
+							"string" : "{{gtClass:LcPrereqs}}"
 						}
 					]
 				},
@@ -331,14 +331,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-19T14:34:24.121501+01:00"
+						"dateAndTimeString" : "2025-11-23T08:29:37.614413+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "NczRVlQADgCVolZ2DceD+w=="
 				},
-				"code" : "GtCurriciculumPrerequisites"
+				"code" : "LcPrereqs"
 			}
 		]
 	},

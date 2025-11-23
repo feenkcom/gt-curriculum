@@ -67,7 +67,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-22T06:30:36.268403+01:00"
+						"dateAndTimeString" : "2025-11-22T07:12:29.530585+01:00"
 					}
 				},
 				"uid" : {
@@ -77,7 +77,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Context: [pdf](https://c2.com/doc/FolkMemory.pdf)"
+				"string" : "Context: [pdf](https://c2.com/doc/FolkMemory.pdf), [wiki](http://som.dreyeck.ch/view/welcome-visitors/view/ralf-barkow/view/folk-memory/view/folk-concepts)"
 			},
 			{
 				"__type" : "textSnippet",

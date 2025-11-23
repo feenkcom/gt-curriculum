@@ -1,0 +1,747 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:19:06.131706+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:51:53.4059+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "BGtTmZ8ADgCnc0q6A6Wssw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Here’s a concrete Smalltalk-Mentoring side road for\n“**# 1. Learn the basics of Glamorous Toolkit**”, expressed as DITA Learning & Training topics.\n\nWe are assuming a *side road* = one learning object with several lessons:\n\n1. **LM-ST-0 – Overview: Smalltalk Mentoring in GT** *(learningOverview)*\n2. **LM-ST-1 – Orientation: Smalltalk in a live GT image** *(learningContent)*\n3. **LM-ST-2 – Thinking in Smalltalk: objects, messages, distinctions** *(learningContent)*\n4. **LM-ST-3 – Working with a mentor: reading, running, and changing code** *(learningContent)*\n5. **LM-ST-4 – Practice path: mentoring exercises (Valloud-inspired)** *(learningContent)*\n6. **LM-ST-A – Check-yourself quiz** *(learningAssessment)*\n7. **LM-ST-S – Wrap-up and next steps** *(learningSummary)*\n\nThe bullets under “*You will learn:* – … How to work with Smalltalk” become the main objectives in LM-ST-0, and this side road links back to “[[# 1. Learn the basics of Glamorous Toolkit]]”.\nThe mentoring flavour is taken from Valloud’s emphasis on education vs training, working in a live image, and “causing brain change”.\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:21:57.823917+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:22:57.673052+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "4EGPo58ADgCnvjAIA6Wssw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "See also `<lcAudience>`. [page](https://dita-lang.org/1.3/dita/langref/learningtraining/lcaudience) – The `<lcAudience>` describes characteristics of the learners who take the instruction."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:23:12.724182+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:23:47.212099+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "CSUGqJ8ADgCoWoGiA6Wssw=="
+							},
+							"code" : "LearningOverview"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:18:38.592133+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:19:52.699774+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ODmvl58ADgCnJcF9A6Wssw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtPage:# 1. Learn the basics of Glamorous Toolkit|db=c72hpbcsarp76bsez1znvtuex}} / [chatgpt](https://chatgpt.com/g/g-p-690c3098a9b08191a06955db4c27eba7-gt-curriculum/c/6922b433-155c-8331-ab6c-6c90841477f8)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:43:47.298824+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:44:10.414046+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ZPKb8Z8ADgCfUFYLDsPAzw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE learningOverview PUBLIC \"-//OASIS//DTD DITA Learning Overview//EN\" \"learningOverview.dtd\">\n<learningOverview id=\"lm-st-0-overview\" xml:lang=\"en\">\n  <title>Side road: Working with Smalltalk in Glamorous Toolkit</title>\n  <shortdesc>\n    This side road accompanies “# 1. Learn the basics of Glamorous Toolkit” and\n    gives you a mentored introduction to working in a live Smalltalk image using GT.\n  </shortdesc>\n\n  <learningOverviewbody>\n    <lcIntro>\n      <title>Introduction</title>\n      <p>\n        This learning object is for learners who want more support with\n        Smalltalk while they explore Glamorous Toolkit. It follows a mentoring\n        style inspired by <i>A Mentoring Course on Smalltalk</i> and uses GT as\n        the live environment for conversation, inspection, and experimentation.\n      </p>\n      <p>\n        You will move between reading, running code, and reflecting on how your\n        thinking changes when you work in a live image.\n      </p>\n    </lcIntro>\n\n    <lcAudience>\n      <p>\n        Developers and researchers who are new to Smalltalk or coming back to it,\n        and who are following the GT curriculum’s “Learn the basics of GT” module.\n      </p>\n    </lcAudience>\n\n    <lcDuration>\n      <p>4–6 hours, depending on how many exercises you explore with a mentor.</p>\n    </lcDuration>\n\n    <lcPrereqs>\n      <p>Before starting, you should:</p>\n      <ul>\n        <li>Have Glamorous Toolkit installed and be able to open it.</li>\n        <li>Have completed the core “# 1. Learn the basics of GT” module up to the\n            point where you can open Lepiter pages and run GT examples.</li>\n      </ul>\n    </lcPrereqs>\n\n    <lcObjectives>\n      <title>Objectives</title>\n      <lcObjectiveStem>After completing this side road, you will be able to:</lcObjectiveStem>\n      <lcObjectivesGroup>\n        <lcObjective>Work comfortably in a live Smalltalk image inside GT (browsers, inspectors, playgrounds).</lcObjective>\n        <lcObjective>Read and write basic Smalltalk expressions and methods and run them in GT.</lcObjective>\n        <lcObjective>Explain how Smalltalk’s “objects sending messages” model supports small, reversible changes.</lcObjective>\n        <lcObjective>Use mentoring patterns (conversation around code, reflection, small experiments) to deepen understanding.</lcObjective>\n        <lcObjective>Complete a small set of Valloud-inspired exercises using GT tools and tests.</lcObjective>\n      </lcObjectivesGroup>\n    </lcObjectives>\n\n    <lcResources>\n      <p>Recommended resources:</p>\n      <ul>\n        <li>Glamorous Toolkit book chapter “How to work with Smalltalk”. </li>\n        <li>Andrés Valloud, <i>A Mentoring Course on Smalltalk</i> (selected chapters and exercises).</li>\n        <li>Your mentor or study group space (e.g., shared Lepiter database, Matrix/Discord channel).</li>\n      </ul>\n    </lcResources>\n\n    <section>\n      <title>Relationship to the main GT basics module</title>\n      <p>\n        This side road can be taken any time after you have a first impression of\n        GT’s views. It is referenced from the “Side roads: How to work with Smalltalk”\n        bullets and should feed back into the main exploration of moldable development\n        and explainable systems. \n      </p>\n    </section>\n  </learningOverviewbody>\n</learningOverview>\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:44:10.405947+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:44:10.405947+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "m9L88p8ADgCfaiaCDsPAzw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 1. LM-ST-0 – learningOverview"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:43:56.138382+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:45:20.164072+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Gx4j8p8ADgCfWJDQDsPAzw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE learningContent PUBLIC \"-//OASIS//DTD DITA Learning Content//EN\" \"learningContent.dtd\">\n<learningContent id=\"lm-st-1-orientation\" xml:lang=\"en\">\n  <title>Orientation: Smalltalk in a live GT image</title>\n  <shortdesc>\n    Learn how to see and touch the running Smalltalk system in Glamorous Toolkit.\n  </shortdesc>\n\n  <learningContentbody>\n    <lcIntro>\n      <title>Why start from a live image?</title>\n      <p>\n        In the GT curriculum, you do not write code in isolation. You always work\n        in a live Smalltalk image, inspecting existing objects and tools. This\n        lesson shows you where Smalltalk “lives” in GT and how to start a\n        mentoring conversation with the system itself.\n      </p>\n    </lcIntro>\n\n    <lcInstruction>\n      <title>Steps</title>\n      <steps>\n        <step>\n          <cmd>Open the GT browser on the <uicontrol>Smalltalk</uicontrol> root object.</cmd>\n          <info>\n            <p>\n              Use a tool or snippet that opens an inspector on <code>Smalltalk</code>.\n              Follow the book’s instruction “inspect Smalltalk in a live image”\n              and notice that you are looking at a whole directed graph of objects,\n              not just source files. \n            </p>\n          </info>\n        </step>\n        <step>\n          <cmd>Explore the main GT tools for Smalltalk.</cmd>\n          <info>\n            <ul>\n              <li>Class browser and method browser.</li>\n              <li>Playground for evaluating expressions.</li>\n              <li>Inspector and spotter for navigating objects.</li>\n            </ul>\n          </info>\n        </step>\n        <step>\n          <cmd>Evaluate simple expressions and inspect results.</cmd>\n          <info>\n            <p>\n              Try arithmetic, strings, and collections; send messages like\n              <code>collect:</code>, <code>select:</code>, and inspect the results.\n              Focus on the conversation with objects, not the syntax details.\n            </p>\n          </info>\n        </step>\n      </steps>\n    </lcInstruction>\n\n    <lcExample>\n      <title>Example: Inspecting a running tool</title>\n      <p>\n        Choose a GT tool you are already using (for example, a Lepiter page presenter),\n        and inspect its model object. Ask: which messages does it understand?\n        How does changing a slot affect the view? This prepares you for later\n        mentoring discussions about emergent behaviour.\n      </p>\n    </lcExample>\n\n    <lcSummary>\n      <title>Key points</title>\n      <p>\n        Smalltalk in GT is not hidden behind files; it is a live graph of objects.\n        Inspecting <code>Smalltalk</code> is like asking “where are all the roads\n        in Rome?” – the whole image is your territory. \n      </p>\n    </lcSummary>\n  </learningContentbody>\n</learningContent>\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:45:20.154922+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:45:20.154922+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "axsl958ADgCfhiVXDsPAzw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 2. LM-ST-1 – Orientation: Smalltalk in a live GT image"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:45:43.740972+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:46:29.570904+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "i/qM+J8ADgCfkZ1tDsPAzw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE learningContent PUBLIC \"-//OASIS//DTD DITA Learning Content//EN\" \"learningContent.dtd\">\n<learningContent id=\"lm-st-2-thinking\" xml:lang=\"en\">\n  <title>Thinking in Smalltalk: objects, messages, distinctions</title>\n  <shortdesc>\n    Shift from “issuing orders” to designing collaborating objects and distinctions,\n    following Valloud’s mentoring style.\n  </shortdesc>\n\n  <learningContentbody>\n    <lcIntro>\n      <title>From commandments to conversations</title>\n      <p>\n        Valloud contrasts rigid “commandment tables” with designs where behaviour\n        emerges from the interaction of well-chosen pieces, highlighting how\n        Smalltalk supports small, inexpensive changes. \n      </p>\n      <p>\n        In this lesson you practice reading and writing code that expresses\n        distinctions explicitly instead of burying them in conditionals.\n      </p>\n    </lcIntro>\n\n    <lcInstruction>\n      <title>Activities</title>\n      <steps>\n        <step>\n          <cmd>Read a short Smalltalk method that uses several <code>ifTrue:ifFalse:</code> branches.</cmd>\n          <info>\n            <p>\n              In your GT image, pick a real method or a teaching example.\n              With your mentor, identify the “distinctions” that the code is\n              trying to make (e.g., different token kinds, different validation cases).\n            </p>\n          </info>\n        </step>\n        <step>\n          <cmd>Refactor the method to use separate classes or messages for those distinctions.</cmd>\n          <info>\n            <p>\n              Create new classes or helper objects so that the run-time no longer\n              needs to rediscover what you already know at design time. Aim to\n              reduce the number of explicit boolean checks.\n            </p>\n          </info>\n        </step>\n        <step>\n          <cmd>Run the tests and discuss the new design.</cmd>\n          <info>\n            <p>\n              Use SUnit tests or GT examples to verify the behaviour. Talk about\n              how the new design makes future changes cheaper and clearer.\n            </p>\n          </info>\n        </step>\n      </steps>\n    </lcInstruction>\n\n    <lcExample>\n      <title>Example: Validation without boilerplate</title>\n      <p>\n        Implement a tiny validator object, inspired by Valloud’s examples,\n        that knows how to check that a particular aspect (like <code>#client</code>)\n        is defined and raise a domain-specific exception, instead of repeating\n        nil checks and failure messages everywhere. \n      </p>\n    </lcExample>\n\n    <lcSummary>\n      <title>Key points</title>\n      <ul>\n        <li>Each new class or message you introduce is a distinction in your model.</li>\n        <li>Design your selectors so Smalltalk sentences read like clear prose, keeping\n            control flow implicit where possible. </li>\n        <li>Less <code>ifTrue:ifFalse:</code> often means more explicit domain thinking.</li>\n      </ul>\n    </lcSummary>\n  </learningContentbody>\n</learningContent>\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:46:29.558265+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:46:29.558265+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GhtI+58ADgCfo9UkDsPAzw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 3. LM-ST-2 – Thinking in Smalltalk: objects, messages, distinctions"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:46:54.572994+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:47:04.603256+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "HdDF/J8ADgCfrrSADsPAzw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE learningContent PUBLIC \"-//OASIS//DTD DITA Learning Content//EN\" \"learningContent.dtd\">\n<learningContent id=\"lm-st-3-mentoring\" xml:lang=\"en\">\n  <title>Working with a mentor: reading, running, and changing code</title>\n  <shortdesc>\n    Practice a mentoring rhythm in GT: demonstration, guided exploration, and\n    independent work with reflection.\n  </shortdesc>\n\n  <learningContentbody>\n    <lcIntro>\n      <title>Education, not just training</title>\n      <p>\n        Valloud distinguishes education (expanding frames of reference) from\n        rote training. Teaching Smalltalk means carefully stretching how learners\n        see problems, then letting them rest and consolidate. \n      </p>\n    </lcIntro>\n\n    <lcInstruction>\n      <title>Mentoring pattern in GT</title>\n      <steps>\n        <step>\n          <cmd>Demonstration in a shared GT session.</cmd>\n          <info>\n            <p>\n              Mentor screenshares GT or co-edits a Lepiter page. They solve a\n              small problem live, narrating how they inspect objects, run tests,\n              and decide where to change code.\n            </p>\n          </info>\n        </step>\n        <step>\n          <cmd>Guided exploration.</cmd>\n          <info>\n            <p>\n              Learner repeats the same steps on their own machine, with the mentor\n              asking reflective questions instead of giving exact commands:\n              “What do you see in this inspector? What else would you inspect?”\n            </p>\n          </info>\n        </step>\n        <step>\n          <cmd>Independent variation.</cmd>\n          <info>\n            <p>\n              Learner makes a small, self-chosen variation (e.g., new test case,\n              new message, visual tweak) and observes how the system responds.\n            </p>\n          </info>\n        </step>\n        <step>\n          <cmd>Reflection in Lepiter.</cmd>\n          <info>\n            <p>\n              Together, you write a short reflection on a Lepiter page linked\n              from the GT curriculum: what changed in your understanding, and\n              which GT views helped?\n            </p>\n          </info>\n        </step>\n      </steps>\n    </lcInstruction>\n\n    <lcSummary>\n      <title>Key points</title>\n      <p>\n        Mentoring in Smalltalk + GT is a cycle: see a live example, repeat it,\n        vary it, and talk about what changed in your thinking. The goal is to\n        change how you perceive systems, not just to remember syntax.\n      </p>\n    </lcSummary>\n  </learningContentbody>\n</learningContent>\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:47:04.595306+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:47:04.595306+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "r7xe/Z8ADgCftY1HDsPAzw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 4. LM-ST-3 – Working with a mentor: reading, running, and changing code"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:47:55.518986+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:48:43.985924+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "qsZnAKAADgCfymvFDsPAzw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE learningContent PUBLIC \"-//OASIS//DTD DITA Learning Content//EN\" \"learningContent.dtd\">\n<learningContent id=\"lm-st-4-exercises\" xml:lang=\"en\">\n  <title>Practice path: mentoring exercises in GT</title>\n  <shortdesc>\n    A sequence of exercises, adapted from Valloud’s book and GT code, to be\n    solved in conversation with a mentor or study group.\n  </shortdesc>\n\n  <learningContentbody>\n    <lcIntro>\n      <title>How to use this exercise path</title>\n      <p>\n        These exercises are not just drills; each one is a conversation starter\n        about design, perception, and behaviour in Smalltalk. Use them as prompts\n        for mentoring sessions, not as silent homework.\n      </p>\n    </lcIntro>\n\n    <lcInstruction>\n      <title>Suggested exercise sequence</title>\n      <ol>\n        <li>\n          <p><b>EX-1 – Explore an existing GT utility.</b>  \n             Pick a simple GT utility class, inspect its instances, and sketch the\n             collaboration between 3–5 key objects.\n          </p>\n        </li>\n        <li>\n          <p><b>EX-2 – Rewrite a boolean-heavy method.</b>  \n             Choose a method with complex conditions and refactor it using the\n             distinction-based approach from LM-ST-2.\n          </p>\n        </li>\n        <li>\n          <p><b>EX-3 – Implement a small validator.</b>  \n             Create a reusable validator object (as in LM-ST-2’s example) and\n             integrate it into an existing GT example or test. \n          </p>\n        </li>\n        <li>\n          <p><b>EX-4 – Reference finder mini-case.</b>  \n             Inspired by the “reference finder” discussion, implement a tiny tool\n             that, given an object, traces where a reference might come from and\n             shows the path in a GT view. \n          </p>\n        </li>\n      </ol>\n    </lcInstruction>\n\n    <lcSummary>\n      <title>Key points</title>\n      <p>\n        Each exercise should end with a short written reflection and, ideally,\n        a saved GT example or visualization that can be reused in the curriculum.\n      </p>\n    </lcSummary>\n  </learningContentbody>\n</learningContent>\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:48:43.976782+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:48:43.976782+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/y5LA6AADgCf/9kqDsPAzw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 5. LM-ST-4 – Practice path: mentoring exercises (Valloud-inspired)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:48:00.585175+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:48:12.017382+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "IRO1AKAADgCf0XDIDsPAzw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE learningAssessment PUBLIC \"-//OASIS//DTD DITA Learning Assessment//EN\" \"learningAssessment.dtd\">\n<learningAssessment id=\"lm-st-a-assessment\" xml:lang=\"en\">\n  <title>Working with Smalltalk – self-check</title>\n  <shortdesc>\n    A short self-check on Smalltalk concepts and GT practices from the mentoring side road.\n  </shortdesc>\n\n  <learningAssessmentbody>\n    <lcIntro>\n      <title>How to use this assessment</title>\n      <p>\n        These questions are for self-reflection or discussion with a mentor.\n        They are not graded; use them to identify what you want to revisit.\n      </p>\n    </lcIntro>\n\n    <lcInteraction>\n      <lcOpenQuestion2 id=\"q1\">\n        <lcQuestion2>\n          Describe a situation from your own work where Smalltalk’s live image\n          and GT’s inspectors would make change cheaper than in a file-based workflow.\n        </lcQuestion2>\n      </lcOpenQuestion2>\n\n      <lcTrueFalse2 id=\"q2\">\n        <lcQuestion2>\n          “Most Smalltalk methods should explicitly control the flow with\n          <code>ifTrue:ifFalse:</code> to make behaviour clear.”\n        </lcQuestion2>\n        <lcAnswerOptionGroup2>\n          <lcAnswerOption2 isCorrect=\"false\">True</lcAnswerOption2>\n          <lcAnswerOption2 isCorrect=\"true\">False</lcAnswerOption2>\n        </lcAnswerOptionGroup2>\n      </lcTrueFalse2>\n\n      <lcOpenQuestion2 id=\"q3\">\n        <lcQuestion2>\n          When refactoring code to use distinctions (new classes/messages),\n          what signals tell you that you are over-abstracting?\n        </lcQuestion2>\n      </lcOpenQuestion2>\n    </lcInteraction>\n  </learningAssessmentbody>\n</learningAssessment>\n```\n\n*(If your toolchain only supports the non-“2” interaction elements, you can mechanically replace `lcOpenQuestion2`, `lcQuestion2`, etc. with the older `lcOpenQuestion`, `lcQuestion`, … as needed.)* ([dita-lang.org][1])\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:48:12.009335+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:48:25.425505+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3VxjAaAADgCf4PgUDsPAzw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 6. LM-ST-A – Assessment: check-yourself quiz"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:48:07.672066+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-23T08:48:56.651731+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "3DUhAaAADgCf2fDdDsPAzw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```xml\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE learningSummary PUBLIC \"-//OASIS//DTD DITA Learning Summary//EN\" \"learningSummary.dtd\">\n<learningSummary id=\"lm-st-s-summary\" xml:lang=\"en\">\n  <title>Summary: Working with Smalltalk in GT</title>\n  <shortdesc>\n    Recap the mentoring side road and suggest next paths in the GT curriculum.\n  </shortdesc>\n\n  <learningSummarybody>\n    <lcSummary>\n      <title>What you have achieved</title>\n      <ul>\n        <li>Used GT tools to explore a live Smalltalk image.</li>\n        <li>Practiced thinking in terms of objects, messages, and distinctions.</li>\n        <li>Worked with a mentor or study group on Valloud-inspired exercises.</li>\n      </ul>\n    </lcSummary>\n\n    <lcNextSteps>\n      <title>Next steps</title>\n      <ul>\n        <li>Return to the main “Learn the basics of GT” module and continue with\n            case-study based exploration (explainable systems, moldable views). </li>\n        <li>Start a new side road on building your own GT tools in Smalltalk\n            (e.g., visualizations for your own domain).</li>\n        <li>Join the GT community channels and share your exercises and reflections.</li>\n      </ul>\n    </lcNextSteps>\n  </learningSummarybody>\n</learningSummary>\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:48:56.642977+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:48:56.642977+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "rnMMBKAADgCgCWIODsPAzw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 7. LM-ST-S – Summary and next steps"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:18:18.769801+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-23T08:49:31.285614+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zcGAlp8ADgCnHpqwA6Wssw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "If we like this structure, we can next:\n\n* add a **learningPlan** topic that ties this side road formally into the whole curriculum map, and\n* derive **DITA maps** that place this object under “# 1. Learn the basics of Glamorous Toolkit” with the existing “Side roads: How to work with Smalltalk” bullet as the entry point.\n\n[1]: https://dita-lang.org/1.3/dita/langref/learningtraining/lcintro \"lcIntro - DITA\"\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-23T08:18:18.554745+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-23T08:18:18.554745+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Smalltalk-Mentoring side road"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "63777d96-9f00-0e00-a71d-bc5903a5acb3"
+	}
+}

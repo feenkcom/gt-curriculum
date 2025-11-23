@@ -1779,7 +1779,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T16:06:33.620635+01:00"
+									"dateAndTimeString" : "2025-11-23T08:29:37.240579+01:00"
 								}
 							},
 							"uid" : {
@@ -1789,7 +1789,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtClass:GtCurriciculumPrerequisites}}. See also {{gtMethod:GtMonitor>>#gtSpaceRunnerFor:}}"
+							"string" : "{{gtClass:LcPrereqs}}. See also {{gtMethod:GtMonitor>>#gtSpaceRunnerFor:}}"
 						},
 						{
 							"__type" : "commentSnippet",
