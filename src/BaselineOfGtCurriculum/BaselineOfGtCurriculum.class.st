@@ -22,7 +22,9 @@ BaselineOfGtCurriculum class >> loadLepiter [
 { #category : #baseline }
 BaselineOfGtCurriculum >> baseline: spec [
 	<baseline>
-		^ spec for: #common do: [
-			spec package: 'GtCurriculum'
-		]
+	^ spec
+		for: #common
+		do: [ spec
+				package: 'GtCurriculum';
+				package: 'Federated-Wiki' ]
 ]
