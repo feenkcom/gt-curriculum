@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-11-18T05:39:43.384373+01:00"
+						"dateAndTimeString" : "2025-11-24T12:46:10.105019+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Start {{gtPage:Wiki|db=aglh1ce18ttiplvtwozjipfl5}} in Farm mode, navigate to a specific server to start it."
+				"string" : "Start {{gtClass:Wiki}} in Farm mode, navigate to a specific server to start it."
 			},
 			{
 				"__type" : "textSnippet",

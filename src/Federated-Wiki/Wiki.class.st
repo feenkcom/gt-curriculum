@@ -1,6 +1,3 @@
-"
-See 'Federated Wiki'. [wikipedia](https://en.wikipedia.org/wiki/Federated_Wiki)
-"
 Class {
 	#name : #Wiki,
 	#superclass : #Object,

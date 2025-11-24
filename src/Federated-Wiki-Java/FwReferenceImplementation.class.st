@@ -13,8 +13,14 @@ This gives you a direct way to ask, *“What does the Java ref impl actually do 
 Class {
 	#name : #FwReferenceImplementation,
 	#superclass : #Object,
-	#category : #'Federated-Wiki-fedwiki-java'
+	#category : #'Federated-Wiki-Java-fedwiki-java'
 }
+
+{ #category : #examples }
+FwReferenceImplementation class >> exampleModel [
+	<gtExample>
+	^ FwReferenceImplementation model
+]
 
 { #category : #'model creation' }
 FwReferenceImplementation class >> model [

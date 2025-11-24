@@ -26,5 +26,6 @@ BaselineOfGtCurriculum >> baseline: spec [
 		for: #common
 		do: [ spec
 				package: 'GtCurriculum';
-				package: 'Federated-Wiki' ]
+				package: 'Federated-Wiki';
+				package: 'Federated-Wiki-Java' ]
 ]
