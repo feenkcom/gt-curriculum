@@ -27,7 +27,7 @@ BaselineOfGtCurriculum class >> loadLepiter [
 
 { #category : 'baseline' }
 BaselineOfGtCurriculum >> baseline: spec [
-	<baseline>
+	" Do we need all this?
 	^ spec
 		for: #common
 		do: [ spec
@@ -55,12 +55,20 @@ BaselineOfGtCurriculum >> baseline: spec [
 					with: [ spec repository: 'github://svenvc/NeoJSON:master/repository' ].
 			spec
 				baseline: 'JSParser'
-				with: [ spec repository: 'github://j-brant/SmaCC:main/src' ].
+				with: [ spec repository: 'github://j-brant/SmaCC' ].
 			spec
 				package: 'GtCurriculum'
 					with: [ spec requires: #(Brick GtoolkitRoadmaps GToolkitScenery LepiterEngineCore) ];
 				package: 'Federated-Wiki'
 					with: [ spec
 							requires: #(Bloc BlocPac Brick GToolkitPhlow GToolkitWebView LepiterEngineCore NeoJSON JSParser) ];
-				package: 'Federated-Wiki-Java' with: [ spec requires: #(GToolkit4Famix3) ] ]
+				package: 'Federated-Wiki-Java' with: [ spec requires: #(GToolkit4Famix3) ] ]"
+
+	<baseline>
+	^ spec
+		for: #common
+		do: [ spec
+				package: 'GtCurriculum';
+				package: 'Federated-Wiki';
+				package: 'Federated-Wiki-Java' ]
 ]
