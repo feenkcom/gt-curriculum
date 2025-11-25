@@ -1,0 +1,562 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T05:50:20.244228+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T06:17:51.71539+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SPX7wMUADgCgl93FDllgqQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtPage:Smalltalk-Mentoring side road|db=c72hpbcsarp76bsez1znvtuex}} / VALLOUD, Andrés, 2010. A Mentoring Course on Smalltalk. p. 104 ff. and [chatgpt](https://chatgpt.com/g/g-p-690c3098a9b08191a06955db4c27eba7-gt-curriculum/c/692533bb-b1e8-832a-9f4d-a3d6dda451e0) / Learning Module: [[Implementing Behavior as Circuit Traversal]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T05:51:49.329964+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T05:51:49.329964+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UkZLxsUADgChC//CDllgqQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Below is a **clean, curriculum-ready extraction and reframing** of **Valloud §3.7.8 Condensed implementation strategy** — focusing entirely on what you need for the **gt-curriculum**: conceptual clarity, Laws-of-Form perspective, graph-based reasoning, and how this becomes an exemplar “learning module” for mentoring.\n\nAll statements about the primary source are grounded directly in the file contents  and explicitly reference Valloud's wording.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T05:52:27.839971+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T05:52:27.839971+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Et6WyMUADgChHnHZDllgqQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# **Condensed Implementation Strategy — A Didactic Extraction (gt-curriculum)**\n\n### From Valloud, *A Mentoring Course on Smalltalk*, §3.7.8, pp. 104ff. \n\n## **1. What Valloud is doing here (in one sentence)**\n\nHe treats `matches:` as **a circuit**, and its implementation as **a graph traversal** whose nodes must be “painted” by running through enough example evaluations until **every inner distinction has expressed its behavior**.\n\nThis is why he says:\n\n> “Implementing the circuit is equivalent to coloring each node of the graph while traversing it.” \n> and\n> “We play the role of a JIT compiler.” \n\nThis is the *core insight* to bring into your Smalltalk mentoring curriculum.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-25T05:53:33.733206+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-25T05:54:04.039801+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "EFiEzMUADgChQjpTDllgqQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Valloud reframes pattern matching as:\n\n* A **circuit**: a connected set of evaluation contexts\n* Whose inner nodes are context-sensitive behaviors (characters, stars, pounds)\n* That must be **visited**, not linearly executed\n* And \"painted\" (i.e., implemented) as soon as example inputs force that part of the circuit to activate.\n\nThus the *design* emerges from the *path of execution*.\n\n> “The very structure [of circuits with multiple inner contexts] suggests the order in which each of their pieces should be created.” \n\nThis is *exactly* a Laws-of-Form / distinction-network way of teaching programming.\n"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-25T05:54:04.030443+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-25T05:54:04.030443+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "saRSzsUADgChVGUaDllgqQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "## **2.1 Circuit Thinking → Graph Thinking → Traversal Thinking**"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-25T05:54:17.233236+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-25T05:54:17.233236+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "bRkcz8UADgChZTnODllgqQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "His method:\n\n1. Choose a **single complex example**\n\n   ```\n   'a#c*fg#ij*x#z' matches: 'abcQQfgfghijQQxyz'\n   ```\n\n   (the example he uses) \n\n2. Start evaluating the pattern **backwards** from the rightmost end — because star-matching and greedy/ungreedy behavior propagates inward.\n\n3. Each time control flows into a piece of the circuit:\n\n   * If the behavior is not implemented yet → **implement it now**.\n   * Continue following the traversal path.\n   * Repeat until **the entire graph has been painted**.\n\nThis is the “connectivity test” he emphasizes:\n\n> “It is all about some sort of connectedness check in a graph, or traversing an information space either towards its attractors or visiting all possible locations.” \n"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-25T05:54:13.948509+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-25T05:54:13.948509+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "NPrpzsUADgChXpUDDllgqQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "## **2.2 Example-Driven Completion (JIT for Behavior)**"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-25T05:53:11.981867+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-25T06:01:09.783097+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "I3A4y8UADgChOMnYDllgqQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Valloud doesn’t state this explicitly as a learning outcome, but the text points to:\n\n* **Boundaries (distinctions) define where evaluation can flow.**\n* **Crossing** a boundary is sending a message.\n* **Calling** a distinction again yields the same evaluation context (stable identity).\n* Evaluation proceeds towards **attractors** (termination conditions of matching).\n\nThis is why he can say:\n\n> “The Laws of Form are present everywhere.” \n\nThus §3.7.8 is a *paradigmatic example of distinguishing → traversing → letting structure guide implementation*.\n"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-25T06:01:09.773424+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-25T06:01:09.773424+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Evey58UADgChfPVyDllgqQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "## **2.3 Why it works: Laws of Form as design rationale**"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T05:53:03.633657+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T05:53:03.633657+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Bg65ysUADgChMBJNDllgqQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# **2. The Didactic Core (to be turned into a Learning Module)**"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-25T06:02:15.841349+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-25T06:06:26.679681+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "+xKj68UADgChkqByDllgqQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Below is a **module outline** (DITA Learning & Training specialization-ready) suitable for “Learning Module: Implementing Behavior as Circuit Traversal”.\n\n---\n\n## **Learning Goals**\n\nThe learner will:\n\n* Understand the idea of **behavior as a circuit**.\n* See **pattern matching** as a **graph traversal problem**.\n* Learn how **example-driven implementation** ensures complete coverage.\n* Experience **Laws-of-Form reasoning** inside Smalltalk design.\n\n---\n\n## **Prerequisites**\n\n* Familiarity with Smalltalk message passing\n* Understanding of *distinctions* (Valloud Ch.1)\n* Basic reading of recursion and traversal patterns\n\n---\n\n## **Lesson Flow (Step-by-Step)**\n\n### **Step 1 — Visualize a Pattern as a Circuit (Graph)**\n\n* Nodes: characters (`a`, `#`, `*`, etc.)\n* Edges: possible transitions (forward/backward matching)\n* Special nodes:\n\n  * `#` (single-character wildcard)\n  * `*` (multi-character wildcard / attractor boundary)\n\n**Exercise**: Draw the graph for `'a#c*fg#ij*x#z'`.\n\n---\n\n### **Step 2 — Start From the End (Attractor-Driven Entry)**\n\nValloud starts from the end because:\n\n* Backwards matching immediately exposes attractor boundaries.\n* `*` junctions define major structural turning points.\n\n**Activity**: Identify attractor nodes in the example.\n\n---\n\n### **Step 3 — Implement Behavior Only When Execution Reaches It**\n\nFor each path section:\n\n* If behavior for that node is not yet implemented, implement it.\n* This *forces* implementation order to match structure.\n\nThis step teaches **Just-In-Time method discovery**.\n\n---\n\n### **Step 4 — Paint the Whole Graph**\n\nDefine “painting”:\n\n* A node is painted when its behavior is implemented and tested.\n* Traversal of the example ensures coverage.\n* Add more examples if coverage is incomplete.\n\n**Outcome**: A full implementation of `matches:` with no ifTrue:ifFalse: (replaced by polymorphism).\n\n---\n\n### **Step 5 — Reflect on Emergent Structure**\n\nLearners articulate:\n\n* How distinctions shaped the code\n* How message sends correspond to crossing boundaries\n* How emergent behavior replaced explicit conditionals\n\nThis ties back to Valloud’s statement:\n\n> “Watch! A constraint has been chosen and now the rest … will weave itself out of thin air …” \n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T06:06:26.670636+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T06:06:26.670636+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3G6W+sUADgCh9+/EDllgqQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# **3. What to extract into the gt-curriculum (Learning Module structure)**"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T06:03:22.858824+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T06:08:44.137336+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sKuh78UADgChuHLXDllgqQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# **4. Why this belongs in the mentoring curriculum**\n\nThis section of Valloud is an **advanced demonstration** of:\n\n* **Design as perception**\n* **Behavior emerging from structure**\n* **Implementation determined by traversal**\n* **Minimal conditional logic via polymorphism**\n* **Graph-oriented reasoning** (key for GT’s moldable tools, visualizations, Mondrian layouts, etc.)\n\nIt also connects deeply with:\n\n* Our *Monadic Exploration* side-road\n* Our *Distinction Networks* thread\n* The SOM / FolkMemory analogy\n* Kandinsky’s *Punkt und Linie zu Fläche* (geometry of distinctions)\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T05:51:27.11487+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-25T06:03:47.527582+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "vVL4xMUADgChAg4kDllgqQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# **5. If we want: We can now generate**\n\n1. A full **DITA Learning Module** (“lm” + “lcam” + “lct”) for this section.\n2. A **GT Lepiter page** (“storeOn”) introducing this technique with live examples.\n3. A **Mondrian visualization** of the pattern-as-graph.\n4. A **Smalltalk teaching exercise** where students paint a graph by implementing `matches:` stepwise.\n5. A **comparison module**:\n   “How Valloud’s circuit-traversal method generalizes to perception, SOMs, and FolkMemory.”\n\nJust tell us the output format we want next.\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-25T05:50:19.948656+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-25T05:50:19.948656+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Valloud reframes pattern matching"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "0871f7c0-c500-0e00-a096-cd8c0e5960a9"
+	}
+}
