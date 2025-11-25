@@ -52,7 +52,7 @@ BaselineOfGtCurriculum >> baseline: spec [
 				baseline: 'LepiterEngineCore'
 					with: [ spec repository: 'github://feenkcom/lepiter:main/src' ];
 				baseline: 'NeoJSON'
-					with: [ spec repository: 'github://feenkcom/NeoJSON:main/src' ].
+					with: [ spec repository: 'github://svenvc/NeoJSON:master/repository' ].
 			spec
 				baseline: 'JSParser'
 				with: [ spec repository: 'github://j-brant/SmaCC:main/src' ].
