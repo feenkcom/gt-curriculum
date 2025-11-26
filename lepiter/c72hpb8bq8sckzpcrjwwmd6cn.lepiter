@@ -34,14 +34,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T07:03:18.461713+01:00"
+									"dateAndTimeString" : "2025-11-26T08:58:34.077515+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "hLa/4U0ADgCpsq+wDBLljg=="
 							},
-							"string" : "RB: We could add a [[Topic Map]] to this repository. See also [gt-curriculum topicmap](https://dmx.ralfbarkow.ch/systems.dmx.webclient/#/topicmap/832268/topic/889370/info), which I will  use in this context as a tool and an example use case for [[Software Assessment]].",
+							"string" : "RB: We could add a [[Topic Map]] to this repository. See also [gt-curriculum topicmap](https://dmx.ralfbarkow.ch/systems.dmx.webclient/#/topicmap/832268/topic/889370/info), which I will  use in this context as a tool and an example use case for [[Software Assessment]].\nON: But this is not intended to be a public repo. Better to focus on the topic map for the book, which is probably the only one that needs to be maintained.",
 							"isHidden" : false
 						}
 					]
