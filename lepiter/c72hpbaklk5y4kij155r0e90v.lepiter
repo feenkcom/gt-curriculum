@@ -577,7 +577,45 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-21T14:52:30.923835+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-21T14:52:30.944026+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "IEi+1XwADgC97ZwJDruWSw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "{{gtPage:What if interfacing with computing artifacts felt like your mental models had come alive?|db=c72hpbcsarp76bsez1znvtuex}}"
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -587,7 +625,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-21T14:52:30.923835+01:00"
+												"dateAndTimeString" : "2025-11-28T08:38:04.443689+01:00"
 											}
 										},
 										"editEmail" : {
@@ -598,17 +636,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-21T14:52:30.944026+01:00"
+												"dateAndTimeString" : "2025-11-28T08:38:05.864889+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "IEi+1XwADgC97ZwJDruWSw=="
+											"uidString" : "yY9hcgQBDgCLY5W4DB417w=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "{{gtPage:What if interfacing with computing artifacts felt like your mental models had come alive?|db=c72hpbcsarp76bsez1znvtuex}}"
+										"string" : "{{gtPage:Narrative Path|db=c72hpbcsarp76bsez1znvtuex}}"
 									},
 									{
 										"__type" : "textSnippet",
