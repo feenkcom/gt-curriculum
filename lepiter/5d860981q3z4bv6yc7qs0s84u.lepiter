@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-28T19:21:56.533544+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T08:32:37.112286+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Nczz053+DQC9+GiNBXypWg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Here’s how Müller’s paper grounds and sharpens the “narrative path” idea we’ve been using: [dmx](https://dmx.ralfbarkow.ch/systems.dmx.webclient/#/topicmap/874648/topic/899529/related)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-28T19:21:47.726318+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-10-28T19:21:56.542395+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WHpt053+DQC98M9ABXypWg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "* #What a narrative path is\n  In Müller’s model, topics are nodes in a **variant graph**; edges can be **semantic dependencies**, **narrative flows**, or **variant relations**. A **narrative walk** is any sequence of nodes connected by narrative-flow edges that share the same flow reference “#”. A **narrative path** is the *simple* (no repeated nodes) version of that walk. In short: a narrative path is the linear story you get by following one labeled narrative flow through distinct topic nodes. \n\n* #Why it matters\n  The system *produces documents by traversing narrative paths*, not just hyperlink trails. Narrative edges may carry **transitional text** (“as we now define…”) so the linearization reads coherently, something plain topic chains usually lack. Variants on content and on narrative flows let the system pick the best storyline for a given reader. \n\n* #How a path is chosen (algorithmic gist)\n  The hybrid traversal builds a global path **P** by repeatedly grabbing the **longest narrative path** that best matches the user’s **adaptation context** Λ (an ordered set of preference constraints). The match score for a candidate path is the average of node-level weights derived from how each node’s context annotations satisfy Λ. If no narrative option fits, it falls back to a path over semantic dependencies (and, if needed, to a context-based sequencing). Listings 1–3 specify this precisely. \n\n* #How to map this to your topicmap/DMX backend\n\n  1. **Types & IDs:** Represent associations of type `narrative` with a required property `flowRef` (= Müller’s “#”) so multiple alternative flows can coexist; keep `semantic` and `variant` as separate association types. Store optional `transitionText` on `narrative` edges. \n  2. **Context annotations:** Put node/edge annotations as key–value sets; preserve order/priority from Λ to compute weights exactly like Müller’s `w(P)` (average over nodes). \n  3. **Path selection:** Given current tail node `n` of P, search for the longest simple path that: (a) follows `narrative` edges with equal `flowRef`, (b) maximizes the match score under Λ, and (c) doesn’t revisit nodes. If none starts at `n`, allow any start; if still none, compute a semantic path/topological segment as fallback. \n  4. **Granularity passes:** First traverse container topics (e.g., theories/sections) to lay out the chapter sequence; then, for each section, traverse constituent graphs (definitions, proofs, examples) to linearize the inner narrative—exactly the two-level iteration Müller uses. \n\n* #Practical litmus tests (for your “narrative path” concept)\n\n  * **Distinctness:** Does your story route forbid node repetition? If yes, you have a path (not just a walk). \n  * **Flow identity:** Are consecutive edges in the story tagged with the same `flowRef`? That’s a single narrative path rather than a stitched set of flows. \n  * **Personalization:** Can you rank competing paths by Λ and pick the top-scoring path segment when extending P? That’s Müller’s selection logic. \n  * **Coherence:** Do you render edge-level `transitionText` when crossing edges? That’s how the path produces readable narrative, not just an ordered list. \n\nIf you implement those four pieces, your “narrative path” matches Müller’s formalism: a maximal, context-best, distinct-node route along a single labeled narrative flow, with variants and fallbacks ensuring both personalization and coverage. \n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-28T19:22:40.072901+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-10-28T19:22:49.64553+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Narrative Path"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "2e686dd3-9dfe-0d00-bdef-5c97057ca95a"
+	}
+}

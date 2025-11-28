@@ -67,7 +67,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-19T07:29:37.72563+01:00"
+						"dateAndTimeString" : "2025-11-28T07:59:59.100538+01:00"
 					}
 				},
 				"uid" : {
@@ -77,7 +77,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Context: [[Use Cases]] / [[Software Assessment]] and working-with-apis. See [channel](https://discord.com/channels/729445214812504107/808405679336849538)"
+				"string" : "Context: [[Use Cases]] / [[Software Assessment]] and [[Working with APIs]]. See [channel](https://discord.com/channels/729445214812504107/808405679336849538)\nSee also {{gtPage:Analyzing Spring Boot RESTful web services|db=2j9m7db2i4oz116bexd7wbdxo}}. [dmx](https://dmx.ralfbarkow.ch/systems.dmx.webclient/#/topicmap/899483/topic/511387/related) > [[Clone a repository]]"
 			},
 			{
 				"__type" : "textSnippet",
