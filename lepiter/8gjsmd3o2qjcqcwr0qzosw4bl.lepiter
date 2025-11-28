@@ -339,6 +339,228 @@
 					"uidString" : "NczRVlQADgCVolZ2DceD+w=="
 				},
 				"code" : "LcPrereqs"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T04:32:58.261119+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T05:25:11.868525+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sATTBQEBDgCfWG+lA0T/ig=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "For the GT Curriculum, DMX is a **“large but still graspable” platform** for a case study on:\n\n* **Software Assessment**\n  * Clear modular structure (`modules/dmx-*`, `dmx-distribution`, `dmx-provision`)\n  * Well-defined extension points (plugins, migrations, REST API, webclient extension). ([DMX Dokumentation][1])\n  \n* **Working with APIs**\n  * **Java API / CoreService** (server-side).\n  * **REST API** for external clients. ([DMX][2])\n  * **dmx-api** (JS) as the front-end integration layer; v3.1/4.0 explicitly tracks platform 5.3.5. ([npm][3])\n\nSo, in Curriculum terms, DMX gives us a **horizontal slice**:\n* *Platform layer*: `dmx-core`, `dmx-config`, `dmx-storage-neo4j`, `dmx-webservice`\n* *Standard plugins*: topicmaps, workspaces, files, etc. (all the `dmx-*` modules in `modules/`).\n* *Our plugins*: DITA, FedWiki, Zettelkasten (external repositories).\n\nFor GT, we can frame this as:\n* **Module A – Reading a Platform**\n  * “Draw the DMX architecture” from `dmx-platform-repomix-output.md`.\n  * Identify where *plugins* plug in (OSGi bundles, migrations, webclient extensions).\n* **Module B – Plugin as Case Study**\n  * dmx-dita as the canonical “external tool integration” plugin.\n  * dmx-fedwiki and dmx-zettelkasten as our “research plugins” (alternative frontends / knowledge models).\n* **Module C – Upgrade & Compatibility Lab**\n  * Task: “Port an existing plugin from DMX 5.0 to 5.3.5.”\n  * The lab *is* “Get DITA-DMX running with DMX 5.3.5.”\n\nSo: **DMX + our three plugins** = a small ecosystem **perfect to teach**:\n* Reading real code,\n* Understanding plugin boundaries,\n* Negotiating API & version constraints,\n* And documenting that process as a “Build Contract” and “Environment Test”.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T04:34:28.626339+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T05:21:12.200634+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "DOI1CwEBDgCfiVtVA0T/ig=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Where DITA fits conceptually\n\nFrom the official plugin listing, the **DMX DITA Toolkit** is an external plugin that:\n\n* Has **Plugin-Version 0.2**\n* **Requires DMX 5.0**\n* Is AGPLv3 and has **Download | Source Code** links ([DMX][4])\n\nIn the Developer Guide, dmx-dita is used as a canonical example:\n\n* It defines a topic type **“DITA Processor”** and adds a **“Run” context menu command** on those topics in the Webclient. ([DMX Dokumentation][1])\n\nCurriculum reading of that:\n\n* It’s a **classic “Bridge plugin”**:\n  * DMX side: topics + associations describing DITA sources, configs, outputs.\n  * External side: DITA-OT / publishing toolchain.\n* Great for a **“Working with external tools/APIs”** module:\n  * Teaching how to pass data out of DMX, run a tool, and bring results back (or at least track them).\n\nSo in GT Curriculum terms, we can have a **“DMX DITA Publishing” learning module** where students:\n\n1. Inspect the plugin structure (Maven module, Java plugin class, migrations, Webclient extension).\n2. Understand how the “Run” command is wired (dmx-api on the front, CoreService + process execution on the back).\n3. Actually get it running on a fresh DMX 5.3.5.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T05:29:16.440978+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T05:29:16.440978+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kPEtzwEBDgChv6cBA0T/ig=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Concrete goal: get *dita-dmx* running on DMX 5.3.5\n\nGiven:\n\n* DMX Platform 5.3.5 is the current stable platform. ([DMX][5])\n* DMX DITA Toolkit 0.2 was built for DMX 5.0. ([DMX][4])\n* The platform’s plugin dev framework evolved in 5.3.x (notably around access control & account management). ([DMX][6])\n\nWe’re basically doing a **version-compatibility mini-port**.\n\nWe’ll treat “dita-dmx” as our local clone/fork of that plugin and DMX 5.3.5 as the platform we build from `dmx-platform` (branch/tag `v5.3.5`).\n\n### Phase 0 — DMX 5.3.5 dev env baseline\n\nUse the platform itself (not the zip) as our case-study base:\n\n1. **Check out the platform** at `v5.3.5` and build it:\n\n   ```sh\n   git checkout v5.3.5\n   mvn -DskipTests=true clean install\n   ```\n\n2. **Run from source** using the `dmx-distribution` module (dev bundle dir etc.), or use the official zip and treat our plugin as an **external bundle** dropped into `bundle-dev/` or `bundle-deploy/`.\n\n3. Make sure your Java is 8 (DMX still requires Java 8) and Neo4j / OSGi start cleanly. ([DMX Dokumentation][7])\n\nThis gives us a **known-good baseline** so any failure with DITA is clearly a plugin issue.\n\n### Phase 1 — Align the DITA plugin’s build with 5.3.5\n\nIn the dmx-dita plugin repo (or our `dita-dmx` fork):\n\n1. **Inspect the `pom.xml`**:\n\n   * It will depend on DMX artifacts like `systems.dmx:dmx-plugin` / `dmx-core` / others.\n   * Update those to **5.3.5** (or whatever version our `dmx-platform` build installed to our local Maven repo or uses from Maven Central). ([DMX][6])\n\n   Roughly:\n\n   ```xml\n   <dmx.version>5.3.5</dmx.version>\n   ```\n\n2. **Check the Webclient side (`package.json`)**:\n\n   * If it uses `dmx-api`, ensure the version is compatible with DMX 5.3.5.\n   * Based on npm info:\n     * `dmx-api@3.1` is adapted to DMX 5.3.5 (account management) and still assumes Vue 2.\n     * `dmx-api@4.0` requires Vue 3. ([npm][3])\n   * The Webclient in our `dmx-platform` repo is still Vue 2 in the code listing, so **stick to dmx-api 3.x** unless we *explicitly* migrate the whole Webclient to Vue 3 (which we probably don’t want here).\n\n3. **Build the plugin:**\n\n   ```sh\n   mvn clean package\n   ```\n\n   We should end up with an OSGi bundle JAR like `dmx-dita-0.2.jar` (or whatever version) in `target/`.\n\nThe **GT Curriculum angle** here is:\n\n* This phase becomes a **lab on “Reading and updating dependency declarations”** across Maven and npm, and understanding how an external plugin tracks the platform’s evolution.\n\n### Phase 2 — Deploy the DITA plugin into DMX 5.3.5\n\nNow wire the plugin into a running DMX 5.3.5 instance.\n\nWe have two main paths:\n\n#### A. Drop-in external plugin (zip-based install)\n\nIf we use the official `dmx-5.3.5.zip`:\n\n1. Locate the **bundle directory**, usually under something like:\n\n   * `dmx-5.3.5/bundle-dev/` for dev bundles\n   * or `dmx-5.3.5/bundle-deploy/` for deployed ones \n\n2. Copy our plugin JAR there:\n\n   ```sh\n   cp target/dmx-dita-*.jar /path/to/dmx-5.3.5/bundle-dev/\n   ```\n\n3. Restart DMX (or use hot-deploy, depending on how we run it).\n\n#### B. Integrated build (platform-from-source)\n\nIf we’re running DMX from the **`dmx-distribution`** module:\n\n1. Decide whether dmx-dita lives:\n\n   * As a **separate repo**, referenced in our dev process and copied into `bundle-dev/`, or\n   * As a **submodule / local module** we add to the Maven reactor (like our other case-study plugins later).\n\n2. In the GT Curriculum story, we’d keep it **external** and document the “drop-in plugin” path; that keeps the platform repo closer to upstream and makes the “Software Assessment” clearer.\n\nEither way, once the jar is in a bundle dir and DMX restarts cleanly, we should:\n\n* See a new plugin listed in the **Admin / Config** area (if DITA defines a ConfigDef).\n* Be able to create topics of type **“DITA Processor”** and see a **“Run”** command in the Webclient context menu (as per the Developer Guide example). ([DMX Dokumentation][1])\n\n### Phase 3 — Wire in the DITA-OT side\n\nThe DITA plugin will expect some **external DITA Open Toolkit installation** and configuration.\n\nBecause we don’t have its README or code here, we can’t tell the exact property names, but generically:\n\n1. Install **DITA-OT** in a known path (or use our existing DITA-OT).\n\n2. Find the plugin’s **config properties**:\n\n   * DMX plugins often define additional keys in `config.properties` or via `ConfigDefs` in DMX Config.\n\n3. Configure:\n\n   * Path to DITA-OT home\n   * Default output formats (PDF, HTML, etc.)\n   * Possibly a working/output directory.\n\n4. Restart DMX, create a small DITA demo:\n\n   * Create a DITA map/topic as file(s) managed by DMX (possibly via `dmx-files`).\n   * Create a **DITA Processor** topic referencing that map.\n   * Use the **“Run”** command and verify that output gets generated somewhere (file system path, DMX Files topics, or both).\n\nCurriculum framing: this is the **“end-to-end integration exercise”**—from Node/Java build to external tool, to artifacts we can inspect and link in DMX.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T04:41:38.660933+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T05:31:13.03416+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4a/XJAEBDgCglUHoA0T/ig=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## How this feeds back into GT Curriculum\n\nWe can turn this whole “get dita-dmx running on v5.3.5” into a structured sequence of GT learning modules:\n\n1. **Module: Reading the DMX Platform**\n\n   * Artifact: Lepiter page summarizing `dmx-platform-repomix-output.md` (which we already have).\n   * Activity: Students draw a layered architecture diagram: Core / Services / Webclient / Plugins.\n\n2. **Module: Plugin Anatomy (using dmx-dita)**\n\n   * Artifact: “Plugin Build Contract” for dmx-dita:\n\n     * Required DMX version\n     * Required Java, Node, npm, dmx-api version\n     * External dependency: DITA-OT (version, path).\n   * Activity: Walk through `pom.xml`, `plugin.properties`, migrations, webclient plugin.\n\n3. **Module: Upgrade Lab (5.0 → 5.3.5)**\n\n   * Artifact: Lepiter “Environment Test” + scripts:\n\n     * A script that:\n\n       * Starts DMX 5.3.5,\n       * Ensures dmx-dita bundle is present and active,\n       * Executes a minimal DITA run,\n       * Asserts success (e.g., a generated file exists or a topic is created).\n   * Activity:\n\n     * Students update versions in `pom.xml`/`package.json`,\n     * Rebuild and redeploy,\n     * Fix any compile/runtime issues by reading DMX API changes (e.g., CoreService, AccessControl tweaks). ([DMX Dokumentation][1])\n\n4. **Module: Comparative Plugins (FedWiki, Zettelkasten)**\n\n   * Once DITA is in shape, FedWiki & Zettelkasten become:\n     * “Alternative frontends” (FedWiki),\n     * “Alternative domain models / semantics” (Zettelkasten).\n   * Activity: Compare plugin boundaries and API usage across our three case-study plugins:\n     * How they use CoreService,\n     * How they extend Webclient (or build their own frontend),\n     * How they talk to *other* external systems (FedWiki, file system, citation export, etc.).\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T05:14:47.142744+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T05:14:47.151934+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "eoza/gABDgCe8DzTA0T/ig=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[1]: https://dmx.readthedocs.io/en/latest/devel.html \"DMX Developer Guide — DMX documentation\"\n[2]: https://dmx.berlin/platform/ \"Platform - DMX\"\n[3]: https://www.npmjs.com/package/dmx-api \"dmx-api - npm\"\n[4]: https://dmx.berlin/plugins/ \"Plugins - DMX\"\n[5]: https://dmx.berlin/download/ \"Download - DMX\"\n[6]: https://dmx.berlin/dmx-5-3-released/ \"DMX 5.3 released - DMX\"\n[7]: https://dmx.readthedocs.io/en/latest/install.html \"Installation — DMX documentation\"\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T05:14:08.262087+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-28T05:31:58.416967+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "00QMmQEBDgCgqMnlA0T/ig=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Most likely next steps (in order of dependency):\n\n  - Adjust the health URL in the env test (/dmx/version\n    → confirm/replace with the actual 5.3.5 endpoint,\n    e.g., /dmx/api/version) and rerun to see if DMX\n    responds. See also [[Working with APIs]]\n  - Satisfy the dmx-dita OSGi requirement by adding\n    Jackson 2.13.x to the runner classpath or embedding\n    it in the dmx-dita bundle; rebuild and redeploy\n    the bundle.\n  - Re-run the env test to confirm the bundle resolves\n    and its health endpoint responds, then validate the\n    DITA run produces HTML output.\n\n  Most valuable next step right now:\n\n  - Fix dmx-dita bundle resolution by providing\n    com.fasterxml.jackson.core (>=2.13,<3) in the OSGi\n    runtime and rebuilding dmx-dita. Without the bundle\n    loading, both the plugin health check and DITA job\n    will keep failing. After that, we can adjust the\n    health URL if needed and rerun the env test."
 			}
 		]
 	},
