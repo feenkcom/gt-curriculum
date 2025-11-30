@@ -1,0 +1,2570 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:01:38.089635+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:01:49.14394+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "4EMEqCkBDgC/37DhC8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "{{gtClass:NwContext}}"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:08:14.396846+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:08:18.393133+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "5mujvykBDgCXqOs9APc4+Q=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "{{gtClass:NwWalk}}"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:56:51.323081+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:00:40.238253+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+pTslikBDgC+4mknC8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:NwNode}}, {{gtClass:NwEdge}} and {{gtClass:NwGraph}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:55:38.898784+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:57:46.665522+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "CnObkikBDgC+pu1KC8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The user wants to implement a narrative walk as described by Christine Müller, so I’ll need to create Smalltalk code with classes for Graph, Node, and Edge. These will help compute narrative walks, with methods for selecting a narrative path and computing the longest path with context and scoring."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:57:46.657881+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:57:46.657881+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5OY4mikBDgC/KOWfC8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Implementing narrative walk code"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:55:41.633264+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:57:54.941058+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "VS3FkikBDgC+rSR7C8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Since the user requested a narrative walk with a simple path option, I'll implement both a generator for narrative walks based on flowRef, and a way to filter to simpler paths and choose the longest one. I’ll integrate these with context-based match scoring and provide examples, using compile: for code chunks and citing the relevant paper naturally."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:57:54.932083+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:57:54.932083+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5Ce3mikBDgC/MufiC8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Generating and filtering narrative walks"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:55:44.784424+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:58:06.504094+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "uUL1kikBDgC+tKf8C8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "I need to define starting classes for the narrative walk task. These will include NwNode (for topic nodes), NwEdge (for connections and flowRef), NwGraph (for graph structure), NwContext (to store the adaptation context with weight functions), and NwWalkFinder (to find narrative walks). The walk finder will also consider avoiding infinite loops while computing the longest walk."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:58:06.496355+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:58:06.496355+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "95tnmykBDgC/PMgnC8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Defining minimal classes for narrative walk"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:55:48.208084+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:58:14.675685+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "e3opkykBDgC+u+11C8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Okay, the \"longest path\" idea in Listing 2 is a bit unclear—whether it means simple paths or not. Since finding the longest path in general is complex and NP-hard, I’ll compute all simple narrative paths instead, limiting to avoid cycles. I'll implement methods for finding the best path with context scoring and provide an example using JSON fixtures."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:58:14.667966+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:58:14.667966+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "u0fkmykBDgC/RgsaC8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Handling longest path and path scoring"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:56:00.198283+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:58:24.087075+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "nnTgkykBDgC+wubRC8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The ask is to implement the narrative walk as specified, so I'll start by defining the graph-related classes and context scoring. Then, I’ll implement the narrative walk algorithm and provide test cases. For the fixture, I’ll add an optional loader that uses NeoJSON when available to load the provided JSON, or else use a fallback. The user prefers minimal commentary and compile: style code chunks."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:58:24.079286+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:58:24.079286+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GOJznCkBDgC/UCO4C8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Implementing narrative walk and fixture loader"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:56:03.719522+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:58:46.021463+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "QCoWlCkBDgC+ybjaC8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "I'll write code with robust error handling and include examples using #gtExample pragmas for demonstration. The core classes will be prefixed with \"Nw\" (like NwNode, NwEdge, NwGraph, etc.). Functions like narrativePathsFrom will return the best path with a weight. The approach also handles variant group nodes correctly by treating them as placeholders until a final node is resolved during the walk."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:58:46.013377+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:58:46.013377+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "B5LCnSkBDgC/Wi68C8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Providing non-failing code and narrative walk algorithm"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:56:07.653511+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:58:54.100268+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "IjdSlCkBDgC+0HQnC8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "I’ll add a variant group mapping in the NwGraph, where each group ID links to an array of topic IDs with context. The function chooseVariantForGroup:context: picks the best context match. I’ll also include a weighting system for node context and adapt the context based on ordered lists, ensuring context parameters match during path retrieval, replacing variant groups with the best-fit topic."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:58:54.091252+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:58:54.091252+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "DNo9nikBDgC/ZO+JC8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Implementing variant group handling and context weighting"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:56:10.495388+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:59:02.725556+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "EJR9lCkBDgC+1/G/C8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "For this task, I’ll compute simple narrative paths starting from a given node and evaluate them. I’ll sort paths by length and score, with a comparator to manage ties. We’ll also implement an optional utility for merging paths if needed. I'll start by defining essential classes like NwNode and NwEdge to set up the graph."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:59:02.718827+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:59:02.718827+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aIDBnikBDgC/bszXC8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Selecting the best path and implementing functionality"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:55:06.914932+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T04:59:14.919259+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "vHCzkCkBDgC+noJZC8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "First, I’ll define the NwEdge class with necessary attributes like fromId, toId, and flowRef. Then, the Graph will include nodes, edges, and variant groups. For pathfinding, I'll use DFS to list all potential paths, avoiding cycles and using context-based variant selection. Path scoring is incorporated to prioritize valid paths."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:59:14.911802+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:59:14.911802+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fIV7nykBDgC/eD5+C8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Defining Graph and Narrative Path Logic"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:02:43.561658+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:02:51.082023+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "XEvrqykBDgCACdwwC8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "below are **Do-it chunks** we can run top-to-bottom in a Playground to implement **Narrative Walk**/**Path** per Müller (same-flowRef narrative edges; path = simple/no repeats; longest + context match score). \n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:03:15.974316+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:03:33.448245+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Dt/ZrSkBDgCAKpzAC8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\n\"Package + classes\"\nObject subclass: #NwNode\n    instanceVariableNames: 'id type title context content'\n    classVariableNames: ''\n    package: 'Nw-Core'.\n\nObject subclass: #NwEdge\n    instanceVariableNames: 'fromId toId typeSymbol flowRef transitionText context'\n    classVariableNames: ''\n    package: 'Nw-Core'.\n\nObject subclass: #NwGraph\n    instanceVariableNames: 'nodes edges variantGroups'\n    classVariableNames: ''\n    package: 'Nw-Core'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:03:33.437507+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:03:33.437507+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kFbkrikBDgCAPFTZC8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it #1 — Core classes (Node/Edge/Graph)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:02:40.582171+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:03:51.792182+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "I9W9qykBDgCAAo6LC8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\nNwNode compile: 'id ^ id' classified: 'accessing'.\nNwNode compile: 'type ^ type' classified: 'accessing'.\nNwNode compile: 'title ^ title' classified: 'accessing'.\nNwNode compile: 'context ^ context ifNil: [ Dictionary new ]' classified: 'accessing'.\nNwNode compile: 'content ^ content' classified: 'accessing'.\n\nNwNode compile: 'id: aString id := aString' classified: 'accessing'.\nNwNode compile: 'type: aSymbol type := aSymbol' classified: 'accessing'.\nNwNode compile: 'title: aString title := aString' classified: 'accessing'.\nNwNode compile: 'context: aDict context := aDict' classified: 'accessing'.\nNwNode compile: 'content: aString content := aString' classified: 'accessing'.\n\nNwNode compile: 'printOn: s\n\tsuper printOn: s.\n\ts nextPutAll: ''(''; nextPutAll: id asString; nextPut: $) ' classified: 'printing'.\n\nNwNode class compile: 'fromDictionary: d\n\t| n |\n\tn := self new.\n\tn id: (d at: #id ifAbsent: [ d at: ''id'' ]).\n\tn type: ((d at: #type ifAbsent: [ d at: ''type'' ]) asString asSymbol).\n\tn title: (d at: #title ifAbsent: [ d at: ''title'' ]).\n\tn context: (d at: #context ifAbsent: [ d at: ''context'' ifAbsent: [ Dictionary new ] ]) asDictionary.\n\tn content: (d at: #content ifAbsent: [ d at: ''content'' ifAbsent: [ '' ] ]).\n\t^ n' classified: 'import'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:03:51.78226+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:03:51.78226+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "JEL8rykBDgCXDX8EAPc4+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it #2 — NwNode API"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:04:20.016701+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:04:23.880883+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "kA6rsSkBDgCXIlKrAPc4+Q=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\nNwEdge compile: 'fromId ^ fromId' classified: 'accessing'.\nNwEdge compile: 'toId ^ toId' classified: 'accessing'.\nNwEdge compile: 'typeSymbol ^ typeSymbol' classified: 'accessing'.\nNwEdge compile: 'flowRef ^ flowRef' classified: 'accessing'.\nNwEdge compile: 'transitionText ^ transitionText ifNil: [ '''' ]' classified: 'accessing'.\nNwEdge compile: 'context ^ context ifNil: [ Dictionary new ]' classified: 'accessing'.\n\nNwEdge compile: 'fromId: s fromId := s' classified: 'accessing'.\nNwEdge compile: 'toId: s toId := s' classified: 'accessing'.\nNwEdge compile: 'typeSymbol: sym typeSymbol := sym' classified: 'accessing'.\nNwEdge compile: 'flowRef: s flowRef := s' classified: 'accessing'.\nNwEdge compile: 'transitionText: s transitionText := s' classified: 'accessing'.\nNwEdge compile: 'context: d context := d' classified: 'accessing'.\n\nNwEdge class compile: 'fromDictionary: d\n\t| e |\n\te := self new.\n\te fromId: (d at: #from ifAbsent: [ d at: ''from'' ]).\n\te toId: (d at: #to ifAbsent: [ d at: ''to'' ]).\n\te typeSymbol: ((d at: #type ifAbsent: [ d at: ''type'' ]) asString asLowercase asSymbol).\n\te flowRef: (d at: #flowRef ifAbsent: [ d at: ''flowRef'' ifAbsent: [ nil ] ]).\n\te transitionText: (d at: #transitionText ifAbsent: [ d at: ''transitionText'' ifAbsent: [ nil ] ]).\n\te context: (d at: #context ifAbsent: [ d at: ''context'' ifAbsent: [ Dictionary new ] ]) asDictionary.\n\t^ e' classified: 'import'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:04:23.870612+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:04:23.870612+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "o+LlsSkBDgCXKXX7APc4+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it #3 — NwEdge API"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:02:34.184298+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:04:46.315293+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "vDNcqykBDgC/+6GMC8OLhg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\nNwGraph compile: 'initialize\n\tsuper initialize.\n\tnodes := Dictionary new.\n\tedges := OrderedCollection new.\n\tvariantGroups := Dictionary new' classified: 'initialization'.\n\nNwGraph compile: 'addNode: aNode\n\tnodes at: aNode id put: aNode' classified: 'building'.\n\nNwGraph compile: 'addEdge: anEdge\n\tedges add: anEdge' classified: 'building'.\n\nNwGraph compile: 'addVariantGroup: groupId members: memberIds\n\tvariantGroups at: groupId put: memberIds asOrderedCollection' classified: 'building'.\n\nNwGraph compile: 'nodeAt: nodeId\n\t^ nodes at: nodeId ifAbsent: [ nil ]' classified: 'query'.\n\nNwGraph compile: 'edgesFrom: nodeId\n\t^ edges select: [ :e | e fromId = nodeId ]' classified: 'query'.\n\nNwGraph compile: 'narrativeSuccessorsOf: nodeId flowRef: aFlowRef context: ctx\n\t\"Return successor nodeIds following narrative edges of the same flowRef.\n\tResolve variant-group targets (ids beginning with ''V:'') by picking best member for ctx.\"\n\t| outs |\n\touts := self edgesFrom: nodeId\n\t\tselect: [ :e | e typeSymbol = #narrative and: [ e flowRef = aFlowRef ] ].\n\t^ outs collect: [ :e |\n\t\t| toId |\n\t\ttoId := e toId.\n\t\t(toId beginsWith: ''V:'')\n\t\t\tifTrue: [ self chooseVariantForGroup: toId context: ctx ]\n\t\t\tifFalse: [ toId ] ]' classified: 'query'.\n\nNwGraph compile: 'chooseVariantForGroup: groupId context: ctx\n\t| members best bestScore |\n\tmembers := variantGroups at: groupId ifAbsent: [ ^ nil ].\n\tbest := nil. bestScore := -1.\n\tmembers do: [ :topicId |\n\t\t| n score |\n\t\tn := self nodeAt: topicId.\n\t\tn ifNotNil: [\n\t\t\tscore := ctx weightForNodeContext: n context.\n\t\t\t(score > bestScore) ifTrue: [ best := topicId. bestScore := score ] ] ].\n\t^ best' classified: 'selection'.\n\nNwGraph class compile: 'fromFixtureDictionary: dict\n\t| g |\n\tg := self new.\n\t(dict at: #topics ifAbsent: [ dict at: ''topics'' ]) do: [ :td |\n\t\tg addNode: (NwNode fromDictionary: td asDictionary) ].\n\t(dict at: #variantGroups ifAbsent: [ dict at: ''variantGroups'' ifAbsent: [ #() ] ])\n\t\tdo: [ :vg |\n\t\t\tg addVariantGroup: (vg at: #id ifAbsent: [ vg at: ''id'' ])\n\t\t\t\tmembers: ((vg at: #members ifAbsent: [ vg at: ''members'' ]) collect: [ :m |\n\t\t\t\t\tm at: #topic ifAbsent: [ m at: ''topic'' ] ]) ].\n\t(dict at: #associations ifAbsent: [ dict at: ''associations'' ]) do: [ :ed |\n\t\tg addEdge: (NwEdge fromDictionary: ed asDictionary) ].\n\t^ g' classified: 'import'.\n\nNwGraph class compile: 'fromFixtureJSON: jsonString\n\t| neo dict |\n\tneo := Smalltalk at: #NeoJSONReader ifAbsent: [ nil ].\n\tneo ifNil: [ self error: ''NeoJSONReader not available'' ].\n\tdict := neo fromString: jsonString.\n\t^ self fromFixtureDictionary: dict' classified: 'import'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:04:46.305119+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:04:46.305119+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "hjU8sykBDgCXPuSqAPc4+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it #4 — NwGraph API (incl. variant handling)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:05:53.595582+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:06:35.641872+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "8gA/tykBDgCXaMwvAPc4+Q=="
+							},
+							"code" : "Object subclass: #NwContext\n    instanceVariableNames: 'orderedParams'\n    classVariableNames: ''\n    package: 'Nw-Core'."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:05:05.400467+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:06:49.878976+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "+JRftCkBDgCXT5EIAPc4+Q=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\nNwContext compile: 'initialize orderedParams := OrderedCollection new' classified: 'init'.\nNwContext compile: 'orderedParams ^ orderedParams' classified: 'accessing'.\n\nNwContext class compile: 'fromOrderedPairs: assocArray\n\t\"assocArray like: { #level->#beginner. #language->#en } in desired priority order.\"\n\t| c |\n\tc := self new.\n\tassocArray do: [ :assoc | c orderedParams add: assoc ].\n\t^ c' classified: 'instance creation'.\n\nNwContext class compile: 'fromDictionaryPreserving: dict\n\t\"Fallback: best effort order = iteration order of dict (may vary).\"\n\t^ self fromOrderedPairs: (dict associations asOrderedCollection)' classified: 'instance creation'.\n\nNwContext compile: 'orderWeightForKey: aKey\n\t| idx size |\n\tsize := orderedParams size.\n\tidx := (orderedParams indexOf: (orderedParams detect: [ :a | a key = aKey ] ifNone: [ ^ 0 ])).\n\t^ size - idx + 1' classified: 'scoring'.\n\nNwContext compile: 'weightForNodeContext: nodeCtx\n\t\"Listing 3: sum order weights of satisfied parameters; equality used as satisfaction.\"\n\t| total |\n\ttotal := 0.\n\torderedParams doWithIndex: [ :assoc :i |\n\t\t| k v |\n\t\tk := assoc key. v := assoc value.\n\t\t(nodeCtx includesKey: k)\n\t\t\tifTrue: [ (nodeCtx at: k) = v ifTrue: [ total := total + (self orderWeightForKey: k) ] ] ].\n\t^ total' classified: 'scoring'.\n\nNwContext compile: 'averageWeightForPathNodes: nodeIds in: aGraph\n\t| sum |\n\tnodeIds isEmpty ifTrue: [ ^ 0 ].\n\tsum := nodeIds sum: [ :nid | self weightForNodeContext: ((aGraph nodeAt: nid) ifNil: [ Dictionary new ]) context ].\n\t^ sum asFloat / nodeIds size asFloat' classified: 'scoring'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:05:10.159735+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:05:10.159735+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fjSotCkBDgCXViUhAPc4+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it #5 — Adaptation context (Λ) and scoring"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:08:37.004892+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:09:01.183895+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "nW78wCkBDgCXytl8APc4+Q=="
+							},
+							"code" : "Object subclass: #NwWalk\n    instanceVariableNames: ''\n    classVariableNames: ''\n    package: 'Nw-Core'."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:07:30.63464+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:09:06.277801+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "la0HvSkBDgCXmO0dAPc4+Q=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\n\n\"Enumerate all simple narrative paths starting at startId along aFlowRef.\"\nNwWalk class compile: 'simplePathsFrom: startId in: g flowRef: aFlowRef context: ctx maxLen: maxLen\n\t| results |\n\tresults := OrderedCollection new.\n\tself dfsFrom: startId current: (OrderedCollection with: startId)\n\t\tin: g flowRef: aFlowRef context: ctx maxLen: maxLen results: results.\n\t^ results asArray' classified: 'enumeration'.\n\nNwWalk class compile: 'dfsFrom: currentId current: prefix in: g flowRef: aFlowRef context: ctx maxLen: maxLen results: results\n\t| succs |\n\t(maxLen notNil and: [ prefix size >= maxLen ]) ifTrue: [ ^ self ].\n\tsuccs := g narrativeSuccessorsOf: currentId flowRef: aFlowRef context: ctx.\n\tsuccs do: [ :nid |\n\t\t(prefix includes: nid)\n\t\t\tifTrue: [ \"simple path => no repeats\" ]\n\t\t\tifFalse: [\n\t\t\t\t| next |\n\t\t\t\tnext := prefix copyWith: nid.\n\t\t\t\tresults add: next.\n\t\t\t\tself dfsFrom: nid current: next in: g flowRef: aFlowRef context: ctx maxLen: maxLen results: results ] ]' classified: 'enumeration'.\n\n\"All simple paths for any start node along aFlowRef.\"\nNwWalk class compile: 'simplePathsAnyStartIn: g flowRef: aFlowRef context: ctx maxLen: maxLen\n\t| all |\n\tall := OrderedCollection new.\n\tg perform: #nodes ifNotUnderstood: [ ^ #() ].\n\tg valueOfProperty: #.\n\tg nodes keysAndValuesDo: [ :nid :node |\n\t\tall addAll: (self simplePathsFrom: nid in: g flowRef: aFlowRef context: ctx maxLen: maxLen) ].\n\t^ all asArray' classified: 'enumeration'.\n\n\"Allow overlap rule from Listing 2 when appending to existing P.\"\nNwWalk class compile: 'path: candidate allowedAgainstExisting: existing\n\t| k j prefix |\n\texisting isEmpty ifTrue: [ ^ true ].\n\tcandidate size <= 1 ifTrue: [ ^ true ].\n\t\"Either v2..vi are not in P:\"\n\t(((candidate allButFirst) anySatisfy: [ :nid | existing includes: nid ]) not)\n\t\tifTrue: [ ^ true ].\n\t\"…or prefix of candidate equals suffix of existing.\"\n\tk := existing size.\n\tj := (candidate size min: existing size) - 1.\n\tprefix := candidate copyFrom: 1 to: j.\n\t^ prefix = (existing copyFrom: k - j + 1 to: k)' classified: 'selection'.\n\n\"Pick best path per Listing 2: prefer longest; tie-break by higher average Λ-weight.\"\nNwWalk class compile: 'bestPathStartingAt: startId in: g flowRef: aFlowRef context: ctx existing: existing\n\t| fromStart candidates scored best |\n\tcandidates := self simplePathsFrom: startId in: g flowRef: aFlowRef context: ctx maxLen: nil.\n\tfromStart := candidates select: [ :p | self path: p allowedAgainstExisting: existing ].\n\tscored := fromStart collect: [ :p | { p. p size. (ctx averageWeightForPathNodes: p in: g) } ].\n\tbest := scored\n\t\tifEmpty: [ nil ]\n\t\tifNotEmpty: [\n\t\t\t(scored asSortedCollection:\n\t\t\t\t[ :a :b | (a second > b second) or:\n\t\t\t\t\t[ a second = b second and: [ a third > b third ] ] ]) first first ].\n\t^ best' classified: 'selection'.\n\n\"Fallback: best path starting anywhere.\"\nNwWalk class compile: 'bestPathAnyStartIn: g flowRef: aFlowRef context: ctx existing: existing\n\t| all candidates scored |\n\tall := self simplePathsAnyStartIn: g flowRef: aFlowRef context: ctx maxLen: nil.\n\tcandidates := all select: [ :p | self path: p allowedAgainstExisting: existing ].\n\tscored := candidates collect: [ :p | { p. p size. (ctx averageWeightForPathNodes: p in: g) } ].\n\t^ scored\n\t\tifEmpty: [ nil ]\n\t\tifNotEmpty: [\n\t\t\t(scored asSortedCollection:\n\t\t\t\t[ :a :b | (a second > b second) or:\n\t\t\t\t\t[ a second = b second and: [ a third > b third ] ] ]) first first ]' classified: 'selection'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:07:45.967782+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:07:45.967782+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "JqDxvSkBDgCXnyhNAPc4+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it #6 — Narrative walk/path enumeration & selection"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:08:44.491854+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:09:45.376792+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "u6BuwSkBDgCXzb6pAPc4+Q=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\nNwWalk class compile: 'hybridTraversalIn: g flowRef: aFlowRef context: ctx\n\t\"Listing 1, but only the narrative-part; semantic fallback can be added later.\"\n\t| P n Pprime remaining |\n\tP := OrderedCollection new.\n\t[ (g nodes size <= P size) ] whileFalse: [\n\t\tn := P ifEmpty: [ nil ] ifNotEmpty: [ P last ].\n\t\tPprime := n\n\t\t\tifNil: [ self bestPathAnyStartIn: g flowRef: aFlowRef context: ctx existing: P ]\n\t\t\tifNotNil: [ self bestPathStartingAt: n in: g flowRef: aFlowRef context: ctx existing: P ].\n\t\tPprime ifNil: [ ^ P asArray ].\n\t\t\"append with overlap elimination\"\n\t\t(P isEmpty or: [ Pprime isEmpty ]) ifTrue: [ P addAll: Pprime ]\n\t\tifFalse: [\n\t\t\t| overlap |\n\t\t\toverlap := 0.\n\t\t\t[ overlap < (P size min: Pprime size) and:\n\t\t\t  [ (P copyFrom: P size - overlap to: P size) =\n\t\t\t    (Pprime copyFrom: 1 to: overlap + 1) ] ] whileTrue: [ overlap := overlap + 1 ].\n\t\t\toverlap > 0 ifTrue: [ P addAll: (Pprime copyFrom: overlap + 1 to: Pprime size) ]\n\t\t\t\tifFalse: [ P addAll: Pprime ] ].\n\t\tremaining := g nodes size - (P asSet size).\n\t\tremaining <= 0 ifTrue: [ ^ P asArray ] ].\n\t^ P asArray' classified: 'traversal'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:09:45.366334+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:09:45.366334+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ooUPxSkBDgCX664kAPc4+Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it #7 — End-to-end traversal loop (Listing 1 style)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:10:04.648957+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:10:36.772536+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Sbs1xikBDgCYAIlcAPc4+Q=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\n\"Helper: load the tiny fixture file if present.\"\nNwGraph class compile: 'fromFixtureFile: aFileReference\n\t| json |\n\tjson := aFileReference contents.\n\t^ self fromFixtureJSON: json' classified: 'import'.\n\n\"Example using the earlier wow-narrative-fixture.json\"\nNwWalk class compile: 'exampleFixtureBeginner\n\t<gtExample>\n\t| file g ctx P |\n\tfile := FileLocator workingDirectory / ''docs'' / ''fixtures'' / ''wow-narrative-fixture.json''.\n\tfile exists ifFalse: [ ^ ''(fixture missing)'' ].\n\tg := NwGraph fromFixtureFile: file.\n\tctx := NwContext fromOrderedPairs: { #level->#beginner. #language->#en }.\n\tP := self hybridTraversalIn: g flowRef: ''intro-defn-proof'' context: ctx.\n\t^ P' classified: 'examples'.\n\nNwWalk class compile: 'exampleFixtureAdvanced\n\t<gtExample>\n\t| file g ctx P |\n\tfile := FileLocator workingDirectory / ''docs'' / ''fixtures'' / ''wow-narrative-fixture.json''.\n\tfile exists ifFalse: [ ^ ''(fixture missing)'' ].\n\tg := NwGraph fromFixtureFile: file.\n\tctx := NwContext fromOrderedPairs: { #level->#advanced. #language->#en }.\n\tP := self hybridTraversalIn: g flowRef: ''intro-defn-proof'' context: ctx.\n\t^ P' classified: 'examples'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:10:36.761739+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:10:36.761739+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ssAfyCkBDgC3iR3KBSBDuA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it #8 — Fixture loader & examples"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:11:34.393644+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:14:16.617136+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "YCuPyykBDgC3pspaBSBDuA=="
+							},
+							"code" : "\n| g nIntro nDef nThm pMed pHigh ctx beginner advanced |\ng := NwGraph new.\n\nnIntro := (NwNode new id: 'T:Intro'; type: #Section; title: 'Intro'; context: (Dictionary newFrom: { #level->#beginner. #language->#en }); yourself).\nnDef   := (NwNode new id: 'T:Def';   type: #Definition; title: 'Def'; context: (Dictionary newFrom: { #level->#beginner. #language->#en }); yourself).\nnThm   := (NwNode new id: 'T:Thm';   type: #Theorem;    title: 'Thm'; context: (Dictionary newFrom: { #level->#advanced. #language->#en }); yourself).\npMed   := (NwNode new id: 'T:Proof:med';  type: #Proof; title: 'Proof (med)'; context: (Dictionary newFrom: { #level->#beginner. #language->#en }); yourself).\npHigh  := (NwNode new id: 'T:Proof:high'; type: #Proof; title: 'Proof (high)'; context: (Dictionary newFrom: { #level->#advanced. #language->#en }); yourself).\n\n{ nIntro. nDef. nThm. pMed. pHigh } do: [ :n | g addNode: n ].\ng addVariantGroup: 'V:Proof' members: #('T:Proof:med' 'T:Proof:high').\n\ng addEdge: (NwEdge new fromId: 'T:Intro'; toId: 'T:Def'; typeSymbol: #narrative; flowRef: 'intro-defn-proof'; transitionText: 'First define.'; yourself).\ng addEdge: (NwEdge new fromId: 'T:Def';   toId: 'T:Thm'; typeSymbol: #narrative; flowRef: 'intro-defn-proof'; transitionText: 'Then state.'; yourself).\ng addEdge: (NwEdge new fromId: 'T:Thm';   toId: 'V:Proof'; typeSymbol: #narrative; flowRef: 'intro-defn-proof'; transitionText: 'Now prove.'; yourself).\n\nctx := NwContext fromOrderedPairs: { #level->#beginner. #language->#en }.\nbeginner := NwWalk hybridTraversalIn: g flowRef: 'intro-defn-proof' context: ctx.\n\nctx := NwContext fromOrderedPairs: { #level->#advanced. #language->#en }.\nadvanced := NwWalk hybridTraversalIn: g flowRef: 'intro-defn-proof' context: ctx.\n\n{ beginner. advanced } inspect.\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:20:41.576037+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:27:04.470156+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "yD2t6ykBDgC0afo3CgET0A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We're calling `g nodes` from {{gtMethod:NwWalk class>>hybridTraversalIn:flowRef:context:}}, but {{gtClass:NwGraph}} doesn’t implement a `#nodes` accessor. Hence the DNU.\n\nFast fix — add an accessor (and a tiny convenience):\n\n```smalltalk\n\"Do-its — paste in a playground\"\n\nNwGraph compile: 'nodes\n\t\"Access the internal node dictionary.\"\n\t^ nodes ifNil: [ nodes := Dictionary new ]' classified: 'accessing'.\n\nNwGraph compile: 'size\n\t\"Number of nodes.\"\n\t^ self nodes size' classified: 'accessing'.\n```\n\n(Optional) Slightly better decoupling: in `NwWalk class>>hybridTraversalIn:flowRef:context:` replace `g nodes size` with `g size`. That way the traversal doesn’t reach into `NwGraph`’s internals.\n\nRe-run our “Quick smoke test”; the `doesNotUnderstand: #nodes` should be gone.\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:27:30.32054+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:28:50.652727+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "63SJBCoBDgC1XXoCCgET0A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Context: {{gtClass:NwGraph}} , {{gtClass:NwWalk}}"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:26:23.623678+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:28:25.853883+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "HrmPACoBDgC1OVAcCgET0A=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "```smalltalk\nNwGraph compile: 'nodeIds\n\t\"Return all node ids.\"\n\t^ self nodes keys asArray' classified: 'accessing'.\n\n\"Nicer dependency from NwWalk:\"\nNwGraph compile: 'size\n\t^ self nodes size' classified: 'accessing'.\n```\n"
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:28:25.847109+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:28:25.847109+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "brPYByoBDgC1zNfFCgET0A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "### Do-it — add `nodeIds` (and prefer `size`) on `NwGraph`"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:26:26.836042+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:28:56.159006+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "3rzAACoBDgC1QO4vCgET0A=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "```smalltalk\nNwWalk class compile: 'simplePathsAnyStartIn: g flowRef: aFlowRef context: ctx maxLen: maxLen\n\t| all |\n\tall := OrderedCollection new.\n\tg nodeIds do: [ :nid |\n\t\tall addAll: (self simplePathsFrom: nid in: g flowRef: aFlowRef context: ctx maxLen: maxLen) ].\n\t^ all asArray' classified: 'enumeration'.\n```\n"
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:28:56.154371+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:28:56.154371+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "1iWnCSoBDgC2DeKtCgET0A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "### Do-it — fix `simplePathsAnyStartIn:` to iterate ids"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:26:31.393006+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:29:32.972892+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "mUUGASoBDgC1R7uICgET0A=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "```smalltalk\nNwWalk class compile: 'bestPathStartingAt: startId in: g flowRef: aFlowRef context: ctx existing: existing\n\t| candidates scored |\n\tcandidates := self simplePathsFrom: startId in: g flowRef: aFlowRef context: ctx maxLen: nil.\n\tcandidates := candidates select: [ :p | self path: p allowedAgainstExisting: existing ].\n\tscored := candidates collect: [ :p | { p. p size. (ctx averageWeightForPathNodes: p in: g) } ].\n\t^ scored\n\t\tifEmpty: [ nil ]\n\t\tifNotEmpty: [\n\t\t\t(scored asSortedCollection:\n\t\t\t\t[ :a :b | (a second > b second) or:\n\t\t\t\t\t[ a second = b second and: [ a third > b third ] ] ]) first first ]' classified: 'selection'.\n\nNwWalk class compile: 'bestPathAnyStartIn: g flowRef: aFlowRef context: ctx existing: existing\n\t| all candidates scored |\n\tall := self simplePathsAnyStartIn: g flowRef: aFlowRef context: ctx maxLen: nil.\n\tcandidates := all select: [ :p | self path: p allowedAgainstExisting: existing ].\n\tscored := candidates collect: [ :p | { p. p size. (ctx averageWeightForPathNodes: p in: g) } ].\n\t^ scored\n\t\tifEmpty: [ nil ]\n\t\tifNotEmpty: [\n\t\t\t(scored asSortedCollection:\n\t\t\t\t[ :a :b | (a second > b second) or:\n\t\t\t\t\t[ a second = b second and: [ a third > b third ] ] ]) first first ]' classified: 'selection'.\n```\n"
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:29:32.967591+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:29:32.967591+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "jdrYCyoBDgC2F2uACgET0A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "### Do-it — add the missing selectors used by `hybridTraversalIn:`"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:26:37.794152+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:30:25.275703+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "4vFnASoBDgC1TnkgCgET0A=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "```smalltalk\nNwWalk class compile: 'hybridTraversalIn: g flowRef: aFlowRef context: ctx\n\t| P n Pprime remaining |\n\tP := OrderedCollection new.\n\t[ (g size <= P size) ] whileFalse: [\n\t\tn := P ifEmpty: [ nil ] ifNotEmpty: [ P last ].\n\t\tPprime := n\n\t\t\tifNil:  [ self bestPathAnyStartIn: g flowRef: aFlowRef context: ctx existing: P ]\n\t\t\tifNotNil:[ self bestPathStartingAt: n in: g flowRef: aFlowRef context: ctx existing: P ].\n\t\tPprime ifNil: [ ^ P asArray ].\n\t\t(P isEmpty or: [ Pprime isEmpty ])\n\t\t\tifTrue: [ P addAll: Pprime ]\n\t\t\tifFalse: [\n\t\t\t\t| overlap |\n\t\t\t\toverlap := 0.\n\t\t\t\t[ overlap < (P size min: Pprime size)\n\t\t\t\t  and: [ (P copyFrom: P size - overlap to: P size)\n\t\t\t\t         = (Pprime copyFrom: 1 to: overlap + 1) ] ]\n\t\t\t\t\twhileTrue: [ overlap := overlap + 1 ].\n\t\t\t\toverlap > 0\n\t\t\t\t\tifTrue: [ P addAll: (Pprime copyFrom: overlap + 1 to: Pprime size) ]\n\t\t\t\t\tifFalse:[ P addAll: Pprime ] ].\n\t\tremaining := g size - (P asSet size).\n\t\tremaining <= 0 ifTrue: [ ^ P asArray ] ].\n\t^ P asArray' classified: 'traversal'.\n```\n"
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:30:25.270568+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:30:25.270568+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "W/X2DioBDgC2IU4BCgET0A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "### Do-it — optional, make `hybridTraversalIn:` use `size` (safer than `nodes size`)"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "pharoSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:31:30.625185+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:32:29.072949+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "zDbcEioBDgC2KW64CgET0A=="
+													},
+													"code" : "\n| g nIntro nDef nThm pMed pHigh ctx beginner advanced |\ng := NwGraph new.\n\nnIntro := (NwNode new id: 'T:Intro'; type: #Section; title: 'Intro';\n\tcontext: (Dictionary newFrom: { #level->#beginner. #language->#en }); yourself).\nnDef   := (NwNode new id: 'T:Def'; type: #Definition; title: 'Def';\n\tcontext: (Dictionary newFrom: { #level->#beginner. #language->#en }); yourself).\nnThm   := (NwNode new id: 'T:Thm'; type: #Theorem; title: 'Thm';\n\tcontext: (Dictionary newFrom: { #level->#advanced. #language->#en }); yourself).\npMed   := (NwNode new id: 'T:Proof:med';  type: #Proof; title: 'Proof (med)';\n\tcontext: (Dictionary newFrom: { #level->#beginner. #language->#en }); yourself).\npHigh  := (NwNode new id: 'T:Proof:high'; type: #Proof; title: 'Proof (high)';\n\tcontext: (Dictionary newFrom: { #level->#advanced. #language->#en }); yourself).\n\n{ nIntro. nDef. nThm. pMed. pHigh } do: [ :n | g addNode: n ].\ng addVariantGroup: 'V:Proof' members: #('T:Proof:med' 'T:Proof:high').\n\ng addEdge: (NwEdge new fromId: 'T:Intro'; toId: 'T:Def'; typeSymbol: #narrative; flowRef: 'intro-defn-proof'; transitionText: 'First define.'; yourself).\ng addEdge: (NwEdge new fromId: 'T:Def';   toId: 'T:Thm'; typeSymbol: #narrative; flowRef: 'intro-defn-proof'; transitionText: 'Then state.'; yourself).\ng addEdge: (NwEdge new fromId: 'T:Thm';   toId: 'V:Proof'; typeSymbol: #narrative; flowRef: 'intro-defn-proof'; transitionText: 'Now prove.'; yourself).\n\nctx := NwContext fromOrderedPairs: { #level->#beginner. #language->#en }.\nbeginner := NwWalk hybridTraversalIn: g flowRef: 'intro-defn-proof' context: ctx.\n\nctx := NwContext fromOrderedPairs: { #level->#advanced. #language->#en }.\nadvanced := NwWalk hybridTraversalIn: g flowRef: 'intro-defn-proof' context: ctx.\n\n{ beginner. advanced } inspect.\n\n"
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:31:45.540807+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:31:45.540807+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Ksm/EyoBDgC2L9RzCgET0A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "### Do-it — quick smoke (same tiny graph you used)"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:32:03.832008+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:32:45.113963+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "JWRs+SkBDgC1CHRtCgET0A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "That should clear the `doesNotUnderstand: #bestPathAnyStartIn:flowRef:context:existing:` and give you working beginner/advanced paths."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:35:31.438353+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:37:30.182211+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "tLU2ISoBDgCp6TT3BAOnew=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "Context: {{gtClass:NwGraph}}, {{gtClass:NwWalk}}"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [
+															{
+																"__type" : "textSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2025-11-30T05:36:36.164582+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2025-11-30T05:36:40.103233+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "6loSJSoBDgCqWcAkBAOnew=="
+																},
+																"paragraphStyle" : {
+																	"__type" : "textStyle"
+																},
+																"string" : "```smalltalk\nNwGraph compile: 'narrativeSuccessorsOf: nodeId flowRef: aFlowRef context: ctx\n\t\"Return successor nodeIds following narrative edges of the same flowRef.\n\tResolve variant-group targets (ids beginning with ''V:'') by picking best\n\tmember for ctx.\"\n\t| outs |\n\touts := (self edgesFrom: nodeId)\n\t\tselect: [ :e | e typeSymbol = #narrative and: [ e flowRef = aFlowRef ] ].\n\t^ (outs collect: [ :e |\n\t\t| toId |\n\t\ttoId := e toId.\n\t\t(toId beginsWith: ''V:'')\n\t\t\tifTrue: [ self chooseVariantForGroup: toId context: ctx ]\n\t\t\tifFalse: [ toId ] ])\n\t\treject: [ :nid | nid isNil ]'\nclassified: 'query'.\n```\n"
+															}
+														]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:36:40.09213+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:36:40.09213+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "aEhOJSoBDgCqYOHVBAOnew=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "### Do-it — fix `narrativeSuccessorsOf:flowRef:context:` (parentheses + nil-filter)"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [
+															{
+																"__type" : "textSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2025-11-30T05:37:41.309634+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2025-11-30T05:39:52.332376+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "AWP0KCoBDgCqen0DBAOnew=="
+																},
+																"paragraphStyle" : {
+																	"__type" : "textStyle"
+																},
+																"string" : "```smalltalk\nNwWalk class\ncompile: 'path: candidate allowedAgainstExisting: existing\r\t\"Allow if v2..vi not in existing, or prefix(cand) = suffix(existing).\"\r\r\t| k j prefix |\r\texisting isEmpty ifTrue: [ ^ true ].\r\tcandidate size <= 1 ifTrue: [ ^ true ].\r\t(candidate allButFirst anySatisfy: [ :nid | existing includes: nid ]) not\r\t\tifTrue: [ ^ true ].\r\r\tk := existing size.\r\tj := (candidate size min: existing size) - 1.\r\tj <= 0 ifTrue: [ ^ true ].\r\tprefix := candidate copyFrom: 1 to: j.\r\t^ prefix = (existing copyFrom: k - j + 1 to: k)'\nclassified: 'selection'.\n```\n"
+															}
+														]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:37:48.540985+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:37:48.540985+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "3LViKSoBDgCqgXpNBAOnew=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "### Do-it — ensure the overlap guard exists on `NwWalk` (used by selectors you called)"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [
+															{
+																"__type" : "textSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2025-11-30T05:40:49.041989+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2025-11-30T05:41:01.933059+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "2fQkNCoBDgCqoOyQBAOnew=="
+																},
+																"paragraphStyle" : {
+																	"__type" : "textStyle"
+																},
+																"string" : "```smalltalk\nNwWalk class\ncompile: 'bestPathStartingAt: startId in: g flowRef: aFlowRef context: ctx existing: existing\n\t| candidates scored |\n\tcandidates := self simplePathsFrom: startId in: g flowRef: aFlowRef context: ctx maxLen: nil.\n\tcandidates := candidates select: [ :p | self path: p allowedAgainstExisting: existing ].\n\tscored := candidates collect: [ :p | { p. p size. (ctx averageWeightForPathNodes: p in: g) } ].\n\t^ scored ifEmpty: [ nil ] ifNotEmpty: [\n\t\t(scored asSortedCollection:\n\t\t\t[ :a :b | (a second > b second) or:\n\t\t\t\t[ a second = b second and: [ a third > b third ] ] ]) first first ]'\nclassified: 'selection'.\n\nNwWalk class\ncompile: 'bestPathAnyStartIn: g flowRef: aFlowRef context: ctx existing: existing\n\t| all candidates scored |\n\tall := self simplePathsAnyStartIn: g flowRef: aFlowRef context: ctx maxLen: nil.\n\tcandidates := all select: [ :p | self path: p allowedAgainstExisting: existing ].\n\tscored := candidates collect: [ :p | { p. p size. (ctx averageWeightForPathNodes: p in: g) } ].\n\t^ scored ifEmpty: [ nil ] ifNotEmpty: [\n\t\t(scored asSortedCollection:\n\t\t\t[ :a :b | (a second > b second) or:\n\t\t\t\t[ a second = b second and: [ a third > b third ] ] ]) first first ]'\nclassified: 'selection'.\n```\n"
+															}
+														]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:41:01.926876+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:41:01.926876+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "FovpNCoBDgCqp4NQBAOnew=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "### Do-it — recompile the two “bestPath…” selectors (as used by `hybridTraversalIn:`)"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [
+															{
+																"__type" : "pharoSnippet",
+																"children" : {
+																	"__type" : "snippets",
+																	"items" : [ ]
+																},
+																"createEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"createTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2025-11-30T05:44:56.060721+01:00"
+																	}
+																},
+																"editEmail" : {
+																	"__type" : "email",
+																	"emailString" : "<unknown>"
+																},
+																"editTime" : {
+																	"__type" : "time",
+																	"time" : {
+																		"__type" : "dateAndTime",
+																		"dateAndTimeString" : "2025-11-30T05:45:33.614407+01:00"
+																	}
+																},
+																"uid" : {
+																	"__type" : "uid",
+																	"uidString" : "vi/eQioBDgCqtrq4BAOnew=="
+																},
+																"code" : "\n| g nIntro nDef nThm pMed pHigh ctx beginner advanced |\ng := NwGraph new.\n\nnIntro := (NwNode new id: 'T:Intro'; type: #Section; title: 'Intro';\n\tcontext: (Dictionary newFrom: { #level->#beginner. #language->#en }); yourself).\nnDef   := (NwNode new id: 'T:Def'; type: #Definition; title: 'Def';\n\tcontext: (Dictionary newFrom: { #level->#beginner. #language->#en }); yourself).\nnThm   := (NwNode new id: 'T:Thm'; type: #Theorem; title: 'Thm';\n\tcontext: (Dictionary newFrom: { #level->#advanced. #language->#en }); yourself).\npMed   := (NwNode new id: 'T:Proof:med';  type: #Proof; title: 'Proof (med)';\n\tcontext: (Dictionary newFrom: { #level->#beginner. #language->#en }); yourself).\npHigh  := (NwNode new id: 'T:Proof:high'; type: #Proof; title: 'Proof (high)';\n\tcontext: (Dictionary newFrom: { #level->#advanced. #language->#en }); yourself).\n\n{ nIntro. nDef. nThm. pMed. pHigh } do: [ :n | g addNode: n ].\ng addVariantGroup: 'V:Proof' members: #('T:Proof:med' 'T:Proof:high').\n\ng addEdge: (NwEdge new fromId: 'T:Intro'; toId: 'T:Def'; typeSymbol: #narrative; flowRef: 'intro-defn-proof'; transitionText: 'First define.'; yourself).\ng addEdge: (NwEdge new fromId: 'T:Def';   toId: 'T:Thm'; typeSymbol: #narrative; flowRef: 'intro-defn-proof'; transitionText: 'Then state.'; yourself).\ng addEdge: (NwEdge new fromId: 'T:Thm';   toId: 'V:Proof'; typeSymbol: #narrative; flowRef: 'intro-defn-proof'; transitionText: 'Now prove.'; yourself).\n\nctx := NwContext fromOrderedPairs: { #level->#beginner. #language->#en }.\nbeginner := NwWalk hybridTraversalIn: g flowRef: 'intro-defn-proof' context: ctx.\n\nctx := NwContext fromOrderedPairs: { #level->#advanced. #language->#en }.\nadvanced := NwWalk hybridTraversalIn: g flowRef: 'intro-defn-proof' context: ctx.\n\n{ beginner. advanced } inspect.\n"
+															}
+														]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:45:02.974359+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:45:02.974359+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "LahHQyoBDgCqvUuWBAOnew=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "### Do-it — quick smoke (same tiny graph)"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:45:18.429416+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-11-30T05:45:18.429416+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "+r96HioBDgCpm77TBAOnew=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : ""
+												}
+											]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:35:12.987888+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-30T05:35:12.987888+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Zi0dICoBDgCpsqiUBAOnew=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Here are the **Do-it chunks** to fix the DNUs we’re seeing and get the walk running.\n"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:25:23.810647+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-11-30T05:25:23.810647+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "qwv//CkBDgC1LyksCgET0A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We’re missing the **bestPath*** selectors and a tiny helper on the graph. Paste these **Do-it chunks** and run top-to-bottom."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:11:05.553754+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:11:05.553754+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zhXXySkBDgC3nlg1BSBDuA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Do-it #9 — Quick smoke test (programmatic tiny graph)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T04:56:30.31247+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-11-30T05:20:33.240963+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RfyrlSkBDgC+3FLOC8OLhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Notes\n\n* **Narrative walk** = any sequence along `#`-identical narrative edges; **Narrative path** = simple (no repeats). The code enumerates **simple** paths to avoid cycles and mirrors “longest + best match” selection (Listings 2–3); the hybrid traversal stub appends with overlap handling (Listing 1). \n* Add a semantic fallback later by inserting a topological segment when `bestPath…` returns `nil`.\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-30T04:55:17.047476+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-11-30T04:55:17.047476+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Implementing narrative walk code"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "af6db390-2901-0e00-be9d-24af0bc38b86"
+	}
+}

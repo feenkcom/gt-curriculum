@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-28T08:32:37.112286+01:00"
+						"dateAndTimeString" : "2025-11-28T08:55:14.142618+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Here’s how Müller’s paper grounds and sharpens the “narrative path” idea we’ve been using: [dmx](https://dmx.ralfbarkow.ch/systems.dmx.webclient/#/topicmap/874648/topic/899529/related)"
+				"string" : "Here’s how Müller’s paper grounds and sharpens the “narrative path” idea we’ve been using: [dmx](https://dmx.ralfbarkow.ch/systems.dmx.webclient/#/topicmap/874648/topic/899529/related), [pdf](https://kwarc.info/people/cmueller/papers/S3T10.pdf)"
 			},
 			{
 				"__type" : "textSnippet",
