@@ -188,7 +188,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-12T10:17:42.719922+01:00"
+												"dateAndTimeString" : "2025-12-03T11:23:29.041916+01:00"
 											}
 										},
 										"uid" : {
@@ -198,7 +198,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "- What is GT\n- Using a simple case study, how can GT be used to create an explainable system\n- What is *moldable development*, and how does it support the creation of explainable system\n- How to use Lepiter notebooks to create *live documentation* for your exploration"
+										"string" : "- What is GT\n- Using a simple case study, how can GT be used to create an explainable system\n- What is *moldable development*, and how does it support the creation of explainable systems\n- How to use Lepiter notebooks to create *live documentation* for your exploration"
 									}
 								]
 							},
