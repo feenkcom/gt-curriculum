@@ -167,6 +167,43 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-09T10:39:45.602373+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-09T10:42:20.325673+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "6ApBiMjdQq2FSSnNT8QLGg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Curriculum resources and Todos]]"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
 											"items" : [
 												{
 													"__type" : "textSnippet",
