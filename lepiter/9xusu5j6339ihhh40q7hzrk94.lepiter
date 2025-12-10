@@ -1,0 +1,449 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:20:09.980553+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:22:21.885661+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+WLbwfQBDgCRqZgzBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "1. What “structure sharing” means in Bricken’s Iconic Arithmetic\n2. How that maps to our Narrative Walk / Learning Unit design\n3. Why this is *not* just a metaphor but the same architectural trick\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:20:57.675122+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:23:21.057482+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "PSyzxPQBDgCRu2uBBebnpw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Very compressed:\n\n* Bricken represents mathematical expressions and computations as **iconic structures**\n  (graphs of shapes / nodes / links rather than textual formulas).\n\n* A key efficiency and *clarity* move is **structure sharing**:\n\n  * Instead of duplicating identical substructures,\n    **you let multiple parts of a bigger structure point to the same sub-piece.**\n  * So two different expressions can *share* a common sub-expression node.\n\nThink:\nInstead of:\n\n* Tree A has its own copy of `(a + b)`\n* Tree B has its own copy of `(a + b)`\n\nyou build a **single node** for `(a + b)` and let both A and B **reference it**.\n\nThis gives you:\n\n* **Economy** (less duplication)\n* **Consistency** (change in the shared part is seen everywhere)\n* **Clarity** (we can see that “this is literally the same structure used in multiple contexts”)\n\nBricken’s point isn’t just performance; it’s *cognition*:\n\n> We understand better when repeated patterns are *factored out* and shared,\n> rather than cloned and hidden in separate copies.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:23:21.050168+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:23:21.050168+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8uU+zfQBDgCSFU+hBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 1. Bricken’s Iconic Arithmetic: what is “structure sharing”?"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:21:31.725505+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T08:42:00.937223+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "zry6xvQBDgCR0SmyBebnpw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Now map that to our situation:\n\n* We have a **GT Book** with many pages (Playground, Inspector, Lepiter, etc.).\n* We have **Learning Modules** that are **Narrative Walks** across these pages.\n* Many different modules will traverse the **same pages** but in different sequences and contexts:\n\n  * Unit 1: *Learn the basics of GT*\n  * Unit X: *Debugging behavior in a live system*\n  * Unit Y: *Moldable Development Deep Dive*\n\nAll of these might include:\n\n* `{{gtPage:Playground}}`\n* `{{gtPage:Inspector}}`\n* `{{gtPage:Lepiter}}`\n\nIf we treated each Learning Module as its own **private copy** of the content, we would:\n\n* duplicate explanations, examples, screenshots, and\n* lose the information that “this is literally the same Playground concept”.\n\nBy treating:\n\n* **GT Book pages** as **nodes (Orte)**, and\n* **Learning Modules** as **paths (Narrative Walks) over those nodes**,\n\nwe are doing exactly Bricken’s **structure sharing**:\n\n* The *structure* “Playground → Inspector → Lepiter” as content\n  is **shared** between different units.\n* The units differ in:\n\n  * entry points,\n  * ordering,\n  * emphasis,\n  * added questions or exercises,\n    but they **reuse the same conceptual chunks**.\n\nSo:\n\n> **Learning Modules are shared structures**\n> = they share substructures (pages, concepts, micro-examples),\n> not private copies of them.\n\nThat’s Bricken’s move, but pedagogical.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:24:58.219314+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T08:40:43.81776+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "LpQJ0/QBDgCSdT6dBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 2. Our Learning Modules as structure-sharing Narrative Walks"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:28:31.700924+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:28:35.355984+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "twPD3/QBDgCTndWLBebnpw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Let’s line them up:"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:28:39.205387+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:28:56.599979+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "SI814PQBDgCTqcRDBebnpw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### Bricken: Iconic Arithmetic\n\n* **Nodes**: iconic subexpressions / subcomputations\n* **Big expressions**: graphs built from nodes\n* **Structure sharing**: the same subexpression node is reused in many larger expressions\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:28:50.024245+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T08:42:14.28988+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "hKPa4PQBDgCTsBROBebnpw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### We: GT Curriculum with Narrative Walks\n\n* **Nodes (Orte)**: GT Book pages / concepts (Playground, Lepiter, Moldable Development, etc.)\n* **Learning Modules**: Narrative Walks ({{gtClass:NwWalk}}) across nodes\n* **Structure sharing**: the same page/Ort appears in many units and many walks\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:27:46.754959+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T08:42:45.821309+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "jzwV3fQBDgCTiKCZBebnpw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "In both cases:\n\n1. **The core content lives in shared nodes**, not in each “use site”.\n2. **Paths / expressions / modules** are *arrangements* of shared building blocks, not owners of them.\n3. The real power shows up when we:\n\n   * visualize common subpaths,\n   * see where different units “branch” from a shared trunk,\n   * refactor shared patterns into reusable motifs.\n\nAnd that’s *exactly* what we’re doing with:\n\n* {{gtClass:NwGraph}}: the shared graph of Orte (nodes) and possible transitions (edges)\n* {{gtClass:NwWalk}}: many different narrative paths over that same graph\n\nSo if we rewrite our phrase in Bricken-speak:\n\n> *A Learning Module is not a bag of content.\n> It is a particular traversal of a shared iconic structure of concepts and pages.*\n\nThat’s Iconic Arithmetic for curriculum design.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:27:50.727052+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:27:50.727052+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "FdFR3fQBDgCTj2T9Bebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 3. Same architectural trick, different domain"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T08:43:21.071047+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T08:43:24.976739+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Cm5Z6/UBDgCjSpx1Bebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Next: {{gtPage:Encode the basics module as an NwGraph fixture|db=c72hpbcsarp76bsez1znvtuex}}"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-12-10T07:22:11.476297+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-12-10T08:40:20.913451+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Learning Modules are shared structures"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "487685c1-f401-0e00-91a0-a2fd05e6e7a7"
+	}
+}

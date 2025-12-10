@@ -1,0 +1,416 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:57:36.421077+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:06:44.473663+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "CcEtcfQBDgC/brhsBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:NwContext}}and {{gtClass:CurriculumSceneries}} / [[# 1. Learn the basics of Glamorous Toolkit]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:00:44.98627+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:03:34.566661+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "uf5qfPQBDgC/7IHcBebnpw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "```smalltalk\nNwContext class compile: '\nempty\n    \"Answer a context with no constraints.\n    Useful when we just want a walk without any level/language filters.\"\n\n    ^ self new\n' classified: 'instance creation'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:03:34.561053+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:03:34.561053+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "oYOGhvQBDgCAFM6ZBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### 1. Add `NwContext class >> empty`"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:03:28.64052+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:03:51.678432+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "SiwshvQBDgCADXVCBebnpw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "This is the *Orte map* for learning module 1: nodes = “places”, edges = narrative flow `gt-basics-1`.\n\n```smalltalk\nCurriculumSceneries class compile: '\nbasicsNarrativeGraph\n    \"NwGraph for #1. Learn the basics of Glamorous Toolkit.\n    Nodes are Orte; edges define the gt-basics-1 narrative flow.\"\n\n    | g baseCtx nIntro nCase nMoldable nLepiter nSideRoads nSelfAssess |\n    g := NwGraph new.\n\n    baseCtx := Dictionary newFrom: {\n        #level   -> #beginner.\n        #language -> #en }.\n\n    nIntro := (NwNode new\n        id: ''GT:Intro'';\n        type: #Section;\n        title: ''What is GT?'';\n        context: baseCtx copy;\n        yourself).\n\n    nCase := (NwNode new\n        id: ''GT:Case'';\n        type: #CaseStudy;\n        title: ''Case study: explainable system'';\n        context: baseCtx copy;\n        yourself).\n\n    nMoldable := (NwNode new\n        id: ''GT:Moldable'';\n        type: #Concept;\n        title: ''Moldable development'';\n        context: baseCtx copy;\n        yourself).\n\n    nLepiter := (NwNode new\n        id: ''GT:Lepiter'';\n        type: #Tool;\n        title: ''Lepiter live documentation'';\n        context: baseCtx copy;\n        yourself).\n\n    nSideRoads := (NwNode new\n        id: ''GT:SideRoads'';\n        type: #SideRoad;\n        title: ''Side roads: navigation, community, Smalltalk'';\n        context: baseCtx copy;\n        yourself).\n\n    nSelfAssess := (NwNode new\n        id: ''GT:SelfAssess'';\n        type: #Checkpoint;\n        title: ''Self assessment'';\n        context: baseCtx copy;\n        yourself).\n\n    { nIntro. nCase. nMoldable. nLepiter. nSideRoads. nSelfAssess }\n        do: [ :n | g addNode: n ].\n\n    g addEdge: (NwEdge new\n        fromId: ''GT:Intro'';\n        toId:   ''GT:Case'';\n        typeSymbol: #narrative;\n        flowRef: ''gt-basics-1'';\n        transitionText: ''From definition of GT to a concrete case study.'';\n        yourself).\n\n    g addEdge: (NwEdge new\n        fromId: ''GT:Case'';\n        toId:   ''GT:Moldable'';\n        typeSymbol: #narrative;\n        flowRef: ''gt-basics-1'';\n        transitionText: ''Surface moldable development from the case.'';\n        yourself).\n\n    g addEdge: (NwEdge new\n        fromId: ''GT:Moldable'';\n        toId:   ''GT:Lepiter'';\n        typeSymbol: #narrative;\n        flowRef: ''gt-basics-1'';\n        transitionText: ''Show Lepiter as live documentation for exploration.'';\n        yourself).\n\n    g addEdge: (NwEdge new\n        fromId: ''GT:Lepiter'';\n        toId:   ''GT:SideRoads'';\n        typeSymbol: #narrative;\n        flowRef: ''gt-basics-1'';\n        transitionText: ''Offer optional side roads: book navigation, community, Smalltalk.'';\n        yourself).\n\n    g addEdge: (NwEdge new\n        fromId: ''GT:SideRoads'';\n        toId:   ''GT:SelfAssess'';\n        typeSymbol: #narrative;\n        flowRef: ''gt-basics-1'';\n        transitionText: ''Close the module with self-assessment.'';\n        yourself).\n\n    ^ g\n' classified: 'narrative walks'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:03:51.670857+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:03:51.670857+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "7pWLh/QBDgCAHjX5Bebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### 2. Add the basics narrative graph"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:05:27.074627+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:05:27.074627+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "dVU7jfQBDgCAOpwwBebnpw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "This is your `<gtExample>` that actually runs.\n\n```smalltalk\nCurriculumSceneries class compile: '\ngtBasicsNarrativeWalkWithNwWalk\n    <gtExample>\n    \"Narrative walk for #1. Learn the basics of GT,\n    using NwWalk over the basics narrative graph.\n\n    Inspect the result to see the ordered path of node ids.\"\n\n    | graph context walk |\n    graph := self basicsNarrativeGraph.\n\n    \"Minimal, unconstrained context — all nodes are eligible.\"\n    context := NwContext empty.\n\n    walk := NwWalk\n        hybridTraversalIn: graph\n        flowRef: ''gt-basics-1''\n        context: context.\n\n    ^ walk\n' classified: 'narrative walks'.\n```\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:04:43.056602+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:05:07.726319+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "saubivQBDgCAKJAhBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### 3. Fix `gtBasicsNarrativeWalkWithNwWalk` to use `NwWalk` + `basicsNarrativeGraph`"
+			},
+			{
+				"__type" : "exampleSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:17:46.545411+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:17:46.545411+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "g8lOufQBDgCQmloqBebnpw=="
+				},
+				"exampleSelector" : "gtBasicsNarrativeWalkWithNwWalk",
+				"previewHeight" : 200,
+				"previewShowSelector" : "gtViewsFor:",
+				"exampleBehaviorName" : "CurriculumSceneries class",
+				"codeExpanded" : true,
+				"previewExpanded" : false,
+				"noCode" : false
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T06:57:24.591156+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-10T07:11:56.319632+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "qz55cPQBDgC/aMHiBebnpw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "In a playground:\n\n```smalltalk\nCurriculumSceneries gtBasicsNarrativeWalkWithNwWalk inspect.\n```\n\nWe should get an ordered collection of node ids like:\n\n```smalltalk\n#('GT:Intro' 'GT:Case' 'GT:Moldable' 'GT:Lepiter' 'GT:SideRoads' 'GT:SelfAssess')\n```\n\n—that is our **narrative walk** for learning module 1, defined as a path through Orte, not just a flat list of pages.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:11:56.312094+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:11:56.312094+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "L6BupPQBDgCAyL6QBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### How to use it"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-12-10T07:03:27.306567+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-12-10T07:06:22.636042+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "CurriculumSceneries >> gtBasicsNarrativeWalkWithNwWalk"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "4c367970-f401-0e00-bf67-319705e6e7a7"
+	}
+}

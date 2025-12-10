@@ -8,6 +8,14 @@ Class {
 }
 
 { #category : #'instance creation' }
+NwContext class >> empty [
+	"Answer a context with no constraints.
+    Useful when we just want a walk without any level/language filters."
+
+	^ self new
+]
+
+{ #category : #'instance creation' }
 NwContext class >> fromDictionaryPreserving: dict [
 	"Fallback: best effort order = iteration order of dict (may vary)."
 	^ self fromOrderedPairs: (dict associations asOrderedCollection)

@@ -4,8 +4,170 @@ Some alternative maps of the curriculum as sceneries
 Class {
 	#name : #CurriculumSceneries,
 	#superclass : #Object,
-	#category : 'GtCurriculum-Sceneries'
+	#category : #'GtCurriculum-Sceneries'
 }
+
+{ #category : #fixtures }
+CurriculumSceneries class >> basicsNarrativeFixtureJSON [
+"Fixture for the NwGraph used by NwWalk to represent the narrative
+walk for #1. Learn the basics of Glamorous Toolkit.
+
+This is a minimal, linear path that follows the high-level outline:
+
+  Get started
+    → What is GT?
+    → Case study: explainable system
+    → Moldable development
+    → Lepiter live documentation
+    → Side roads
+    → Self assessment
+
+Adjust node ids / titles / metadata to match your existing NwGraph
+schema if needed."
+^ '{
+  "nodes": [
+    { "id": "get-started",         "title": "Get started",                                       "kind": "section" },
+    { "id": "what-is-gt",          "title": "What is Glamorous Toolkit?",                        "kind": "section" },
+    { "id": "case-study",          "title": "Using a simple case study to create an explainable system", "kind": "section" },
+    { "id": "moldable-dev",        "title": "What is moldable development?",                     "kind": "section" },
+    { "id": "lepiter-live-docs",   "title": "Using Lepiter for live documentation",              "kind": "section" },
+    { "id": "side-roads",          "title": "Side roads",                                        "kind": "section" },
+    { "id": "self-assessment",     "title": "Self assessment",                                   "kind": "section" }
+  ],
+  "edges": [
+    { "from": "get-started",       "to": "what-is-gt",        "type": "narrative", "flowRef": "gt-basics-1" },
+    { "from": "what-is-gt",        "to": "case-study",        "type": "narrative", "flowRef": "gt-basics-1" },
+    { "from": "case-study",        "to": "moldable-dev",      "type": "narrative", "flowRef": "gt-basics-1" },
+    { "from": "moldable-dev",      "to": "lepiter-live-docs", "type": "narrative", "flowRef": "gt-basics-1" },
+    { "from": "lepiter-live-docs", "to": "side-roads",        "type": "narrative", "flowRef": "gt-basics-1" },
+    { "from": "side-roads",        "to": "self-assessment",   "type": "narrative", "flowRef": "gt-basics-1" }
+  ]
+}'
+]
+
+{ #category : #'narrative walks' }
+CurriculumSceneries class >> basicsNarrativeGraph [
+    "NwGraph for #1. Learn the basics of Glamorous Toolkit.
+    Nodes are Orte; edges define the gt-basics-1 narrative flow."
+
+    | g baseCtx nIntro nCase nMoldable nLepiter nSideRoads nSelfAssess |
+    g := NwGraph new.
+
+    baseCtx := Dictionary newFrom: {
+        #level   -> #beginner.
+        #language -> #en }.
+
+    nIntro := (NwNode new
+        id: 'GT:Intro';
+        type: #Section;
+        title: 'What is GT?';
+        context: baseCtx copy;
+        yourself).
+
+    nCase := (NwNode new
+        id: 'GT:Case';
+        type: #CaseStudy;
+        title: 'Case study: explainable system';
+        context: baseCtx copy;
+        yourself).
+
+    nMoldable := (NwNode new
+        id: 'GT:Moldable';
+        type: #Concept;
+        title: 'Moldable development';
+        context: baseCtx copy;
+        yourself).
+
+    nLepiter := (NwNode new
+        id: 'GT:Lepiter';
+        type: #Tool;
+        title: 'Lepiter live documentation';
+        context: baseCtx copy;
+        yourself).
+
+    nSideRoads := (NwNode new
+        id: 'GT:SideRoads';
+        type: #SideRoad;
+        title: 'Side roads: navigation, community, Smalltalk';
+        context: baseCtx copy;
+        yourself).
+
+    nSelfAssess := (NwNode new
+        id: 'GT:SelfAssess';
+        type: #Checkpoint;
+        title: 'Self assessment';
+        context: baseCtx copy;
+        yourself).
+
+    { nIntro. nCase. nMoldable. nLepiter. nSideRoads. nSelfAssess }
+        do: [ :n | g addNode: n ].
+
+    g addEdge: (NwEdge new
+        fromId: 'GT:Intro';
+        toId:   'GT:Case';
+        typeSymbol: #narrative;
+        flowRef: 'gt-basics-1';
+        transitionText: 'From definition of GT to a concrete case study.';
+        yourself).
+
+    g addEdge: (NwEdge new
+        fromId: 'GT:Case';
+        toId:   'GT:Moldable';
+        typeSymbol: #narrative;
+        flowRef: 'gt-basics-1';
+        transitionText: 'Surface moldable development from the case.';
+        yourself).
+
+    g addEdge: (NwEdge new
+        fromId: 'GT:Moldable';
+        toId:   'GT:Lepiter';
+        typeSymbol: #narrative;
+        flowRef: 'gt-basics-1';
+        transitionText: 'Show Lepiter as live documentation for exploration.';
+        yourself).
+
+    g addEdge: (NwEdge new
+        fromId: 'GT:Lepiter';
+        toId:   'GT:SideRoads';
+        typeSymbol: #narrative;
+        flowRef: 'gt-basics-1';
+        transitionText: 'Offer optional side roads: book navigation, community, Smalltalk.';
+        yourself).
+
+    g addEdge: (NwEdge new
+        fromId: 'GT:SideRoads';
+        toId:   'GT:SelfAssess';
+        typeSymbol: #narrative;
+        flowRef: 'gt-basics-1';
+        transitionText: 'Close the module with self-assessment.';
+        yourself).
+
+    ^ g
+
+]
+
+{ #category : #'narrative walks' }
+CurriculumSceneries class >> gtBasicsNarrativeWalkWithNwWalk [
+    <gtExample>
+    "Narrative walk for #1. Learn the basics of GT,
+    using NwWalk over the basics narrative graph.
+
+    Inspect the result to see the ordered path of node ids."
+
+    | graph context walk |
+    graph := self basicsNarrativeGraph.
+
+    "Minimal, unconstrained context — all nodes are eligible."
+    context := NwContext empty.
+
+    walk := NwWalk
+        hybridTraversalIn: graph
+        flowRef: 'gt-basics-1'
+        context: context.
+
+    ^ walk
+
+]
 
 { #category : #scenery }
 CurriculumSceneries >> basicsScenery [

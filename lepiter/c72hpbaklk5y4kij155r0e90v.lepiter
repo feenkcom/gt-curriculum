@@ -177,7 +177,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-12-09T10:39:45.602373+01:00"
+												"dateAndTimeString" : "2025-12-10T08:39:54.006017+01:00"
 											}
 										},
 										"editEmail" : {
@@ -188,17 +188,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-12-09T10:42:20.325673+01:00"
+												"dateAndTimeString" : "2025-12-10T08:40:20.963127+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "6ApBiMjdQq2FSSnNT8QLGg=="
+											"uidString" : "+9kB3/UBDgCh5KI2Bebnpw=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Curriculum resources and Todos]]"
+										"string" : "{{gtPage:Learning Modules are shared structures|db=c72hpbcsarp76bsez1znvtuex}}"
 									},
 									{
 										"__type" : "textSnippet",
@@ -688,6 +688,43 @@
 														"__type" : "textStyle"
 													},
 													"string" : "{{gtPage:What if interfacing with computing artifacts felt like your mental models had come alive?|db=c72hpbcsarp76bsez1znvtuex}}"
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-12-10T08:48:02.384787+01:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-12-10T08:48:03.388434+01:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "OeYd/PUBDgCjkTaeBebnpw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "{{gtPage:Encode the basics module as an NwGraph fixture|db=c72hpbcsarp76bsez1znvtuex}}"
 												}
 											]
 										},

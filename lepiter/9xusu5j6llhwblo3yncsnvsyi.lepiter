@@ -1,0 +1,406 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:17:20.960348+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T08:45:29.572241+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "9b804fMBDgC+fE5GBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:CurriculumSceneries}} and {{gtMethod:CurriculumSceneries class>>#basicsNarrativeGraph}} / {{gtPage:# 1. Learn the basics of Glamorous Toolkit|db=c72hpbcsarp76bsez1znvtuex}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:18:58.893418+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:31:36.210104+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "cRAL5/MBDgC++w3KBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 1. Encode the basics module as an `NwGraph` fixture\n\nThis is the “where are the steps?” part: we turn our major bullets into nodes and the main path into narrative edges with a flowRef `#gt-basics-1`.\n\nPaste this into a Playground and **do it**:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:19:04.61461+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:19:19.596194+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "BWNi5/MBDgC/AO0BBebnpw=="
+				},
+				"code" : "CurriculumSceneries class\n    compile: 'basicsNarrativeFixtureJSON\n\"Fixture for the NwGraph used by NwWalk to represent the narrative\nwalk for #1. Learn the basics of Glamorous Toolkit.\n\nThis is a minimal, linear path that follows the high-level outline:\n\n  Get started\n    → What is GT?\n    → Case study: explainable system\n    → Moldable development\n    → Lepiter live documentation\n    → Side roads\n    → Self assessment\n\nAdjust node ids / titles / metadata to match your existing NwGraph\nschema if needed.\"\n^ ''{\n  \"nodes\": [\n    { \"id\": \"get-started\",         \"title\": \"Get started\",                                       \"kind\": \"section\" },\n    { \"id\": \"what-is-gt\",          \"title\": \"What is Glamorous Toolkit?\",                        \"kind\": \"section\" },\n    { \"id\": \"case-study\",          \"title\": \"Using a simple case study to create an explainable system\", \"kind\": \"section\" },\n    { \"id\": \"moldable-dev\",        \"title\": \"What is moldable development?\",                     \"kind\": \"section\" },\n    { \"id\": \"lepiter-live-docs\",   \"title\": \"Using Lepiter for live documentation\",              \"kind\": \"section\" },\n    { \"id\": \"side-roads\",          \"title\": \"Side roads\",                                        \"kind\": \"section\" },\n    { \"id\": \"self-assessment\",     \"title\": \"Self assessment\",                                   \"kind\": \"section\" }\n  ],\n  \"edges\": [\n    { \"from\": \"get-started\",       \"to\": \"what-is-gt\",        \"type\": \"narrative\", \"flowRef\": \"gt-basics-1\" },\n    { \"from\": \"what-is-gt\",        \"to\": \"case-study\",        \"type\": \"narrative\", \"flowRef\": \"gt-basics-1\" },\n    { \"from\": \"case-study\",        \"to\": \"moldable-dev\",      \"type\": \"narrative\", \"flowRef\": \"gt-basics-1\" },\n    { \"from\": \"moldable-dev\",      \"to\": \"lepiter-live-docs\", \"type\": \"narrative\", \"flowRef\": \"gt-basics-1\" },\n    { \"from\": \"lepiter-live-docs\", \"to\": \"side-roads\",        \"type\": \"narrative\", \"flowRef\": \"gt-basics-1\" },\n    { \"from\": \"side-roads\",        \"to\": \"self-assessment\",   \"type\": \"narrative\", \"flowRef\": \"gt-basics-1\" }\n  ]\n}'''\n    '\n    classified: 'fixtures'"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:21:49.336876+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:32:12.6166+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "LdQz8fMBDgC/DZ0qBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "> ⚠️ Depending on the exact {{gtClass:NwGraph}} fixture schema we already use (node/edge field names), we may need to adjust the keys (`\"kind\"`, `\"type\"`, `\"flowRef\"`, etc.). The structure above matches the usual `nodes` / `edges` + `flowRef` design we discussed.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:23:02.588825+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:33:32.211652+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SI+R9fMBDgC/G2sqBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 2. Build the `NwGraph` for basics from that fixture\nContext: {{gtMethod:CurriculumSceneries class>>#basicsNarrativeGraph}}\n\nNow we provide a small helper to actually *construct* an `NwGraph` from that JSON.\n\n```pharo\nCurriculumSceneries class\n    compile: 'basicsNarrativeGraph\n\"Return an NwGraph representing the narrative structure for\n#1. Learn the basics of Glamorous Toolkit, as defined by\nbasicsNarrativeFixtureJSON.\n\nThis is the graph that NwWalk will traverse.\"\n^ NwGraph fromFixtureJSON: self basicsNarrativeFixtureJSON\n'\n    classified: 'narrative-basics'\n```\n\nAgain, run as **do it**.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:22:58.944358+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:34:43.689213+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6/NZ9fMBDgC/FBZUBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 3. A `<gtExample>` that performs the narrative walk with `NwWalk`\n\nNow the actual **narrative walk example**: a `<gtExample>` that uses `NwWalk` over that graph.\n\n```pharo\nCurriculumSceneries class\n    compile: 'gtBasicsNarrativeWalkWithNwWalk\n<gtExample>\n\"Example: Narrative walk for #1. Learn the basics of Glamorous Toolkit\nusing NwWalk over an NwGraph.\n\nInspect the result to see the ordered path of steps (nodes) that\nconstitute the learning module. This is the operational definition of\nthe module as a path through Orte (places) rather than a flat list.\"\n\n| graph context walk |\ngraph := self basicsNarrativeGraph.\ncontext := NwContext empty.  \"Adjust if you have a richer context model\"\n\nwalk := NwWalk new\n    hybridTraversalIn: graph\n    flowRef: #gt-basics-1\n    context: context.\n\n^ walk\n'\n    classified: 'gt-examples'\n```\n\n> If our `NwWalk` API uses a different entry point (e.g. `simplePathsAnyStartIn:flowRef:context:maxLen:`), swap `hybridTraversalIn:flowRef:context:` for the selector we actually use – the rest of the pattern stays the same.\n"
+			},
+			{
+				"__type" : "exampleSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:37:22.007512+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:37:22.007512+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Gupe//QBDgCVCp9OBebnpw=="
+				},
+				"exampleSelector" : "gtBasicsNarrativeWalkWithNwWalk",
+				"previewHeight" : 200,
+				"previewShowSelector" : "gtViewsFor:",
+				"exampleBehaviorName" : "CurriculumSceneries class",
+				"codeExpanded" : true,
+				"previewExpanded" : false,
+				"noCode" : false
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:23:51.652679+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:35:13.552405+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "JjZ++PMBDgC/ImxmBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## 4. How to use this in GT\n\nAfter we’ve run the three `compile:` chunks:\n\n1. Open a Playground and evaluate:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:24:00.540935+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T06:24:02.14912+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QN0F+fMBDgC/J8lqBebnpw=="
+				},
+				"code" : "CurriculumSceneries gtBasicsNarrativeWalkWithNwWalk"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:35:52.930482+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-10T07:35:52.930482+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Sq4P+vQBDgCVAQNoBebnpw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "   Then **inspect** the result.\n\n2. Or open the **Examples** browser and look for the example\n   `CurriculumSceneries gtBasicsNarrativeWalkWithNwWalk`.\n\nIn the inspector on the `walk` result we should see:\n\n* some representation of the **ordered steps** (nodes) in the walk,\n* each node corresponding to one of our module sections:\n\n  * get-started\n  * what-is-gt\n  * case-study\n  * moldable-dev\n  * lepiter-live-docs\n  * side-roads\n  * self-assessment\n\nThose are now *formally* the **steps** of the narrative walk for `# 1. Learn the basics of Glamorous Toolkit`, expressed via `NwWalk`.\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-12-10T07:30:19.297331+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-12-10T07:33:02.793231+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Encode the basics module as an NwGraph fixture"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "5a8b08e0-f301-0e00-be75-1cfe05e6e7a7"
+	}
+}
