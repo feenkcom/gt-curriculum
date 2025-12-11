@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-12-09T11:08:41.289179+01:00"
+						"dateAndTimeString" : "2025-12-11T14:53:17.009062+01:00"
 					}
 				},
 				"uid" : {
@@ -234,43 +234,6 @@
 							"string" : "In a nutshell, *Glamorous Toolkit* (GT) is an *environment for making systems explainable* through the creation of *contextual tools*. Every system is different, so a “contextual tool” helps you to answer specific questions about a software system in the context of the problems you need to address. \nGT supports the inexpensive creation of such tools :\n- by adopting a *moldable development methodology* expressed (a set of development *patterns*)\n- by providing a *live, open-source, environment* supporting this methodology (*i.e.,* the “toolkit”)"
 						},
 						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-09T11:09:27.192889+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-09T11:09:27.192889+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "m/4gZx7mTeuQBi63E0jHfA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
 							"__type" : "commentSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -295,14 +258,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-09T11:14:04.063943+01:00"
+									"dateAndTimeString" : "2025-12-11T14:52:11.545021+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "aa7JQtckQ5KPq4/jos1Mbw=="
 							},
-							"string" : "Reading material.\nGT as a case study.\nTutorial: walk through the environment\nExercise: Create some lepiter pages. Try out some snippets. Use Spotter to find stuff.",
+							"string" : "Revise Reading material. Add brief description for each link.\nGT as a case study.\nTutorial: walk through the environment\nExercise: Create some lepiter pages. Try out some snippets. Use Spotter to find stuff.",
 							"isHidden" : false
 						},
 						{
@@ -330,7 +293,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-09T11:09:22.090392+01:00"
+									"dateAndTimeString" : "2025-12-11T15:05:37.182189+01:00"
 								}
 							},
 							"uid" : {
@@ -340,7 +303,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtPage:Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}}"
+							"string" : "{{gtPage:Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}} is the landing page for the *Glamorous Toolkit Book*. It provides a very high-level overview of GT."
 						},
 						{
 							"__type" : "textSnippet",
@@ -1562,43 +1525,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-03T11:18:00.250046+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-03T11:18:00.250046+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "cCiFqMM5Q/OQ68khgaDtaQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
 						}
 					]
 				},
@@ -1632,6 +1558,78 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# Self assessment"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-03T11:18:00.250046+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-03T11:18:00.250046+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "cCiFqMM5Q/OQ68khgaDtaQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "commentSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-11T15:06:32.719845+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-11T15:06:50.102971+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fiGoLcdgT7uNzNxNfRWoQA=="
+				},
+				"string" : "At end: fix the Get Started page to point to the learning modules.",
+				"isHidden" : false
 			},
 			{
 				"__type" : "textSnippet",
