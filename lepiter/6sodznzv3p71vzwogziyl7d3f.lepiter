@@ -141,7 +141,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-21T11:06:32.10763+01:00"
+						"dateAndTimeString" : "2025-12-15T12:22:31.757383+01:00"
 					}
 				},
 				"uid" : {
@@ -151,7 +151,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See also {{gtPage:How to guard against inifinte loops?|db=2j9m7db2i4oz116bexd7wbdxo}}"
+				"string" : "See also {{gtPage:How to guard against infinite loops?|db=2j9m7db2i4oz116bexd7wbdxo}}"
 			}
 		]
 	},

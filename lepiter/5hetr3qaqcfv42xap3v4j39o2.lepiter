@@ -258,14 +258,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-12T10:31:34.442199+01:00"
+									"dateAndTimeString" : "2025-12-15T14:27:52.836555+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "aa7JQtckQ5KPq4/jos1Mbw=="
 							},
-							"string" : "Revise Reading material. Add brief description for each link.\nGT as a case study.\nTutorial: walk through the environment\nExercise: Create some lepiter pages. Try out some snippets. Use Spotter to find stuff.\n\nIn this part we just explain what GT is, and give a tour of lepiter and a few other tools.\nWe show some basic examples of views.",
+							"string" : "Revise Reading material. \nAdd brief description for each link.\nGT as a case study.\nTutorial: walk through the environment\nExercise: Create some lepiter pages. Try out some snippets. Use Spotter to find stuff.\n\nIn this part we just explain what GT is, and give a tour of lepiter and a few other tools.\nWe show some basic examples of views.",
 							"isHidden" : false
 						},
 						{
@@ -304,6 +304,41 @@
 								"__type" : "textStyle"
 							},
 							"string" : "{{gtPage:Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}} is the landing page for the *Glamorous Toolkit Book*. It provides a very high-level overview of GT."
+						},
+						{
+							"__type" : "commentSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-15T14:28:05.292965+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-15T14:28:20.704631+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "e8OHJYnuQWyf7FP+odh+ag=="
+							},
+							"string" : "***CONTINUE HERE ...***",
+							"isHidden" : false
 						},
 						{
 							"__type" : "textSnippet",
