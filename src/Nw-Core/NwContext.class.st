@@ -1,3 +1,26 @@
+"
+Intent: Represent an “adaptation context” (Λ) as an ordered set of key/value preferences.
+Provide scoring primitives used to pick variants and rank candidate paths.
+
+Responsibilities
+* Store ordered context parameters (orderedParams) preserving priority (earlier = more important).
+* Offer construction helpers:
+   ** empty
+   ** fromOrderedPairs:
+   ** fromDictionaryPreserving:
+* Provide scoring helpers for traversal:
+   ** weightForNodeContext: (compare this context against a node’s context dictionary)
+   ** averageWeightForPathNodes:in: (aggregate scoring across a candidate path)
+   ** orderWeightForKey: (priority weighting derived from orderedParams position)
+   
+Collaborators
+* {{gtClass:NwNode}}: supplies node context dictionary to be scored.
+* {{gtClass:NwGraph}}: supplies node lookup by id for path scoring and variant selection.
+* {{gtClass:NwWalk}}: uses averageWeightForPathNodes:in: as a secondary score/tiebreaker.
+* {{gtClass:NwGraph}} (variant selection): calls weightForNodeContext: to choose best member of a variant group.
+
+Note: The context is intentionally minimal and can be extended later (e.g., richer matching rules).
+"
 Class {
 	#name : #NwContext,
 	#superclass : #Object,

@@ -1,3 +1,29 @@
+"
+Intent: Compute a narrative walk (a simple path, no repeats) through an NwGraph for a given flowRef,
+using NwContext to resolve variants and to rank candidate paths.
+
+Responsibilities
+* Enumerate candidate simple paths constrained to a narrative flow:
+   ** simplePathsFrom:in:flowRef:context:maxLen:
+   ** simplePathsAnyStartIn:flowRef:context:maxLen:
+   ** dfsFrom:current:in:flowRef:context:maxLen:results:
+* Filter candidates against an existing partial walk (path:allowedAgainstExisting:).
+* Select “best” next path segments:
+   ** bestPathStartingAt:in:flowRef:context:existing:
+   ** bestPathAnyStartIn:flowRef:context:existing:
+* Produce a whole-walk traversal that stitches best segments until coverage is sufficient:
+   ** hybridTraversalIn:flowRef:context:
+
+Collaborators
+* {{gtClass:NwGraph}}: provides nodeIds, size, and narrativeSuccessorsOf:flowRef:context: (incl. variant resolution).
+* {{gtClass:NwContext}}: provides path scoring (averageWeightForPathNodes:in:) for ranking candidates.
+* {{gtClass:NwNode}}: indirectly via node ids; used for context scoring.
+* {{gtClass:NwEdge}}: indirectly via NwGraph successor queries; provides flowRef/typeSymbol.
+
+Notes
+* Current selection primarily optimizes path length, with context-score as a tie-breaker.
+* Walk output is an Array of node ids (ordered).
+"
 Class {
 	#name : #NwWalk,
 	#superclass : #Object,
