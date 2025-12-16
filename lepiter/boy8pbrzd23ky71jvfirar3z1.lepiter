@@ -101,7 +101,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-19T14:49:19.920059+01:00"
+						"dateAndTimeString" : "2025-12-16T10:00:39.673326+01:00"
 					}
 				},
 				"uid" : {
@@ -111,7 +111,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See {{gtPage:# 1. Learn the basics of Glamorous Toolkit|db=c72hpbcsarp76bsez1znvtuex}}"
+				"string" : "See {{gtPage:*** 1. Learn the basics of Glamorous Toolkit|db=c72hpbcsarp76bsez1znvtuex}}"
 			}
 		]
 	},

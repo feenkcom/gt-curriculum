@@ -300,7 +300,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-19T11:18:52.440088+01:00"
+												"dateAndTimeString" : "2025-12-16T10:00:39.665808+01:00"
 											}
 										},
 										"uid" : {
@@ -310,7 +310,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[# 1. Learn the basics of Glamorous Toolkit]]"
+										"string" : "[[*** 1. Learn the basics of Glamorous Toolkit]]"
 									},
 									{
 										"__type" : "textSnippet",
@@ -337,7 +337,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-21T10:49:10.305508+01:00"
+												"dateAndTimeString" : "2025-12-16T10:00:44.732341+01:00"
 											}
 										},
 										"uid" : {
@@ -347,7 +347,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[# 2. Select and explore a case study in depth]]"
+										"string" : "[[2. Select and explore a case study in depth]]"
 									},
 									{
 										"__type" : "textSnippet",
@@ -374,7 +374,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-21T10:48:53.463371+01:00"
+												"dateAndTimeString" : "2025-12-16T10:00:49.314573+01:00"
 											}
 										},
 										"uid" : {
@@ -384,7 +384,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[# 3. Start your own Moldable Development Project]]"
+										"string" : "[[3. Start your own Moldable Development Project]]"
 									},
 									{
 										"__type" : "textSnippet",
@@ -411,7 +411,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-21T10:48:38.558318+01:00"
+												"dateAndTimeString" : "2025-12-16T10:00:54.110754+01:00"
 											}
 										},
 										"uid" : {
@@ -421,7 +421,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[# 4. Learn basic and advanced Moldable Development practice and patterns]]"
+										"string" : "[[4. Learn basic and advanced Moldable Development practice and patterns]]"
 									},
 									{
 										"__type" : "textSnippet",
@@ -448,7 +448,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-11-21T10:48:15.924411+01:00"
+												"dateAndTimeString" : "2025-12-16T10:01:02.948312+01:00"
 											}
 										},
 										"uid" : {
@@ -458,7 +458,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[# 5. Reflect and Share]]"
+										"string" : "[[5. Reflect and Share]]"
 									}
 								]
 							},

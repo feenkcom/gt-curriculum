@@ -323,12 +323,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-21T10:49:06.536336+01:00"
+			"dateAndTimeString" : "2025-12-16T10:00:44.723007+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "# 2. Select and explore a case study in depth"
+		"title" : "2. Select and explore a case study in depth"
 	},
 	"uid" : {
 		"__type" : "uuid",

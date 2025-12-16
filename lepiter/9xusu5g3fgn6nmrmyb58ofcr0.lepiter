@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-12-10T07:06:44.473663+01:00"
+						"dateAndTimeString" : "2025-12-16T10:00:39.667951+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Context: {{gtClass:NwContext}}and {{gtClass:CurriculumSceneries}} / [[# 1. Learn the basics of Glamorous Toolkit]]"
+				"string" : "Context: {{gtClass:NwContext}}and {{gtClass:CurriculumSceneries}} / [[*** 1. Learn the basics of Glamorous Toolkit]]"
 			},
 			{
 				"__type" : "textSnippet",

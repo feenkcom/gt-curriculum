@@ -197,43 +197,6 @@
 					"__type" : "snippets",
 					"items" : [
 						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-09T11:09:22.085795+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-12T10:27:45.765222+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "FEV8zfcyRyu7P9Wy6sjjkw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "In a nutshell, *Glamorous Toolkit* (GT) is an *environment for making systems explainable* through the creation of *contextual tools*. Every system is different, so a “contextual tool” helps you to answer specific questions about a software system in the context of the problems you need to address. \nGT supports the inexpensive creation of such tools :\n\n- by adopting a *moldable development methodology* expressed (a set of development *patterns*)\n- by providing a *live, open-source, environment* supporting this methodology (*i.e.,* the “toolkit”)\n"
-						},
-						{
 							"__type" : "commentSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -258,14 +221,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-15T14:27:52.836555+01:00"
+									"dateAndTimeString" : "2025-12-16T10:25:46.812358+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "aa7JQtckQ5KPq4/jos1Mbw=="
 							},
-							"string" : "Revise Reading material. \nAdd brief description for each link.\nGT as a case study.\nTutorial: walk through the environment\nExercise: Create some lepiter pages. Try out some snippets. Use Spotter to find stuff.\n\nIn this part we just explain what GT is, and give a tour of lepiter and a few other tools.\nWe show some basic examples of views.",
+							"string" : "***TO DO***\nRevise Reading material. \nAdd brief description for each link.\nGT as a case study.\nTutorial: walk through the environment\nExercise: Create some lepiter pages. Try out some snippets. Use Spotter to find stuff.\n\nIn this part we just explain what GT is, and give a tour of lepiter and a few other tools.\nWe show some basic examples of views.\n\nfeenkcom/gtoolkit#4831",
 							"isHidden" : false
 						},
 						{
@@ -282,7 +245,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-03T11:02:41.248196+01:00"
+									"dateAndTimeString" : "2025-12-09T11:09:22.085795+01:00"
 								}
 							},
 							"editEmail" : {
@@ -293,52 +256,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-11T15:05:37.182189+01:00"
+									"dateAndTimeString" : "2025-12-16T10:23:41.015705+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "FF5lh0H8SNKW2DFOrXCULQ=="
+								"uidString" : "FEV8zfcyRyu7P9Wy6sjjkw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtPage:Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}} is the landing page for the *Glamorous Toolkit Book*. It provides a very high-level overview of GT."
-						},
-						{
-							"__type" : "commentSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-15T14:28:05.292965+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-15T14:28:20.704631+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "e8OHJYnuQWyf7FP+odh+ag=="
-							},
-							"string" : "***CONTINUE HERE ...***",
-							"isHidden" : false
+							"string" : "In a nutshell, *Glamorous Toolkit* (GT) is an *environment for making systems explainable* through the creation of *contextual tools*. Every system is different, so a “contextual tool” helps you to answer specific questions about a software system in the context of the problems you need to address. \nGT supports the inexpensive creation of such tools :\n\n- by adopting a *moldable development methodology* expressed (a set of development *patterns*)\n- by providing a *live, open-source, environment* supporting this methodology (*i.e.,* the “toolkit”)"
 						},
 						{
 							"__type" : "textSnippet",
@@ -359,7 +287,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-12-11T16:32:34.906117+01:00"
+												"dateAndTimeString" : "2025-12-03T11:02:41.248196+01:00"
 											}
 										},
 										"editEmail" : {
@@ -370,17 +298,54 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-12-11T16:32:34.906117+01:00"
+												"dateAndTimeString" : "2025-12-11T15:05:37.182189+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "FC/N/YW4RrqkGZ/xl3ru4g=="
+											"uidString" : "FF5lh0H8SNKW2DFOrXCULQ=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : ""
+										"string" : "{{gtPage:Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}} is the landing page for the *Glamorous Toolkit Book*. It provides a very high-level overview of GT."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-19T11:26:35.933009+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-16T10:23:26.062326+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "1LXqkSqURcyy1Pj7iIsD5A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:What is Glamorous Toolkit?|db=2j9m7db2i4oz116bexd7wbdxo}} explains through examples what is meant by *contextual tools* and how GT supports their creation through *moldable development*."
 									},
 									{
 										"__type" : "commentSnippet",
@@ -396,7 +361,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-12-11T16:32:38.540052+01:00"
+												"dateAndTimeString" : "2025-12-15T14:28:05.292965+01:00"
 											}
 										},
 										"editEmail" : {
@@ -407,14 +372,269 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-12-12T10:21:14.549036+01:00"
+												"dateAndTimeString" : "2025-12-15T14:28:20.704631+01:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "mXSepc7pT6KN3f0qNshthw=="
+											"uidString" : "e8OHJYnuQWyf7FP+odh+ag=="
 										},
-										"string" : "To do: add a link from the {{gtPage:Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}} page",
+										"string" : "***CONTINUE HERE ...***",
+										"isHidden" : false
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-12T10:29:58.890633+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-12T10:30:12.041804+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "trEWEtU/REmwAyE3THiSLQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:Get started|db=2j9m7db2i4oz116bexd7wbdxo}} — should point to the curriculum"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-19T14:16:47.862769+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-19T14:17:13.455551+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "SbSJMQAhTtSPXVu8vlzyZA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:A short history of Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}} — needs more detail"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-19T11:26:59.099948+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-19T11:28:21.90347+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "//G9ZO9JSFKWFsHooKVY8w=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:Glamorous Toolkit as a case study|db=2j9m7db2i4oz116bexd7wbdxo}}"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-19T14:29:59.693363+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-11T16:41:38.301847+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "bqHnRkcHS6iSvNsLa4aaVg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:Getting started with GT in 7'|db=2j9m7db2i4oz116bexd7wbdxo}} and {{gtPage:A tour of the environment|db=2j9m7db2i4oz116bexd7wbdxo}} — turn the latter into a proper page"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-11-19T14:30:21.565921+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-03T11:22:14.194652+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "zSxwnIgmT7q/WfuKtl64cw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:How to install Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}} "
+									},
+									{
+										"__type" : "commentSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-11T15:59:21.769722+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-11T15:59:48.572376+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "D8GBcqcuSGOBQjWCvVAGrw=="
+										},
+										"string" : "Tutorial -- walk through with lepiter to create a page with live code.",
+										"isHidden" : false
+									},
+									{
+										"__type" : "commentSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-03T11:06:34.123253+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-03T11:06:36.696782+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "QfVKd+AjS92G3lLP4iQKsg=="
+										},
+										"string" : "Exercises; self-assessment?",
 										"isHidden" : false
 									}
 								]
@@ -427,7 +647,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T11:26:35.933009+01:00"
+									"dateAndTimeString" : "2025-12-16T10:23:56.517976+01:00"
 								}
 							},
 							"editEmail" : {
@@ -438,272 +658,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T11:26:50.046374+01:00"
+									"dateAndTimeString" : "2025-12-16T10:24:28.205386+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "1LXqkSqURcyy1Pj7iIsD5A=="
+								"uidString" : "V53RiU0QSBS2SM452u9WsA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "{{gtPage:What is Glamorous Toolkit?|db=2j9m7db2i4oz116bexd7wbdxo}} — to be expanded ..."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-12T10:29:58.890633+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-12T10:30:12.041804+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "trEWEtU/REmwAyE3THiSLQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "{{gtPage:Get started|db=2j9m7db2i4oz116bexd7wbdxo}} — should point to the curriculum"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T14:16:47.862769+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T14:17:13.455551+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "SbSJMQAhTtSPXVu8vlzyZA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "{{gtPage:A short history of Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}} — needs more detail"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T11:26:59.099948+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T11:28:21.90347+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "//G9ZO9JSFKWFsHooKVY8w=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "{{gtPage:Glamorous Toolkit as a case study|db=2j9m7db2i4oz116bexd7wbdxo}}"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T14:29:59.693363+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-11T16:41:38.301847+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "bqHnRkcHS6iSvNsLa4aaVg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "{{gtPage:Getting started with GT in 7'|db=2j9m7db2i4oz116bexd7wbdxo}} and {{gtPage:A tour of the environment|db=2j9m7db2i4oz116bexd7wbdxo}} — turn the latter into a proper page"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T14:30:21.565921+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-03T11:22:14.194652+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "zSxwnIgmT7q/WfuKtl64cw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "{{gtPage:How to install Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}} "
-						},
-						{
-							"__type" : "commentSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-11T15:59:21.769722+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-11T15:59:48.572376+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "D8GBcqcuSGOBQjWCvVAGrw=="
-							},
-							"string" : "Tutorial -- walk through with lepiter to create a page with live code.",
-							"isHidden" : false
-						},
-						{
-							"__type" : "commentSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-03T11:06:34.123253+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-03T11:06:36.696782+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "QfVKd+AjS92G3lLP4iQKsg=="
-							},
-							"string" : "Exercises; self-assessment?",
-							"isHidden" : false
+							"string" : "To learn more, you may take the following path through the GT book:"
 						}
 					]
 				},
@@ -1981,12 +1946,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-11-19T11:18:58.897766+01:00"
+			"dateAndTimeString" : "2025-12-16T10:00:39.6523+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "# 1. Learn the basics of Glamorous Toolkit"
+		"title" : "*** 1. Learn the basics of Glamorous Toolkit"
 	},
 	"uid" : {
 		"__type" : "uuid",
