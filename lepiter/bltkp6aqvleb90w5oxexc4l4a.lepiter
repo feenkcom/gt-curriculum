@@ -169,7 +169,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-09T10:40:06.385795+01:00"
+									"dateAndTimeString" : "2025-12-16T11:48:17.756016+01:00"
 								}
 							},
 							"editEmail" : {
@@ -180,7 +180,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-16T10:00:39.66886+01:00"
+									"dateAndTimeString" : "2025-12-16T11:48:57.264901+01:00"
 								}
 							},
 							"uid" : {
@@ -190,7 +190,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Expand [[*** 1. Learn the basics of Glamorous Toolkit]]"
+							"string" : "Expand {{gtPage:1. Learn the basics of Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}}"
 						},
 						{
 							"__type" : "textSnippet",
@@ -265,6 +265,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "Update {{gtPage:Get started|db=2j9m7db2i4oz116bexd7wbdxo}} to point to the curriculum"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-16T11:48:27.328037+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-16T11:49:47.020297+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "aSBTOWYYSFWPd0SAE1QMrA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Each of the 7' videos should be accompanied by material that a reader can step through."
 						}
 					]
 				},
