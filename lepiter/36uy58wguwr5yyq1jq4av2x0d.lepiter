@@ -146,7 +146,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-19T11:20:01.646631+01:00"
+									"dateAndTimeString" : "2025-12-16T10:00:39.673896+01:00"
 								}
 							},
 							"uid" : {
@@ -156,7 +156,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "See [[# 1. Learn the basics of Glamorous Toolkit]]"
+							"string" : "See [[*** 1. Learn the basics of Glamorous Toolkit]]"
 						},
 						{
 							"__type" : "textSnippet",

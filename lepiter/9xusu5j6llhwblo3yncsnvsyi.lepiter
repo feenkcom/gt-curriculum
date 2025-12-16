@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-12-10T08:45:29.572241+01:00"
+						"dateAndTimeString" : "2025-12-16T10:00:39.661676+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Context: {{gtClass:CurriculumSceneries}} and {{gtMethod:CurriculumSceneries class>>#basicsNarrativeGraph}} / {{gtPage:# 1. Learn the basics of Glamorous Toolkit|db=c72hpbcsarp76bsez1znvtuex}}"
+				"string" : "Context: {{gtClass:CurriculumSceneries}} and {{gtMethod:CurriculumSceneries class>>#basicsNarrativeGraph}} / {{gtPage:*** 1. Learn the basics of Glamorous Toolkit|db=c72hpbcsarp76bsez1znvtuex}}"
 			},
 			{
 				"__type" : "textSnippet",

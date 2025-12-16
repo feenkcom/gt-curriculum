@@ -34,7 +34,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-11-23T08:51:53.4059+01:00"
+									"dateAndTimeString" : "2025-12-16T10:00:39.670414+01:00"
 								}
 							},
 							"uid" : {
@@ -44,7 +44,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Here’s a concrete Smalltalk-Mentoring side road for\n“**# 1. Learn the basics of Glamorous Toolkit**”, expressed as DITA Learning & Training topics.\n\nWe are assuming a *side road* = one learning object with several lessons:\n\n1. **LM-ST-0 – Overview: Smalltalk Mentoring in GT** *(learningOverview)*\n2. **LM-ST-1 – Orientation: Smalltalk in a live GT image** *(learningContent)*\n3. **LM-ST-2 – Thinking in Smalltalk: objects, messages, distinctions** *(learningContent)*\n4. **LM-ST-3 – Working with a mentor: reading, running, and changing code** *(learningContent)*\n5. **LM-ST-4 – Practice path: mentoring exercises (Valloud-inspired)** *(learningContent)*\n6. **LM-ST-A – Check-yourself quiz** *(learningAssessment)*\n7. **LM-ST-S – Wrap-up and next steps** *(learningSummary)*\n\nThe bullets under “*You will learn:* – … How to work with Smalltalk” become the main objectives in LM-ST-0, and this side road links back to “[[# 1. Learn the basics of Glamorous Toolkit]]”.\nThe mentoring flavour is taken from Valloud’s emphasis on education vs training, working in a live image, and “causing brain change”.\n"
+							"string" : "Here’s a concrete Smalltalk-Mentoring side road for\n“**# 1. Learn the basics of Glamorous Toolkit**”, expressed as DITA Learning & Training topics.\n\nWe are assuming a *side road* = one learning object with several lessons:\n\n1. **LM-ST-0 – Overview: Smalltalk Mentoring in GT** *(learningOverview)*\n2. **LM-ST-1 – Orientation: Smalltalk in a live GT image** *(learningContent)*\n3. **LM-ST-2 – Thinking in Smalltalk: objects, messages, distinctions** *(learningContent)*\n4. **LM-ST-3 – Working with a mentor: reading, running, and changing code** *(learningContent)*\n5. **LM-ST-4 – Practice path: mentoring exercises (Valloud-inspired)** *(learningContent)*\n6. **LM-ST-A – Check-yourself quiz** *(learningAssessment)*\n7. **LM-ST-S – Wrap-up and next steps** *(learningSummary)*\n\nThe bullets under “*You will learn:* – … How to work with Smalltalk” become the main objectives in LM-ST-0, and this side road links back to “[[*** 1. Learn the basics of Glamorous Toolkit]]”.\nThe mentoring flavour is taken from Valloud’s emphasis on education vs training, working in a live image, and “causing brain change”.\n"
 						},
 						{
 							"__type" : "textSnippet",
@@ -138,7 +138,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-11-23T08:19:52.699774+01:00"
+						"dateAndTimeString" : "2025-12-16T10:00:39.669488+01:00"
 					}
 				},
 				"uid" : {
@@ -148,7 +148,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Context: {{gtPage:# 1. Learn the basics of Glamorous Toolkit|db=c72hpbcsarp76bsez1znvtuex}} / [chatgpt](https://chatgpt.com/g/g-p-690c3098a9b08191a06955db4c27eba7-gt-curriculum/c/6922b433-155c-8331-ab6c-6c90841477f8)"
+				"string" : "Context: {{gtPage:*** 1. Learn the basics of Glamorous Toolkit|db=c72hpbcsarp76bsez1znvtuex}} / [chatgpt](https://chatgpt.com/g/g-p-690c3098a9b08191a06955db4c27eba7-gt-curriculum/c/6922b433-155c-8331-ab6c-6c90841477f8)"
 			},
 			{
 				"__type" : "textSnippet",
