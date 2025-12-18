@@ -225,6 +225,119 @@
 					"__type" : "textStyle"
 				},
 				"string" : "This project is tied to [Issue #4831](https://github.com/feenkcom/gtoolkit/issues/4831). Commits should be tagged:"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-18T09:55:00.456575+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-18T09:55:10.177742+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "0XDgu243TeSWZeB36ktEmA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Moved to the book: {{gtPage:1. Learn the basics of Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}}\nContinue editing there."
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-18T09:54:56.144259+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-12-18T09:54:58.83646+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "rC6IskNdRVyCfWZG7636Wg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[1. Learn the basics of Glamorous Toolkit]]"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-18T09:54:43.072988+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-12-18T09:54:55.346918+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "HkT96KL7Q6mE9a+okgYXBA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Currently working on:"
 			}
 		]
 	},
