@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-12-16T10:40:53.732614+01:00"
+						"dateAndTimeString" : "2025-12-19T11:26:19.159643+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Moved to the book: {{gtPage:1. Learn the basics of Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}}\nContinue editing there."
+				"string" : "Moved to the book: {{gtPage:1. Learn the basics of Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}}\nContinue editing there.\nfeenkcom/gtoolkit#4831"
 			},
 			{
 				"__type" : "textSnippet",
@@ -50,7 +50,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-19T11:22:52.635708+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-12-19T11:25:37.637351+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "uDjDYKYhSQ6m2b//6boQYQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Instead of adding new material directly, I'll just keep a log of the pages we need, so we can later prioritize them and add first the most important ones needed ....\nFor now list them directly at the end of the LM itself ..."
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -71,7 +109,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-12-18T09:56:07.389865+01:00"
+									"dateAndTimeString" : "2025-12-19T11:25:59.091436+01:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +119,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Continue working through the pages.\nAdd new material (tutorials, exercises, assessments).\nFix the Get Started page."
+							"string" : "Continue working through the pages.\nFix the Get Started page.\nAdd new material (tutorials, exercises, assessments)."
 						}
 					]
 				},
