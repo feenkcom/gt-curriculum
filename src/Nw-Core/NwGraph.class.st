@@ -86,20 +86,81 @@ NwGraph class >> fixtureDictionary [
 
 { #category : #import }
 NwGraph class >> fromFixtureDictionary: dict [
-	| g |
+	| g rawNodes rawEdges rawAssocs rawVgs titleToId |
+
 	g := self new.
-	(dict at: #topics ifAbsent: [ dict at: 'topics' ])
-		do: [ :td | g addNode: (NwNode fromDictionary: td asDictionary) ].
-	(dict
-		at: #variantGroups
-		ifAbsent: [ dict at: 'variantGroups' ifAbsent: [ #() ] ])
-		do: [ :vg | 
-			g
-				addVariantGroup: (vg at: #id ifAbsent: [ vg at: 'id' ])
-				members: ((vg at: #members ifAbsent: [ vg at: 'members' ])
-						collect: [ :m | m at: #topic ifAbsent: [ m at: 'topic' ] ]) ].
-	(dict at: #associations ifAbsent: [ dict at: 'associations' ])
-		do: [ :ed | g addEdge: (NwEdge fromDictionary: ed asDictionary) ].
+
+	"--- 1) NODES / TOPICS (accept nodes or topics) ---"
+	rawNodes := dict at: #nodes ifAbsent: [
+		dict at: 'nodes' ifAbsent: [
+			dict at: #topics ifAbsent: [ dict at: 'topics' ifAbsent: [ #() ] ] ] ].
+
+	rawNodes do: [ :td |
+		| id title type ctx content nd |
+		id := td at: #id ifAbsent: [ td at: 'id' ifAbsent: [ nil ] ].
+		title := td at: #title ifAbsent: [
+			td at: 'title' ifAbsent: [
+				td at: #topic ifAbsent: [ td at: 'topic' ifAbsent: [ nil ] ] ] ].
+		type := td at: #type ifAbsent: [ td at: 'type' ifAbsent: [ nil ] ].
+		ctx := td at: #context ifAbsent: [ td at: 'context' ifAbsent: [ nil ] ].
+		content := td at: #content ifAbsent: [ td at: 'content' ifAbsent: [ nil ] ].
+
+		nd := Dictionary new.
+		id ifNotNil: [ nd at: #id put: id ].
+		title ifNotNil: [ nd at: #title put: title ].
+		type ifNotNil: [ nd at: #type put: (type isString ifTrue: [ type asSymbol ] ifFalse: [ type ]) ].
+		ctx ifNotNil: [ nd at: #context put: ctx ].
+		content ifNotNil: [ nd at: #content put: content ].
+
+		g addNode: (NwNode fromDictionary: nd)
+	].
+
+	"Build title->id index for resolving variantGroups + associations"
+	titleToId := Dictionary new.
+	g nodes valuesDo: [ :n |
+		(n title notNil and: [ n id notNil ]) ifTrue: [
+			titleToId at: n title put: n id ] ].
+
+	"--- 2) VARIANT GROUPS (resolve member titles -> ids) ---"
+	rawVgs := dict at: #variantGroups ifAbsent: [ dict at: 'variantGroups' ifAbsent: [ #() ] ].
+	rawVgs do: [ :vg |
+		| gid members memberIds |
+		gid := vg at: #id ifAbsent: [ vg at: 'id' ].
+		members := vg at: #members ifAbsent: [ vg at: 'members' ].
+		memberIds := members collect: [ :m |
+			| t |
+			t := m at: #topic ifAbsent: [ m at: 'topic' ifAbsent: [
+				m at: #title ifAbsent: [ m at: 'title' ifAbsent: [ nil ] ] ] ].
+			titleToId at: t ifAbsent: [ t ] ].
+		g addVariantGroup: gid members: memberIds
+	].
+
+	"--- 3) EDGES (prefer edges; fallback convert associations->edges) ---"
+	rawEdges := dict at: #edges ifAbsent: [ dict at: 'edges' ifAbsent: [ nil ] ].
+	rawAssocs := dict at: #associations ifAbsent: [ dict at: 'associations' ifAbsent: [ #() ] ].
+
+	rawEdges notNil
+		ifTrue: [
+			rawEdges do: [ :ed | g addEdge: (NwEdge fromDictionary: ed asDictionary) ]
+		]
+		ifFalse: [
+			rawAssocs do: [ :a |
+				| src tgt typ flowRef ed |
+				src := a at: #source ifAbsent: [ a at: 'source' ifAbsent: [ nil ] ].
+				tgt := a at: #target ifAbsent: [ a at: 'target' ifAbsent: [ nil ] ].
+				typ := a at: #type ifAbsent: [ a at: 'type' ifAbsent: [ 'narrative' ] ].
+				flowRef := a at: #flowRef ifAbsent: [ a at: 'flowRef' ifAbsent: [ nil ] ].
+
+				ed := Dictionary new.
+				ed at: #from put: (titleToId at: src ifAbsent: [ src ]).
+				ed at: #to   put: (titleToId at: tgt ifAbsent: [ tgt ]).
+				ed at: #type put: typ.
+				flowRef ifNotNil: [ ed at: #flowRef put: flowRef ].
+
+				g addEdge: (NwEdge fromDictionary: ed)
+			]
+		].
+
 	^ g
 ]
 
