@@ -1,0 +1,28 @@
+{
+  "$schema": "https://repomix.com/schemas/latest/schema.json",
+
+  "output": {
+    "filePath": "gt-curriculum-repomix-output.md",
+    "style": "markdown",
+    "files": true,
+    "directoryStructure": true
+  },
+
+  "include": [
+    "src/**",
+    "lepiter/**/*.lepiter",
+    "README*",
+    "LICENSE*"
+  ],
+
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": [
+      "**/.git/**",
+      "**/node_modules/**",
+      "**/tmp/**",
+      "**/.cache/**"
+    ]
+  }
+}

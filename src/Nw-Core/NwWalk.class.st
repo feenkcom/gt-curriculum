@@ -25,13 +25,12 @@ Notes
 * Walk output is an Array of node ids (ordered).
 "
 Class {
-	#name : 'NwWalk',
-	#superclass : 'Object',
-	#category : 'Nw-Core',
-	#package : 'Nw-Core'
+	#name : #NwWalk,
+	#superclass : #Object,
+	#category : 'Nw-Core'
 }
 
-{ #category : 'selection' }
+{ #category : #selection }
 NwWalk class >> bestPathAnyStartIn: g flowRef: aFlowRef context: ctx existing: existing [
 	| all candidates scored |
 	all := self
@@ -53,7 +52,7 @@ NwWalk class >> bestPathAnyStartIn: g flowRef: aFlowRef context: ctx existing: e
 				first first ]
 ]
 
-{ #category : 'selection' }
+{ #category : #selection }
 NwWalk class >> bestPathStartingAt: startId in: g flowRef: aFlowRef context: ctx existing: existing [
 	| candidates scored |
 	candidates := self
@@ -76,7 +75,7 @@ NwWalk class >> bestPathStartingAt: startId in: g flowRef: aFlowRef context: ctx
 				first first ]
 ]
 
-{ #category : 'enumeration' }
+{ #category : #enumeration }
 NwWalk class >> dfsFrom: currentId current: prefix in: g flowRef: aFlowRef context: ctx maxLen: maxLen results: results [
 	| succs |
 	(maxLen notNil and: [ prefix size >= maxLen ]) ifTrue: [ ^ self ].
@@ -101,7 +100,7 @@ NwWalk class >> dfsFrom: currentId current: prefix in: g flowRef: aFlowRef conte
 						results: results ] ]
 ]
 
-{ #category : 'examples' }
+{ #category : #examples }
 NwWalk class >> exampleFixtureAdvanced [
 	<gtExample>
 	| file g ctx P |
@@ -119,7 +118,7 @@ NwWalk class >> exampleFixtureAdvanced [
 	^ P
 ]
 
-{ #category : 'examples' }
+{ #category : #examples }
 NwWalk class >> exampleFixtureBeginner [
 	<gtExample>
 	| file g ctx P |
@@ -137,7 +136,7 @@ NwWalk class >> exampleFixtureBeginner [
 	^ P
 ]
 
-{ #category : 'traversal' }
+{ #category : #traversal }
 NwWalk class >> hybridTraversalIn: g flowRef: aFlowRef context: ctx [
 	| P n Pprime remaining |
 	P := OrderedCollection new.
@@ -172,7 +171,7 @@ NwWalk class >> hybridTraversalIn: g flowRef: aFlowRef context: ctx [
 	^ P asArray
 ]
 
-{ #category : 'selection' }
+{ #category : #selection }
 NwWalk class >> path: candidate allowedAgainstExisting: existing [
 	"Allow if v2..vi not in existing, or prefix(cand) = suffix(existing)."
 
@@ -189,7 +188,7 @@ NwWalk class >> path: candidate allowedAgainstExisting: existing [
 	^ prefix = (existing copyFrom: k - j + 1 to: k)
 ]
 
-{ #category : 'enumeration' }
+{ #category : #enumeration }
 NwWalk class >> simplePathsAnyStartIn: g flowRef: aFlowRef context: ctx maxLen: maxLen [
 	| all |
 	all := OrderedCollection new.
@@ -205,7 +204,7 @@ NwWalk class >> simplePathsAnyStartIn: g flowRef: aFlowRef context: ctx maxLen: 
 	^ all asArray
 ]
 
-{ #category : 'enumeration' }
+{ #category : #enumeration }
 NwWalk class >> simplePathsFrom: startId in: g flowRef: aFlowRef context: ctx maxLen: maxLen [
 	| results |
 	results := OrderedCollection new.

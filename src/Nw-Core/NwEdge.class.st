@@ -17,8 +17,8 @@ Collaborators
 Note: Edges target either concrete topic ids or variant group ids (e.g., 'V:Proof') that NwGraph resolves.
 "
 Class {
-	#name : 'NwEdge',
-	#superclass : 'Object',
+	#name : #NwEdge,
+	#superclass : #Object,
 	#instVars : [
 		'fromId',
 		'toId',
@@ -27,11 +27,10 @@ Class {
 		'transitionText',
 		'context'
 	],
-	#category : 'Nw-Core',
-	#package : 'Nw-Core'
+	#category : 'Nw-Core'
 }
 
-{ #category : 'import' }
+{ #category : #import }
 NwEdge class >> fromDictionary: d [
 	| e |
 	e := self new.
@@ -44,50 +43,50 @@ NwEdge class >> fromDictionary: d [
 	^ e
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> context [ ^ context ifNil: [ Dictionary new ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> context: d [ context := d
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> flowRef [ ^ flowRef
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> flowRef: s [ flowRef := s
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> fromId [ ^ fromId
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> fromId: s [ fromId := s
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> toId [ ^ toId
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> toId: s [ toId := s
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> transitionText [ ^ transitionText ifNil: [ '' ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> transitionText: s [ transitionText := s
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> typeSymbol [ ^ typeSymbol
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 NwEdge >> typeSymbol: sym [ typeSymbol := sym
 ]
