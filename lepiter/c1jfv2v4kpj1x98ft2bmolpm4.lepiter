@@ -1,0 +1,411 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:29:14.699863+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:29:24.475832+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "VjFx8ssDDgCjB/JYB8Bqyw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "This page is meant to become one of the “concrete demos” that anchor the curriculum in *live*, inspectable, repeatable explorations (rather than screenshots or prose alone). \n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:30:06.766562+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:30:06.766562+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3amL9csDDgCjJIf5B8Bqyw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Why TreePager for this demo?\n\nThe *Pager Tree* gives you a disciplined way to keep a “working set” of objects, views, and evidence in one place:\n\n* **Subject stays visible** (the UI you’re building).\n* **Exploration stays adjacent** (objects, stacks, variables, code).\n* **Evidence stays attached** (Beacon logs, signals, comparisons).\n\nThis is exactly the type of “explainable document” the curriculum emphasizes: *show the system + show how you learned it*. \n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:30:29.048435+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:30:29.048435+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "b6rf9ssDDgCjNu+LB8Bqyw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Demo outcome\n\nBy the end, the reader can replay a scene like Tudor’s:\n\n1. **Starting page** (left): links + snippets about the use case.\n2. **Working column** (middle): object, view, and view code side-by-side.\n3. **Result column** (right-top): the effect of the menu action (e.g., compare selected methods).\n4. **Action column** (right-bottom): the code behind the menu item (opened via *Alt+click* on the menu entry).\n5. **Evidence panel** (optional bottom): a Beacon memory logger showing which signals/paths were hit.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-02T17:31:13.338671+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-02T17:31:24.130192+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "rnuD+csDDgCjUEypB8Bqyw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### Starting page (left)\n\n**Intent:** establish a stable “workspace root” for this investigation.\n\nInclude:\n\n* A short description of the target UX: *“Select multiple methods → open context menu → compare methods / inspect as filter.”*\n* Links to the relevant classes/protocols (your target view model, the context-menu builder, the compare action group).\n* A snippet that produces a reproducible working set (e.g., a temporary class with a couple of methods).\n\n**Do-it (example structure; adapt names to your image):**\n\n* Create a small class (`SomeClass`) and compile 2–3 methods.\n* Produce a collection of method objects (or method definitions) that your UI already consumes.\n\n### Column 1 (middle-top): the running interface\n\nOpen the object (or the view model) that drives the method list, and pin the view in the pager.\n\n### Column 1 (middle-bottom): evidence logger\n\nOpen a Beacon memory logger and keep it visible. Goal: when you execute the menu action once, you can see:\n\n* how many signals fire,\n* which components fire them,\n* whether the flow matches your intent.\n\n### Column 2 (right): inspect a signal and its stack\n\nPick one signal from the logger and open:\n\n* the signal object (fields, metadata),\n* the stack,\n* a “top variables” pane when needed.\n\n### Column 3 (right): inspect a variable value\n\nUse this to keep the “suspect” value in view (e.g., `contextMenuActions`, selected methods, filtered results, etc.).\n\n**Micro-lesson:** The pager is not “more windows”. It is *one investigation with controlled branching*.\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:31:24.122207+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:31:24.122207+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yQAo+ssDDgCjWyI0B8Bqyw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Scene A — “Adding a method filter menu” (the first screenshot)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-02T17:31:54.896447+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-02T17:31:58.145995+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "7pP9+8sDDgCjZlj4B8Bqyw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### Layout: four zones\n\n**Left (starting page):**\n\n* a concise checklist of what you’re testing (selection size, menu entries present/absent, ordering, labeling),\n* links to the key methods.\n\n**Middle (object + view + view code):**\n\n* top: the object (e.g., a collection of methods / a selection model),\n* middle: the rendered list view,\n* bottom: the method coder for the view.\n\n**Right-top (result of the menu action):**\n\n* trigger “Compare methods” (or equivalent),\n* keep the comparison artifact visible (diff/group view).\n\n**Right-bottom (code behind the action):**\n\n* Alt+click the menu item to jump to the action implementation,\n* keep it open while re-running the action.\n\n### What the reader should observe\n\n* The menu item appears only when the selection size is ≥ 2.\n* The label reflects the selection size (e.g., “Compare methods (2 methods)”).\n* Executing the action produces a stable comparison object/view.\n* The Beacon evidence confirms the minimal expected set of paths executed (no accidental extra traversal).\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:31:58.130185+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:31:58.130185+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ZvIu/MsDDgCjbdbMB8Bqyw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Scene B — “Context menu of multi-method selection” (the second screenshot)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:32:34.188777+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:32:34.188777+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uSRV/ssDDgCjglwqB8Bqyw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Exercises (turn the demo into a curriculum object)\n\n1. **Negative case:** select 1 method. Confirm the compare menu entry disappears or becomes inert.\n2. **Three-method case:** select 3 methods. Confirm label changes and output scales.\n3. **Trace discipline:** add one additional Beacon signal in the action path. Verify it appears exactly once per invocation.\n4. **Refactor checkpoint:** extract menu-item construction into a named method. Confirm you can still Alt+click from the UI back into the right method.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:32:49.812994+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:32:49.812994+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "PJBD/8sDDgCjlanHB8Bqyw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## How this page connects to narrative walks\n\nThis demo page should *not* stand alone. It sits on top of a small set of prerequisite walks. Suggested “basis walks” (in your project sense) to link from the top of the page:\n\n1. **Walk: “Pager as investigation topology”**\n   Why Pager/TreePager exists; what problem it solves (parallel subject + exploration + evidence).\n\n2. **Walk: “Phlow views → context menus → actions”**\n   How a view contributes contextual actions, how those actions are built, and how they are invoked.\n\n3. **Walk: “Selection semantics: single vs multi”**\n   The rule layer: when do we offer which affordances, and why.\n\n4. **Walk: “Evidence as first-class: Beacon signals in UI work”**\n   How to instrument without drowning; what counts as “enough evidence”.\n\n5. **Walk: “Alt+click as explainability primitive”**\n   Treat Alt+click not as a shortcut, but as a *narrative jump* from UX → code.\n\nEach of these walks should be short, composable, and end in a concrete “now do it in the pager” instruction—because the curriculum explicitly wants learners to move from narrative to live exploration. \n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:26:18.194631+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-02T17:33:09.896261+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "LPfr58sDDgCi1nx+B8Bqyw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Placement note for GT-Curriculum\n\nThis demo belongs with the parts of the curriculum that emphasize:\n\n* presenting work interactively (live demos),\n* producing explainable documents,\n* distilling exploration outcomes into sharable artifacts. \n\nIf we want, we can now:\n\n* extract the exact “Add concrete demos → TreePager” TODO(s) from `gt-curriculum-repomix-output.md`, and\n* propose the *narrative path* that places this page in our existing learning modules (as a concrete step, not a sidebar).\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-01-02T17:28:16.747967+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-01-02T17:28:16.747967+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Draft page: TreePager demo — “Working a multi-method context menu in parallel”"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "ecd4ebe7-cb03-0e00-a2d5-8c2b07c06acb"
+	}
+}

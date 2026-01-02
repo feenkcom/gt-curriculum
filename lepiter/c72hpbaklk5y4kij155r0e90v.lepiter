@@ -534,6 +534,43 @@
 											"__type" : "textStyle"
 										},
 										"string" : "{{gtPage:Accordion and Miller Columns|db=c72hpbcsarp76bsez1znvtuex}}"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2026-01-02T17:28:23.950247+01:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2026-01-02T17:28:25.42742+01:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "tNJq78sDDgCi3ZDxB8Bqyw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "{{gtPage:id=c1jfv2v4kpj1x98ft2bmolpm4|db=c72hpbcsarp76bsez1znvtuex}}"
 									}
 								]
 							},
