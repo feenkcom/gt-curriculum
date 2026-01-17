@@ -1,0 +1,298 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:33:28.00688+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:33:28.00688+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "FbMBFPgEDgCsPbLgDF29nw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Synopsis\n\nIn 1981, **Daniel H. H. Ingalls** published *Design Principles Behind Smalltalk* in BYTE Magazine.\nThe article articulates the conceptual and technical principles that guided the Smalltalk project at Xerox PARC, spanning language design, object model, virtual machine, user interface, and system organization.\nIt provides the clearest contemporaneous statement of Smalltalk’s foundational commitments: personal mastery, uniform object–message metaphors, automatic storage management, and language-integrated interaction.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:34:15.082661+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:34:15.082661+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Dv7PFvgEDgCsYYhrDF29nw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Historical Context\n\nThe Smalltalk project emerged from the Learning Research Group at Xerox PARC with the explicit goal of supporting the *creative spirit* of individual users.\nIngalls situates the work within an iterative research cycle—building systems, observing their use, redesigning the language, and rebuilding the system—explicitly likening this process to the scientific method.\n\nBy 1981, Smalltalk-80 represented the fifth full iteration of this cycle.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:34:23.028324+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:34:23.028324+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "K0FJF/gEDgCscweoDF29nw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Core Design Commitments (as stated)\n\nSmalltalk is presented not as a single technology but as a **coherent system** integrating:\n\n* a *language of description* (programming language),\n* a *language of interaction* (user interface),\n* an object-oriented storage model,\n* a message-oriented processing model,\n* and a virtual machine designed to support these uniformly.\n\nThe article insists that no part of the system should be exempt from these principles.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:33:56.090727+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:34:27.280791+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "tzmuFfgEDgCsRB8bDF29nw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Named Principles\n\nIngalls explicitly formulates a set of general design principles, including:\n\n* **Personal Mastery** — a system must be comprehensible to a single individual.\n* **Good Design** — minimal unchangeable parts; maximal generality; uniform framework.\n* **Objects** — the universe of computation consists of objects distinguished and referenced uniformly.\n* **Automatic Storage Management** — essential for a true object metaphor.\n* **Messages** — computation occurs by sending messages to objects.\n* **Uniform Metaphor** — one metaphor applied consistently at all levels.\n* **Modularity** — components must not depend on internal details of others.\n* **Classification** — new classes must stand on equal footing with system classes.\n* **Polymorphism** — programs specify behavior, not representation.\n* **Factoring and Leverage** — structure enables system-wide amplification of small changes.\n* **Reactive User Interface** — every user-accessible component can present itself for inspection and manipulation.\n* **No Separate Operating System** — system services are integrated into the language itself.\n* **Natural Selection** — well-designed languages persist until supplanted by better ones.\n\nThese principles are presented as general criteria for evaluating and designing computing systems, not merely as Smalltalk-specific doctrine.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:34:38.58128+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:34:38.58128+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "tJQ2GPgEDgCsjGzBDF29nw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Primary Source\n\nDaniel H. H. Ingalls\n*Design Principles Behind Smalltalk*\nBYTE Magazine, August 1981\n\nHosted copy (University of Virginia, CS655):\n[https://www.cs.virginia.edu/~evans/cs655/readings/smalltalk.html](https://www.cs.virginia.edu/~evans/cs655/readings/smalltalk.html)\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:35:08.260649+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:35:08.260649+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5G37GfgEDgCsojZaDF29nw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## Placement Note\n\nThis text belongs in the **History** section of the GT-Curriculum as the **canonical primary source** for Smalltalk’s design philosophy.\nLater materials on distinctions, messages, moldable development, and mentoring practices explicitly build on these principles.\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:34:01.697926+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-17T15:35:10.764901+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "dbgDFvgEDgCsSww5DF29nw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "### Lepiter Mapping Hint (non-rendered)\n\n* **Page title:** `Design Principles Behind Smalltalk (1981)`\n* **Snippet type:** textSnippet\n* **Insertion point:** History page, Smalltalk timeline, immediately before or alongside Smalltalk-80 references"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-01-17T15:33:15.258105+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-01-17T15:33:15.258105+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Design Principles Behind Smalltalk (1981)"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "b65f2f12-f804-0e00-ac29-9ab80c5dbd9f"
+	}
+}
