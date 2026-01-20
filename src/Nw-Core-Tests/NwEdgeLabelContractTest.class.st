@@ -107,13 +107,38 @@ edges do: [ :e |
 
 { #category : 'tests' }
 NwEdgeLabelContractTest >> testInvalidEdgeConstructionIsRejected [
-self
-    should: [ NwEdge from: 'A' to: 'B' typeSymbol: #semantic flowRef: 'some-flow' transitionText: nil ]
-    raise: Error.
+| e |
+
+"Semantic edge must not have flowRef"
+e := NwEdge new
+  fromId: 'A';
+  toId: 'B';
+  typeSymbol: #semantic;
+  flowRef: 'some-flow';
+  yourself.
 
 self
-    should: [ NwEdge from: 'A' to: 'B' typeSymbol: #narrative flowRef: nil transitionText: 'x' ]
-    raise: Error
+  should: [ e validateLabelContract ]
+  raise: Error.
+
+"Narrative edge must have flowRef"
+e := NwEdge new
+  fromId: 'A';
+  toId: 'B';
+  typeSymbol: #narrative;
+  flowRef: nil;
+  yourself.
+
+self
+  should: [ e validateLabelContract ]
+  raise: Error.
+
+]
+
+{ #category : 'tests' }
+NwEdgeLabelContractTest >> testInvalidEdgeConstructionTestIsNotAboutMissingSelectors [
+	self
+		deny: (NwEdge class canUnderstand: #from:to:typeSymbol:flowRef:transitionText:)
 ]
 
 { #category : 'tests' }
