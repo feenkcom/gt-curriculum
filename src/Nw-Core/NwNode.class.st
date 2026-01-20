@@ -18,8 +18,8 @@ Note: Node context is intentionally just a Dictionary (e.g., { #level->#beginner
 
 "
 Class {
-	#name : #NwNode,
-	#superclass : #Object,
+	#name : 'NwNode',
+	#superclass : 'Object',
 	#instVars : [
 		'id',
 		'type',
@@ -27,10 +27,11 @@ Class {
 		'context',
 		'content'
 	],
-	#category : #'Nw-Core'
+	#category : 'Nw-Core',
+	#package : 'Nw-Core'
 }
 
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 NwNode class >> fromDictionary: aDict [
 	| n |
 
@@ -64,48 +65,48 @@ NwNode class >> fromDictionary: aDict [
 	^ n
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwNode >> content [ ^ content
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwNode >> content: aString [ content := aString
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwNode >> context [ ^ context ifNil: [ Dictionary new ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwNode >> context: aDict [ context := aDict
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwNode >> id [ ^ id
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwNode >> id: aString [ id := aString
 ]
 
-{ #category : #printing }
+{ #category : 'printing' }
 NwNode >> printOn: s [
 	super printOn: s.
 	s nextPutAll: '('; nextPutAll: id asString; nextPut: $) 
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwNode >> title [ ^ title
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwNode >> title: aString [ title := aString
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwNode >> type [ ^ type
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwNode >> type: aSymbol [ type := aSymbol
 ]

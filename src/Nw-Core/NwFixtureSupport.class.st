@@ -1,17 +1,19 @@
 Class {
-	#name : #NwFixtureSupport,
-	#superclass : #Object,
-	#category : #'Nw-Core-FixtureSupport'
+	#name : 'NwFixtureSupport',
+	#superclass : 'Object',
+	#category : 'Nw-Core-FixtureSupport',
+	#package : 'Nw-Core',
+	#tag : 'FixtureSupport'
 }
 
-{ #category : #fixture }
+{ #category : 'fixture' }
 NwFixtureSupport class >> fixture [
 	"Return the last stored fixture, or nil."
 	^ Smalltalk globals at: #NwFixture ifAbsent: [ nil ].
 
 ]
 
-{ #category : #fixture }
+{ #category : 'fixture' }
 NwFixtureSupport class >> fixture: anObject [
 	"Store fixture globally so it survives across snippets."
 	Smalltalk globals at: #NwFixture put: anObject.
@@ -19,7 +21,7 @@ NwFixtureSupport class >> fixture: anObject [
 
 ]
 
-{ #category : #fixture }
+{ #category : 'fixture' }
 NwFixtureSupport class >> normalizeAssociation: a [
 	"Accept either a Dictionary (already fine) or an Array of Associations.
 	Return a Dictionary or nil."
@@ -30,7 +32,7 @@ NwFixtureSupport class >> normalizeAssociation: a [
 
 ]
 
-{ #category : #fixture }
+{ #category : 'fixture' }
 NwFixtureSupport class >> normalizeAssociationsArray [
 	"Return associations as an Array of Dictionaries (no nils), best-effort."
 	| f assocs |
@@ -42,7 +44,7 @@ NwFixtureSupport class >> normalizeAssociationsArray [
 
 ]
 
-{ #category : #fixture }
+{ #category : 'fixture' }
 NwFixtureSupport class >> report [
 	"Never signals. Always returns a Dictionary report."
 	| r f assocs nodes edges vgs |
@@ -73,7 +75,7 @@ NwFixtureSupport class >> report [
 
 ]
 
-{ #category : #fixture }
+{ #category : 'fixture' }
 NwFixtureSupport class >> safeAt: key in: dict [
 	(dict isNil or: [ dict class ~~ Dictionary ])
 		ifTrue: [ ^ nil ].
@@ -81,7 +83,7 @@ NwFixtureSupport class >> safeAt: key in: dict [
 
 ]
 
-{ #category : #fixture }
+{ #category : 'fixture' }
 NwFixtureSupport class >> safeAtEither: symKey or: stringKey in: dict [
 	| v |
 	v := self safeAt: symKey in: dict.

@@ -22,15 +22,16 @@ Collaborators
 Note: The context is intentionally minimal and can be extended later (e.g., richer matching rules).
 "
 Class {
-	#name : #NwContext,
-	#superclass : #Object,
+	#name : 'NwContext',
+	#superclass : 'Object',
 	#instVars : [
 		'orderedParams'
 	],
-	#category : 'Nw-Core'
+	#category : 'Nw-Core',
+	#package : 'Nw-Core'
 }
 
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 NwContext class >> empty [
 	"Answer a context with no constraints.
     Useful when we just want a walk without any level/language filters."
@@ -38,13 +39,13 @@ NwContext class >> empty [
 	^ self new
 ]
 
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 NwContext class >> fromDictionaryPreserving: dict [
 	"Fallback: best effort order = iteration order of dict (may vary)."
 	^ self fromOrderedPairs: (dict associations asOrderedCollection)
 ]
 
-{ #category : #'instance creation' }
+{ #category : 'instance creation' }
 NwContext class >> fromOrderedPairs: assocArray [
 	"assocArray like: { #level->#beginner. #language->#en } in desired priority order."
 	| c |
@@ -53,7 +54,7 @@ NwContext class >> fromOrderedPairs: assocArray [
 	^ c
 ]
 
-{ #category : #scoring }
+{ #category : 'scoring' }
 NwContext >> averageWeightForPathNodes: nodeIds in: aGraph [
 	| sum |
 	nodeIds isEmpty ifTrue: [ ^ 0 ].
@@ -61,11 +62,11 @@ NwContext >> averageWeightForPathNodes: nodeIds in: aGraph [
 	^ sum asFloat / nodeIds size asFloat
 ]
 
-{ #category : #init }
+{ #category : 'init' }
 NwContext >> initialize [ orderedParams := OrderedCollection new
 ]
 
-{ #category : #scoring }
+{ #category : 'scoring' }
 NwContext >> orderWeightForKey: aKey [
 	| idx size |
 	size := orderedParams size.
@@ -73,11 +74,11 @@ NwContext >> orderWeightForKey: aKey [
 	^ size - idx + 1
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwContext >> orderedParams [ ^ orderedParams
 ]
 
-{ #category : #scoring }
+{ #category : 'scoring' }
 NwContext >> weightForNodeContext: nodeCtx [
 	"Listing 3: sum order weights of satisfied parameters; equality used as satisfaction."
 	| total |

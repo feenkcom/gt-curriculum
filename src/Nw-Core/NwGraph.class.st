@@ -23,17 +23,18 @@ Notes
 * Import helpers exist for fixtures (fromFixtureDictionary:/JSON/file) to bootstrap example graphs.
 "
 Class {
-	#name : #NwGraph,
-	#superclass : #Object,
+	#name : 'NwGraph',
+	#superclass : 'Object',
 	#instVars : [
 		'nodes',
 		'edges',
 		'variantGroups'
 	],
-	#category : #'Nw-Core'
+	#category : 'Nw-Core',
+	#package : 'Nw-Core'
 }
 
-{ #category : #fixtures }
+{ #category : 'fixtures' }
 NwGraph class >> fixtureDictionary [
 	| d |
 	d := Dictionary new.
@@ -84,7 +85,7 @@ NwGraph class >> fixtureDictionary [
 	^ d
 ]
 
-{ #category : #import }
+{ #category : 'import' }
 NwGraph class >> fromFixtureDictionary: dict [
 	| g rawNodes rawEdges rawAssocs rawVgs titleToId |
 
@@ -164,14 +165,14 @@ NwGraph class >> fromFixtureDictionary: dict [
 	^ g
 ]
 
-{ #category : #import }
+{ #category : 'import' }
 NwGraph class >> fromFixtureFile: aFileReference [
 	| json |
 	json := aFileReference contents.
 	^ self fromFixtureJSON: json
 ]
 
-{ #category : #import }
+{ #category : 'import' }
 NwGraph class >> fromFixtureJSON: jsonString [
 	| neo dict |
 	neo := Smalltalk at: #NeoJSONReader ifAbsent: [ nil ].
@@ -180,22 +181,22 @@ NwGraph class >> fromFixtureJSON: jsonString [
 	^ self fromFixtureDictionary: dict
 ]
 
-{ #category : #building }
+{ #category : 'building' }
 NwGraph >> addEdge: anEdge [
 	edges add: anEdge
 ]
 
-{ #category : #building }
+{ #category : 'building' }
 NwGraph >> addNode: aNode [
 	nodes at: aNode id put: aNode
 ]
 
-{ #category : #building }
+{ #category : 'building' }
 NwGraph >> addVariantGroup: groupId members: memberIds [
 	variantGroups at: groupId put: memberIds asOrderedCollection
 ]
 
-{ #category : #selection }
+{ #category : 'selection' }
 NwGraph >> chooseVariantForGroup: groupId context: ctx [
 	| members best bestScore |
 	members := variantGroups at: groupId ifAbsent: [ ^ nil ].
@@ -213,12 +214,12 @@ NwGraph >> chooseVariantForGroup: groupId context: ctx [
 	^ best
 ]
 
-{ #category : #query }
+{ #category : 'query' }
 NwGraph >> edgesFrom: nodeId [
 	^ edges select: [ :e | e fromId = nodeId ]
 ]
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 NwGraph >> initialize [
 	super initialize.
 	nodes := Dictionary new.
@@ -226,7 +227,7 @@ NwGraph >> initialize [
 	variantGroups := Dictionary new
 ]
 
-{ #category : #query }
+{ #category : 'query' }
 NwGraph >> narrativeSuccessorsOf: nodeId flowRef: aFlowRef context: ctx [
 	"Return successor nodeIds following narrative edges of the same flowRef.
 	Resolve variant-group targets (ids beginning with 'V:') by picking best
@@ -244,24 +245,24 @@ NwGraph >> narrativeSuccessorsOf: nodeId flowRef: aFlowRef context: ctx [
 				ifFalse: [ toId ] ]) reject: [ :nid | nid isNil ]
 ]
 
-{ #category : #query }
+{ #category : 'query' }
 NwGraph >> nodeAt: nodeId [
 	^ nodes at: nodeId ifAbsent: [ nil ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwGraph >> nodeIds [
 	"Return all node ids."
 	^ self nodes keys asArray
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwGraph >> nodes [
 	"Access the internal node dictionary."
 	^ nodes ifNil: [ nodes := Dictionary new ]
 ]
 
-{ #category : #accessing }
+{ #category : 'accessing' }
 NwGraph >> size [
 	^ self nodes size
 ]
