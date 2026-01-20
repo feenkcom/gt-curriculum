@@ -214,6 +214,15 @@ NwGraph >> chooseVariantForGroup: groupId context: ctx [
 	^ best
 ]
 
+{ #category : 'accessing' }
+NwGraph >> edges [
+| result |
+result := OrderedCollection new.
+self nodeIds do: [ :id |
+  result addAll: (self edgesFrom: id) ].
+^ result
+]
+
 { #category : 'query' }
 NwGraph >> edgesFrom: nodeId [
 	^ edges select: [ :e | e fromId = nodeId ]
