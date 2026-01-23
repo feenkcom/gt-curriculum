@@ -1,0 +1,768 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-23T07:31:13.195424+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-23T07:31:38.019568+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "vgop7wCPR86wiq7MnRYe1w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Below is a **single, self-contained Lepiter page** (“Install a tiny R₁ checker”) that:\n\n* can be executed **from scratch**\n* includes the **trace harness**\n* compiles the checker methods via the harness (so **every error is traceable to a path step**)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:16:57.410811+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-23T07:28:18.944581+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "N3VsculxS2+lNOpv5IqyhQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "You can paste the following Markdown into Lepiter as the page content."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:18:54.856968+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-23T07:32:22.154603+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "M0OSI1KuRqmvYgp7TKOVvQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Install a tiny R₁ checker\n\nContext: {{gtClass:R1DistinctionChecker}}, {{gtClass:R1CompileTrace}}\n\nThis page is **self-contained**. Executing the steps below in order will recreate the checker (and its trace harness) from scratch.\n\n## Path steps\n\n* **R1-P0** — Install trace harness\n* **R1-P1** — Create class R1DistinctionChecker\n* **R1-P2** — Compile checker methods (all via trace harness)\n* **R1-P3** — Provide token dictionary\n* **R1-P4** — Run worked example + smoke test\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:16:36.414055+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:18:57.865795+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Diy1jPaoQIuSyHBu0ls/Hw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## R1-P0 — Trace harness (must run first)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:17:51.056661+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:18:05.312478+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "fCTT+syMTGWShdam1EQelQ=="
+							},
+							"code" : "\n\"R1-P0 — Trace harness (must run first)\"\n\n(Smalltalk includesKey: #R1CompileTrace) ifFalse: [\n\tObject subclass: #R1CompileTrace\n\t\tinstanceVariableNames: ''\n\t\tclassVariableNames: ''\n\t\tpackage: 'GtCurriculum-R1'\n].\n\nR1CompileTrace class compile: 'compileStep: stepId source: source into: aClass classified: protocol\n\t| notice result |\n\tresult := Dictionary new.\n\tresult at: #pathStep put: stepId.\n\tresult at: #target put: aClass name.\n\tresult at: #protocol put: protocol.\n\tresult at: #source put: source.\n\n\tnotice := nil.\n\t[ aClass compile: source classified: protocol ]\n\t\ton: SyntaxErrorNotification\n\t\tdo: [ :e | notice := e. e resume ].\n\n\tnotice\n\t\tifNil: [ result at: #status put: #ok ]\n\t\tifNotNil: [\n\t\t\tresult at: #status put: #syntaxError.\n\t\t\tresult at: #notice put: notice messageText ].\n\n\t^ result' classified: 'generated'.\n\nR1CompileTrace class compile: 'compileSteps: steps into: aClass classified: protocol\n\t\"steps = array of {stepId . sourceString}. Return array of result dictionaries.\"\n\t^ steps collect: [ :pair |\n\t\tself\n\t\t\tcompileStep: pair first\n\t\t\tsource: pair second\n\t\t\tinto: aClass\n\t\t\tclassified: protocol ]' classified: 'generated'.\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T09:11:03.942784+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T09:11:06.288207+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "uW+/d/zXTcaUmi5gui6n6w=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Context: {{gtClass:R1CompileTrace}}"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:18:23.507269+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:18:45.05827+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "xS3CAjCLRbig2HIKg5B6HQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:R1CompileTrace}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:20:01.286259+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:20:01.286259+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/1czy+RwTQqfy8yEO5NGFQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## R1-P1 — Create class R1DistinctionChecker"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:20:28.677629+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:20:41.376543+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "PDFCwwriQoupUTM+UoyFNg=="
+							},
+							"code" : "\n\"R1-P1 — Create class R1DistinctionChecker\"\n\n(Smalltalk includesKey: #R1DistinctionChecker) ifFalse: [\n\tObject subclass: #R1DistinctionChecker\n\t\tinstanceVariableNames: 'dictionary'\n\t\tclassVariableNames: ''\n\t\tpackage: 'GtCurriculum-R1'\n].\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T09:11:33.724328+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T09:11:35.666401+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Gi17Ms1UT4+xOk236JobOg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Context: {{gtClass:R1DistinctionChecker}}"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:20:07.842582+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:20:17.625537+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "t/O6Pi0WTo+UBClM+cWNaA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Context: {{gtClass:R1DistinctionChecker}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:21:17.112475+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:43:30.065565+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "/fRR+YZMQzqKP632TV0LkQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "### One-shot compiler (returns trace log)\n\nRun this snippet once. It returns an Array of Dictionaries (one per step)."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:21:23.585707+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T11:24:59.960187+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "dTorpVx+TnKyHmZ1wTJR8w=="
+							},
+							"code" : "\"R1-P2 — Compile checker methods (all traced, step-by-step)\"\n\n| results |\n\nresults := OrderedCollection new.\n\nresults add: (R1CompileTrace\n\tcompileStep: 'R1-P2.initialize'\n\tsource: 'initialize\n\tsuper initialize.\n\tdictionary := Dictionary new.'\n\tinto: R1DistinctionChecker\n\tclassified: 'generated').\n\nresults add: (R1CompileTrace\n\tcompileStep: 'R1-P2.dictionary'\n\tsource: 'dictionary: aDictionary\n\tdictionary := aDictionary.'\n\tinto: R1DistinctionChecker\n\tclassified: 'generated').\n\nresults add: (R1CompileTrace\n\tcompileStep: 'R1-P2.sectionize'\n\tsource: 'sectionize: markdownString\n\t\"Split into sections. A section begins at a line whose first character is #.\"\n\t| lines sections current |\n\tlines := markdownString lines.\n\tsections := OrderedCollection new.\n\tcurrent := OrderedCollection new.\n\tlines do: [:ln |\n\t\t(ln notEmpty and: [ ln first = $# ]) ifTrue: [\n\t\t\tsections add: current asArray.\n\t\t\tcurrent := OrderedCollection new ].\n\t\tcurrent add: ln ].\n\tsections add: current asArray.\n\t^ sections asArray.'\n\tinto: R1DistinctionChecker\n\tclassified: 'generated').\n\nresults add: (R1CompileTrace\n\tcompileStep: 'R1-P2.extractDrawsFromLines'\n\tsource: 'extractDrawsFromLines: lines\n\t\"Return OrderedCollection of payload strings inside [DRAW: ...].\n\tParsing is done by scanning characters to avoid fragile quoting.\"\n\t| draws marker |\n\tdraws := OrderedCollection new.\n\tmarker := ''[DRAW:''.\n\tlines do: [:ln |\n\t\t| start pos end payload |\n\t\tstart := ln findString: marker startingAt: 1.\n\t\t[start > 0] whileTrue: [\n\t\t\tpos := start + marker size.\n\t\t\t\"Find the next closing bracket by scanning.\"\n\t\t\tend := 0.\n\t\t\t[pos <= ln size] whileTrue: [\n\t\t\t\t(ln at: pos) = $] ifTrue: [ end := pos. pos := ln size + 1 ] ifFalse: [ pos := pos + 1 ] ].\n\t\t\tend = 0\n\t\t\t\tifTrue: [ start := 0 ]  \"malformed; stop searching this line\"\n\t\t\t\tifFalse: [\n\t\t\t\t\tpayload := (ln copyFrom: start + marker size to: end - 1) withBlanksTrimmed.\n\t\t\t\t\tdraws add: payload.\n\t\t\t\t\tstart := ln findString: marker startingAt: end + 1 ] ] ].\n\t^ draws.'\n\tinto: R1DistinctionChecker\n\tclassified: 'generated').\n\nresults add: (R1CompileTrace\n\tcompileStep: 'R1-P2.scanPresuppositionsInLines'\n\tsource: 'scanPresuppositionsInLines: lines\n\t\"Return Set of distinction-strings whose token(s) appear in the section text (syntactic only).\"\n\t| presupposed lower |\n\tpresupposed := Set new.\n\tlower := (String streamContents: [:s | lines do: [:ln | s nextPutAll: ln; cr ]]) asLowercase.\n\tdictionary keysAndValuesDo: [:dist :tokens |\n\t\t(tokens anySatisfy: [:t | lower includesSubstring: t asLowercase ]) ifTrue: [\n\t\t\tpresupposed add: dist ] ].\n\t^ presupposed.'\n\tinto: R1DistinctionChecker\n\tclassified: 'generated').\n\nresults add: (R1CompileTrace\n\tcompileStep: 'R1-P2.checkR1'\n\tsource: 'checkR1: markdownString\n\t\"Rule R₁: No section may presuppose a distinction that has not been drawn earlier.\"\n\t| sections violations drawnSoFar |\n\tsections := self sectionize: markdownString.\n\tviolations := OrderedCollection new.\n\tdrawnSoFar := Set new.\n\tsections withIndexDo: [:lines :idx |\n\t\t| draws presupposed undrawn |\n\t\tdraws := self extractDrawsFromLines: lines.\n\t\tdraws do: [:d | drawnSoFar add: d ].\n\t\tpresupposed := self scanPresuppositionsInLines: lines.\n\t\tundrawn := presupposed copyWithoutAll: drawnSoFar.\n\t\tundrawn isEmpty ifFalse: [\n\t\t\tviolations add: { idx . undrawn asArray sorted } ] ].\n\t^ violations asArray.'\n\tinto: R1DistinctionChecker\n\tclassified: 'generated').\n\nresults asArray\n"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:24:49.587597+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:24:49.587597+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "bX9CVHzGS02fzlkqOa4DJw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "**Expectation:** all entries return `#status -> #ok`.\nIf any entry returns `#syntaxError`, the returned dictionary is already your documentation trace (path step + notice + exact source)."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:43:30.0594+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:43:30.0594+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8bCVcCBqTbeZeYw6Mj1wLg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## R1-P2 — Compile checker methods (all traced)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:25:16.087904+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2026-01-10T08:25:24.639224+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Xu8dlvz0SO6z9Upklnnu8Q=="
+							},
+							"code" : "\n\"R1-P3 — Token dictionary for the GT Basics distinctions\"\n\n| dict checker |\ndict := Dictionary new.\ndict\n\tat: 'familiar / unfamiliar' put: #('newcomer' 'basics' 'draft');\n\tat: 'explainable / not-explainable' put: #('explainable' 'explainability' 'explain');\n\tat: 'tool / not-tool' put: #('tool' 'tools' 'toolkit');\n\tat: 'contextual / non-contextual' put: #('contextual');\n\tat: 'question-drawn / question-not-drawn' put: #('question' 'questions' 'answer');\n\tat: 'moldable / fixed' put: #('moldable' 'moldable development');\n\tat: 'live / static' put: #('live' 'static');\n\tat: 'demonstrated / not-demonstrated' put: #('case study' 'illustrates' 'example' 'demonstrat');\n\tat: 'explained / not-explained' put: #('explanation' 'explain');\n\tat: 'documented / undocumented' put: #('documentation' 'documenting' 'notebook' 'lepiter');\n\tat: 'assessed / not-assessed' put: #('quiz' 'self assessment' 'assessment');\n\tat: 'reproducible / non-reproducible' put: #('reproducible' 'replay' 'trace').\n\nchecker := R1DistinctionChecker new.\nchecker dictionary: dict.\nchecker\n"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:24:58.267227+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:24:58.267227+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "hUuYCuMLR+eTfCm+UFbD6w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## R1-P3 — Token dictionary (for presupposition scanning)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:45:29.781287+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:45:29.781287+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "VTtlfWbZQ9uKFrgvRCS9bQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "## R1-P4 — Worked example (violation + fix) and smoke test"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:45:34.494396+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:45:47.890656+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iqopZAZSRxigFi5iaps5WA=="
+				},
+				"code" : "\n\"R1-P4 — Worked example + smoke test\"\n\n| checker bad fixed violations |\n\nchecker := R1DistinctionChecker new.\nchecker dictionary: dict.\n\nbad := '# What is Glamorous Toolkit?\nIn a nutshell, Glamorous Toolkit is an environment for making systems explainable through contextual tools.'.\n\nviolations := checker checkR1: bad.\nTranscript cr; show: 'BAD violations: '; show: violations printString.\n\nfixed := '[DRAW: explainable / not-explainable]\n[DRAW: tool / not-tool]\n[DRAW: contextual / non-contextual]\n# What is Glamorous Toolkit?\nIn a nutshell, Glamorous Toolkit is an environment for making systems explainable through contextual tools.'.\n\nviolations := checker checkR1: fixed.\nTranscript cr; show: 'FIXED violations: '; show: violations printString.\n\nviolations\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:46:36.737255+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-01-10T08:46:36.737255+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "b5BS9fpFQzSSgBCJPCeecA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "**Expected outcome:**\n\n* `BAD violations:` is non-empty (mentions the undrawn distinctions)\n* `FIXED violations:` is `#()` (empty)\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-01-10T08:23:43.7654+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-01-10T08:23:43.7654+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "R1-P2 — Compile all methods via trace harness"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "38efda62-df7d-4068-ae3f-4611d5d06657"
+	}
+}
